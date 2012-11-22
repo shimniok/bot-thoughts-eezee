@@ -1,5 +1,7 @@
 Easy programming and prototyping with 8-pin ATtiny devices
 
+<img src="https://lh4.googleusercontent.com/-O-_J6H1wJVA/UK3C1li5ilI/AAAAAAAAHnI/rXaI-UG1iKo/s881/IMG_8017.JPG" width=400 align=right/>
+
 = Introduction =
 
 I've built enough ATtiny13 breadboard circuits that I got really sick of hooking up everything. Based on a through hole design, the eeZee Tiny uses surface mount components for a truly tiny board for breadboarding and programming your 8-pin ATtiny.
@@ -10,3 +12,26 @@ I've built enough ATtiny13 breadboard circuits that I got really sick of hooking
   * Compact AVRISP connector for easy programming
   * All 8 pins exposed for breadboarding
   * Reset switch and pull-up resistor included
+
+= Firmware and Software =
+
+  * [http://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_tiny Google Code Repository]
+    * [http://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_tiny%2Felectronics Eagle Files]
+    * [http://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_tiny%2Ffirmware Example Code]
+    * [http://bot-thoughts-eezee.googlecode.com/svn/trunk/eeZee_tiny/firmware/default/eeZeeTinyTest1.hex Example Hex]
+
+= Pinout =
+
+Place the index tab on your 6-pin AVRISP (IDC) connector towards the MCU. The upper left pin in the picture, below left, is pin 1, MISO. Refer to the 6-pin AVRISP pinout diagram. below right.
+
+<img src="https://lh5.googleusercontent.com/-KXwYeRT-tDk/UK3C04aUR2I/AAAAAAAAHng/1kVNzyopBQI/s873/IMG_8013.JPG" width=300 /> <img src="https://lh6.googleusercontent.com/-y7bAUPu_pKE/UK3JqP9jXZI/AAAAAAAAHoM/eVTvmSwYWkk/s230/Copy+of+AVRISP_Pinout.jpg" width=300 />
+
+= Pictures =
+
+<img src="https://lh5.googleusercontent.com/-xIai8UvaQ3o/UK3DmmTOTgI/AAAAAAAAHm0/nXjOixpurjc/s881/IMG_7995.JPG" width=250 /> <img src="https://lh4.googleusercontent.com/-N9F7qGRCnQk/UK3Eonqr1jI/AAAAAAAAHns/m-uJ-15SVXQ/s883/IMG_7994.JPG" width=250 />
+
+<img src="https://lh5.googleusercontent.com/-WsCX_UsKo4Y/UK3EWzbbD8I/AAAAAAAAHnU/JOk39HSjpp4/s883/IMG_8004.JPG" width=250  /> <img src="https://lh6.googleusercontent.com/-o2qLAA8r-Qg/UK3Ebz4tvwI/AAAAAAAAHnc/0QsiH9-bD3E/s884/IMG_8002.JPG" width=250 />
+
+= Example Code Running =
+
+<img src="https://lh3.googleusercontent.com/-z-igvRoz5OE/UK3C486cW6I/AAAAAAAAHms/kGcz9WUVoU4/s882/IMG_8012.JPG" width=300 />
