@@ -1,4 +1,4 @@
-#Easy programming and prototyping with 8-pin ATtiny devices
+# Easy programming and prototyping with 8-pin ATtiny devices
 
 = Introduction =
 
