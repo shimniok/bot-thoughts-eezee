@@ -6,8 +6,6 @@ Easy programming and prototyping with 8-pin ATtiny devices
 
 I've built enough ATtiny13 breadboard circuits that I got really sick of hooking up everything. Based on a through hole design, the eeZee Tiny uses surface mount components for a truly tiny board for breadboarding and programming your 8-pin ATtiny.
 
-[https://tindie.com/shops/bot_thoughts/eezee-tiny-breakout-programming-board-kit/ Purchase on Tindie]
-
 = Features =
 
   * Tiny 1-square-inch board
@@ -16,6 +14,8 @@ I've built enough ATtiny13 breadboard circuits that I got really sick of hooking
   * Compact AVRISP connector for easy programming
   * All 8 pins exposed for breadboarding
   * Reset switch and pull-up resistor included
+
+[https://tindie.com/shops/bot_thoughts/eezee-tiny-breakout-programming-board-kit/ Purchase on Tindie]
 
 = Firmware and Software =
 
