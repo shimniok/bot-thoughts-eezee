@@ -8,7 +8,7 @@ I've built enough ATtiny13 breadboard circuits that I got really sick of hooking
 
 = Features =
 
-  * Works with 
+  * Works with ATtiny13,13A, ATtiny25,45,85, ATtiny11, ATtiny12
   * Tiny 1-square-inch board
   * Perfect for breadboarding
   * 0.1uF and 10uF filtering capacitors pre-soldered
