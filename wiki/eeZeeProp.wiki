@@ -4,20 +4,22 @@ A budget- and breadboard-friendly Parallax Propeller breakout board
 
 *Coming mid-Dec, 2012!*
 
-The Parallax Propeller is truly an amazing chip, unlike anything else out there, with 8 cogs running simultaneously and many innovative features and incredible flexibility.
+The Parallax Propeller is truly a unique and amazing chip, with 8 cogs running simultaneously and many innovative features and incredible flexibility.
 
-Existing programming boards include the [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/Level/a/ProductID/802/Default.aspx?SortField=ProductName%2cProductName Propeller Board of Education], [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/catpageindex/2/Level/a/ProductID/411/Default.aspx?SortField=ProductName%2cProductName PropStick USB], [http://www.schmartboard.com/index.asp?page=products_populated&id=205 SchmartBoard SchmartModule], [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/Level/a/ProductID/748/Default.aspx?SortField=ProductName%2cProductName Propeller QuickStart] board, and others.
+The eeZee Prop brings that power to the breadboard a budget-friendly breakout board ideal for prototyping. 
 
-The eeZee Prop is a budget-friendly board like the !QuickStart and !SchmartBoard, but breadboard-friendly like the !PropStick USB. It relies on an external FTDI or Prop Plug programmer and has a reset button and a power LED, and nothing else to get in the way of your creativity.
+Program it with your existing FTDI or Prop Plug programmer. 
+
+The board has a reset button and a power LED, and nothing else to get in the way of your creativity.
 
 = Features =
 
   * Works with your existing FTDI and Prop Plug programmers
-  * A Propeller in breadboard-friendly DIP form factor
+  * A Propeller in breadboard-friendly 36-DIP form factor, 0.8" wide
   * Low cost without unneeded add-ons, perfect for prototyping
-  * Onboard 3.3V LDO regulator
-  * Reset switch
-  * Power LED
+  * Onboard 3.3V LDO regulator, flexible power options
+  * Exposes reset pin
+  * Includes 5MHz crystal, EEPROM, Reset switch, Power LED
   * Fabricated and assembled in the USA
 
 = Pinout =
@@ -57,7 +59,7 @@ You can either use an FTDI or Prop Plug to program your eeZee Prop.
 
 Other serial adapters can be made to work, you just need a programmer with DTR, RX, TX, and GND.
 
-  * Vcc -> tie to 5V if available or power the regulator through VIN
+  * Vcc -> (opt) tie to 5V or see [Power] below
   * RXI -> tie to receive (prop out, pc in)
   * TXO -> tie to transmit (prop in, pc out)
   * DTR -> this resets the prop
@@ -69,3 +71,9 @@ The eeZee Prop can be powered in several ways
   * 3.3V Pin: Connect external 3.3V source, but no power on VIN, FTDI-Vcc
   * VIN: Connect 5V, can also have voltage in on FTDI-Vcc, 3.3V is output
   * FTDI Vcc: Connect 5V, can also have voltage on VIN, 3.3V is output
+
+= Other Existing Boards =
+
+Other existing programming boards include the [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/Level/a/ProductID/802/Default.aspx?SortField=ProductName%2cProductName Propeller Board of Education], [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/catpageindex/2/Level/a/ProductID/411/Default.aspx?SortField=ProductName%2cProductName PropStick USB], [http://www.schmartboard.com/index.asp?page=products_populated&id=205 SchmartBoard SchmartModule], [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/Level/a/ProductID/748/Default.aspx?SortField=ProductName%2cProductName Propeller QuickStart] board, and others.
+
+The eeZee Prop is breadboard friendly like the !PropStick USB, but budget friendly like the !QuickStart.  It doesn't add another virtual com port to your system because you use your existing programmer as with the SchmartBoard and others.  
