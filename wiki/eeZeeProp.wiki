@@ -17,9 +17,9 @@ The board has a reset button and a power LED, and nothing else to get in the way
   * Works with your existing FTDI and Prop Plug programmers
   * A Propeller in breadboard-friendly 36-DIP form factor, 0.8" wide
   * Low cost without unneeded add-ons, perfect for prototyping
-  * Onboard 3.3V LDO regulator, flexible power options
-  * Exposes reset pin
+  * Onboard 500mA 3.3V LDO regulator, flexible power options
   * Includes 5MHz crystal, EEPROM, Reset switch, Power LED
+  * Exposes reset pin
   * Fabricated and assembled in the USA
 
 = Pinout =
@@ -51,7 +51,7 @@ P15 -|     |- P16
 
 You can either use an FTDI or Prop Plug to program your eeZee Prop.
 
-  * PropPlug: provide power through the VIN pin
+  * PropPlug: provide 4.5-6V power through the VIN pin
   * FTDI 3.3V -> power externally through VIN
   * FTDI 5V -> powers the prop plug
 
@@ -59,7 +59,7 @@ You can either use an FTDI or Prop Plug to program your eeZee Prop.
 
 Other serial adapters can be made to work, you just need a programmer with DTR, RX, TX, and GND.
 
-  * Vcc -> (opt) tie to 5V or see [Power] below
+  * Vcc -> (opt) tie to 5-6V or see [Power] below
   * RXI -> tie to receive (prop out, pc in)
   * TXO -> tie to transmit (prop in, pc out)
   * DTR -> this resets the prop
@@ -69,10 +69,14 @@ Other serial adapters can be made to work, you just need a programmer with DTR, 
 
 The eeZee Prop can be powered in several ways
   * 3.3V Pin: Connect external 3.3V source, but no power on VIN, FTDI-Vcc
-  * VIN: Connect 5V, can also have voltage in on FTDI-Vcc, 3.3V is output
-  * FTDI Vcc: Connect 5V, can also have voltage on VIN, 3.3V is output
+  * VIN: Connect 5-6V, can also have voltage in on FTDI-Vcc, 3.3V is output
+  * FTDI Vcc: Connect 5-6V, can also have voltage on VIN, 3.3V is output
 
-= Other Existing Boards =
+To be a little more precise, the input voltage can be approximately 4.8-6.0V with the regulator supplying 500mA.
+
+At lower current draw, the input voltage can be even lower. Supposing the regulator is supplying around 100mA, VIN can be approximately 3.9V, possibly lower depending on diode/regulator variances.
+
+= Other Propeller Boards =
 
 Other existing programming boards include the [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/Level/a/ProductID/802/Default.aspx?SortField=ProductName%2cProductName Propeller Board of Education], [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/catpageindex/2/Level/a/ProductID/411/Default.aspx?SortField=ProductName%2cProductName PropStick USB], [http://www.schmartboard.com/index.asp?page=products_populated&id=205 SchmartBoard SchmartModule], [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/Level/a/ProductID/748/Default.aspx?SortField=ProductName%2cProductName Propeller QuickStart] board, and others.
 
