@@ -13,8 +13,12 @@ The eeZee Prop is a budget-friendly board like the !QuickStart and !SchmartBoard
 = Features =
 
   * Works with your existing FTDI and Prop Plug programmers
-  * Propeller in breadboard friendly DIP package
-  * Onboard 3.3V regulator
+  * A Propeller in breadboard-friendly DIP form factor
+  * Low cost without unneeded add-ons, perfect for prototyping
+  * Onboard 3.3V LDO regulator
+  * Reset switch
+  * Power LED
+  * Fabricated and assembled in the USA
 
 = Pinout =
 
