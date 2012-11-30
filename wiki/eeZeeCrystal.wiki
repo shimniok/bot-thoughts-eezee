@@ -16,7 +16,9 @@ http://2.bp.blogspot.com/-NI-nHFgANWw/T2nv-GnZgNI/AAAAAAAAEdU/i72RmTsUeRQ/s320/2
 
 = Details =
 
-The eeZee Crystal has a tiny surface mount 16MHz crystal with two surface mount capacitors and pin header. Just plug it in your breadboard and you're good to go.
+The eeZee Crystal has a tiny surface mount 16MHz crystal with two surface mount capacitors and pin header. 
+
+Just line up the X1, X2, and GND pins on your ATmega with the labeled pins on the eeZee Crystal and plug it in your breadboard and you're good to go.
 
 = Source = 
 
