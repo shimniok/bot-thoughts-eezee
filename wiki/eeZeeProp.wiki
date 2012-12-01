@@ -59,7 +59,7 @@ You can either use an FTDI or Prop Plug to program your eeZee Prop.
 
 Other serial adapters can be made to work, you just need a programmer with DTR, RX, TX, and GND.
 
-  * Vcc -> (opt) tie to 5-6V or see [Power] below
+  * Vcc -> (opt) tie to 4.5-6V or see [Power] below
   * RXI -> tie to receive (prop out, pc in)
   * TXO -> tie to transmit (prop in, pc out)
   * DTR -> this resets the prop
@@ -69,12 +69,22 @@ Other serial adapters can be made to work, you just need a programmer with DTR, 
 
 The eeZee Prop can be powered in several ways
   * 3.3V Pin: Connect external 3.3V source, but no power on VIN, FTDI-Vcc
-  * VIN: Connect 5-6V, can also have voltage in on FTDI-Vcc, 3.3V is output
-  * FTDI Vcc: Connect 5-6V, can also have voltage on VIN, 3.3V is output
+  * VIN: Connect 4.5-6V, can also have voltage in on FTDI-Vcc, 3.3V is output
+  * FTDI Vcc: Connect 4.5-6V, can also have voltage on VIN, 3.3V is output
 
-To be a little more precise, the input voltage can be approximately 4.8-6.0V with the regulator supplying 500mA.
+== Input Voltage Requirements ==
 
-At lower current draw, the input voltage can be even lower. Supposing the regulator is supplying around 100mA, VIN can be approximately 3.9V, possibly lower depending on diode/regulator variances.
+According to the datasheets, assuming worst-case voltage drops on the diodes and regulator...
+
+  * at 500mA draw, the input voltage must be ~4.4-6.0V
+  * at 100mA draw, the input voltage must be ~3.8-6.0V
+
+For typical voltage drops on diodes and regulator...
+
+  * at 500mA draw, the input voltage must be ~4.1-6.0V
+  * at 100mA draw, the input voltage must be ~3.7-6.0V
+
+Consequently, 4.5-6.0V is a safe bet, but you can probably get away with lower input voltage.
 
 = Other Propeller Boards =
 
