@@ -18,7 +18,7 @@ The board has a reset button and a power LED, and nothing else to get in the way
   * A Propeller in breadboard-friendly 36-DIP form factor, 0.8" wide
   * Low cost without unneeded add-ons, perfect for prototyping
   * Onboard 500mA 3.3V LDO regulator, flexible power options
-  * Includes 5MHz crystal, EEPROM, Reset switch, Power LED
+  * Includes 5MHz crystal, 256Kbit EEPROM, Reset switch, Power LED
   * Exposes reset pin
   * Fabricated and assembled in the USA
 
