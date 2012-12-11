@@ -61,13 +61,13 @@ You can either use an FTDI or Prop Plug to program your eeZee Prop.
 
 Other serial adapters can be made to work, you just need a programmer with DTR, RX, TX, and GND.
 
-  * Vcc -> (opt) tie to power, or see [Input Power] below
+  * Vcc -> (opt) tie to power, or see [Power] below
   * RXI -> tie to receive (prop out, pc in)
   * TXO -> tie to transmit (prop in, pc out)
   * DTR -> this resets the prop
   * GND -> ground
 
-= Input Power = 
+= Power = 
 
 Rev 0.2 Input Voltage: 5.02-8.0V @ 700mA ; 4.75-8.0V @ 100mA. Note: lower input voltages are typically possible but not guaranteed in all cases.
 
