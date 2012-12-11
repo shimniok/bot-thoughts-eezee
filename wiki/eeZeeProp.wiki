@@ -53,7 +53,7 @@ P15 -|     |- P16
 
 You can either use an FTDI or Prop Plug to program your eeZee Prop.
 
-  * Prop Plug: provide power (specs TBD) through the VIN pin
+  * Prop Plug: provide power through the VIN pin
   * FTDI 3.3V -> power externally through VIN
   * FTDI 5V -> powers the prop plug
 
@@ -67,16 +67,14 @@ Other serial adapters can be made to work, you just need a programmer with DTR, 
   * DTR -> this resets the prop
   * GND -> ground
 
-= Power = 
+= Input Power = 
+
+Rev 0.2 Input Voltage: 5.02-8.0V @ 700mA ; 4.75-8.0V @ 100mA. Note: lower input voltages are typically possible but not guaranteed in all cases.
 
 The eeZee Prop can be powered in several ways
   * 3.3V Pin: Connect external 3.3V source, but no power on VIN, FTDI-Vcc
-  * VIN: Connect power (specs TBD), can also have voltage in on FTDI-Vcc, 3.3V is output
-  * FTDI Vcc: Connect power (specs TBD), can also have voltage on VIN, 3.3V is output
-
-== Input Voltage Requirements ==
-
-TBD: I will be selecting and purchasing LDO voltage regulators by 12/12.
+  * VIN: Connect power, can also have voltage in on FTDI Vcc pin, 3.3V is output
+  * FTDI Vcc pin: Connect power (specs TBD), can also have voltage on VIN, 3.3V is output
 
 = Other Propeller Boards =
 
