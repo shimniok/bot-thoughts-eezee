@@ -1,8 +1,10 @@
 A budget- and breadboard-friendly Parallax Propeller breakout board
 
+<img src="https://lh3.googleusercontent.com/-xr2oeWmwMg8/UMbfGIW8IFI/AAAAAAAAHrI/ekIxMVEdYhE/s1025/IMG_8070.JPG" height=250/> <img src="https://lh3.googleusercontent.com/-wDnneI9pO6g/UMbfE89JJKI/AAAAAAAAHrA/lMX0mEGxrog/s1023/IMG_8068.JPG" height=250/>
+
 = Introduction =
 
-*Coming mid-Dec, 2012!*
+Ready for pre-order on [https://tindie.com/shops/bot_thoughts/eezee-propeller/ Tindie]
 
 The Parallax Propeller is truly a unique and amazing chip, with 8 cogs running simultaneously and many innovative features and incredible flexibility.
 
@@ -17,7 +19,7 @@ The board has a reset button and a power LED, and nothing else to get in the way
   * Works with your existing FTDI and Prop Plug programmers
   * A Propeller in breadboard-friendly 36-DIP form factor, 0.8" wide
   * Low cost without unneeded add-ons, perfect for prototyping
-  * Onboard 500mA 3.3V LDO regulator, flexible power options
+  * Onboard 3.3V LDO regulator, flexible power options
   * Includes 5MHz crystal, 256Kbit EEPROM, Reset switch, Power LED
   * Exposes reset pin
   * Fabricated and assembled in the USA
@@ -51,7 +53,7 @@ P15 -|     |- P16
 
 You can either use an FTDI or Prop Plug to program your eeZee Prop.
 
-  * PropPlug: provide 4.5-6V power through the VIN pin
+  * Prop Plug: provide power (specs TBD) through the VIN pin
   * FTDI 3.3V -> power externally through VIN
   * FTDI 5V -> powers the prop plug
 
@@ -59,7 +61,7 @@ You can either use an FTDI or Prop Plug to program your eeZee Prop.
 
 Other serial adapters can be made to work, you just need a programmer with DTR, RX, TX, and GND.
 
-  * Vcc -> (opt) tie to 4.5-6V or see [Power] below
+  * Vcc -> (opt) tie to power, or see [Power] below
   * RXI -> tie to receive (prop out, pc in)
   * TXO -> tie to transmit (prop in, pc out)
   * DTR -> this resets the prop
@@ -69,22 +71,12 @@ Other serial adapters can be made to work, you just need a programmer with DTR, 
 
 The eeZee Prop can be powered in several ways
   * 3.3V Pin: Connect external 3.3V source, but no power on VIN, FTDI-Vcc
-  * VIN: Connect 4.5-6V, can also have voltage in on FTDI-Vcc, 3.3V is output
-  * FTDI Vcc: Connect 4.5-6V, can also have voltage on VIN, 3.3V is output
+  * VIN: Connect power (specs TBD), can also have voltage in on FTDI-Vcc, 3.3V is output
+  * FTDI Vcc: Connect power (specs TBD), can also have voltage on VIN, 3.3V is output
 
 == Input Voltage Requirements ==
 
-According to the datasheets, assuming worst-case voltage drops on the diodes and regulator...
-
-  * at 500mA draw, the input voltage must be ~4.4-6.0V
-  * at 100mA draw, the input voltage must be ~3.8-6.0V
-
-For typical voltage drops on diodes and regulator...
-
-  * at 500mA draw, the input voltage must be ~4.1-6.0V
-  * at 100mA draw, the input voltage must be ~3.7-6.0V
-
-Consequently, 4.5-6.0V is a safe bet, but you can probably get away with lower input voltage.
+TBD: I will be selecting and purchasing LDO voltage regulators by 12/12.
 
 = Other Propeller Boards =
 
