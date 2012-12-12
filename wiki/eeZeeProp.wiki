@@ -76,6 +76,10 @@ The eeZee Prop can be powered in several ways
   * VIN: Connect power, can also have voltage in on FTDI Vcc pin, 3.3V is output
   * FTDI Vcc pin: Connect power (specs TBD), can also have voltage on VIN, 3.3V is output
 
+= Source =
+
+This project is Open Source Hardware. Here are the [https://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftags%2FeeZee_Prop_0.2 Eagle Files].
+
 = Other Propeller Boards =
 
 Other existing programming boards include the [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/Level/a/ProductID/802/Default.aspx?SortField=ProductName%2cProductName Propeller Board of Education], [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/catpageindex/2/Level/a/ProductID/411/Default.aspx?SortField=ProductName%2cProductName PropStick USB], [http://www.schmartboard.com/index.asp?page=products_populated&id=205 SchmartBoard SchmartModule], [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/Level/a/ProductID/748/Default.aspx?SortField=ProductName%2cProductName Propeller QuickStart] board, and others.
