@@ -1,0 +1,17 @@
+Easily add a SPI-compatible microSD card to your project!
+
+= Introduction =
+
+Easily add a SPI-compatible microSD card to your breadboard Arduino or other microcontroller project with the eeZee microSD breakout board!
+
+Special pre-order, volume price!
+
+  * It's pin-compatible with your breadbaord ATmega328P. 
+  * Just plug it into the breadboard and go!
+  * Power it from 5V or 3.3V. 
+  * Add pin headers to plug into the breadboard power strip directly
+  * or use the main pin rows. Works safely with 5V logic signals.
+
+All you need to do is solder in the pin headers.
+
+Designed, fabricated, and assembled in the United States of America.
