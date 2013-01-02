@@ -209,14 +209,6 @@
 </polygon>
 <text x="38.1" y="10.541" size="1.016" layer="26" rot="MR270">VDD</text>
 <text x="39.37" y="10.541" size="1.016" layer="26" rot="MR270">GND</text>
-<wire x1="47.244" y1="0" x2="47.244" y2="24.384" width="0.2032" layer="121"/>
-<wire x1="47.244" y1="24.384" x2="0" y2="24.384" width="0.2032" layer="121"/>
-<wire x1="0" y1="0" x2="47.244" y2="0" width="0.2032" layer="121"/>
-<wire x1="0" y1="0" x2="0" y2="24.384" width="0.2032" layer="121"/>
-<wire x1="47.244" y1="0" x2="47.244" y2="24.384" width="0.2032" layer="122"/>
-<wire x1="47.244" y1="24.384" x2="0" y2="24.384" width="0.2032" layer="122"/>
-<wire x1="0" y1="0" x2="47.244" y2="0" width="0.2032" layer="122"/>
-<wire x1="0" y1="0" x2="0" y2="24.384" width="0.2032" layer="122"/>
 <text x="29.718" y="17.926" size="1.6764" layer="121" font="vector" ratio="16">eeZeeProp</text>
 <text x="29.345" y="5.045" size="1.27" layer="121" font="vector" ratio="16">bot-thoughts.com</text>
 <text x="39.324" y="6.57100625" size="1.143" layer="121" font="vector" ratio="18">REV 0.3</text>
