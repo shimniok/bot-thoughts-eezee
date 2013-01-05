@@ -1,0 +1,39 @@
+Easy programming and prototyping with 20-pin ATtiny devices. Now a [https://tindie.com/shops/bot_thoughts/eezee-attiny2313-target-board/  Tindie Fundraiser]!
+
+<img src="https://lh3.googleusercontent.com/-mmEFQQQm1hs/UOfJAhs9TmI/AAAAAAAAHtw/fsjkWc3v1-I/s668/eeZeeTiny3DTop.jpg" width=400 align=right/>
+
+= Introduction =
+
+I want to do more ATtiny2313 projects and I prototype on breadboards. This target / breakout board will make it easier to get started. The board is a surface-mount evolution of an open source through hole design.
+
+= Features =
+
+Easily prototype and program your 20-pin ATtiny with this breakout / target board. Use AVRISP or FTDI for programming.
+
+The eeZee Big Tiny is a surface mount version of an open source through-hole design. I wanted one and others did, too so here it is!
+
+  * Works with ATtiny2313, ATtiny4313
+  * Included 16MHz crystal and caps**
+  * FTDI header for bootloader programming
+  * Compact AVRISP connector for easy programming
+  * Perfect for breadboarding
+  * 0.1uF and 100uF filtering capacitors pre-soldered
+  * All 20 pins exposed for breadboarding
+  * Reset switch and pull-up resistor included
+  * All you need to do is solder in the pin headers and add your own 20- pin ATtiny.
+
+[https://tindie.com/shops/bot_thoughts/eezee-attiny2313-target-board/ Pre-order and support the Fundraiser on Tindie]
+
+= Pinout =
+
+Place the index tab on your 6-pin AVRISP (IDC) connector towards the MCU. The upper left pin in the picture, below left, is pin 1, MISO. Refer to the 6-pin AVRISP pinout diagram. below right.
+
+<img src="https://lh3.googleusercontent.com/-g020l9Uoj_E/UOfKYPqwieI/AAAAAAAAHuA/Y_-JX6vfWN8/s1011/eeZeeBigTinyTop.jpg" width=300 /> <img src="https://lh6.googleusercontent.com/-y7bAUPu_pKE/UK3JqP9jXZI/AAAAAAAAHoM/eVTvmSwYWkk/s230/Copy+of+AVRISP_Pinout.jpg" width=300 />
+
+= Pictures =
+
+pictures will be posted soon
+
+= Example Code Running =
+
+demo will be posted soon
