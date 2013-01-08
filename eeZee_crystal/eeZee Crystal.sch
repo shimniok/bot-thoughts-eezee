@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -44,7 +44,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="11" fill="1" visible="yes" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="53" name="tPadExt" color="7" fill="1" visible="yes" active="no"/>
 <layer number="54" name="bPadExt" color="1" fill="1" visible="yes" active="no"/>
@@ -4704,7 +4704,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="BOM" value="INCLUDE"/>
 <attribute name="PARTNO" value="C1608C0G1H080D"/>
 </part>
-<part name="JP1" library="pinhead-2" deviceset="PINHD-1X03" device="_2.54-90°-S" value="XTAL">
+<part name="JP1" library="pinhead-2" deviceset="PINHD-1X03" device="_2.54-S" value="XTAL">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="GND1" library="mes" deviceset="GND" device=""/>
