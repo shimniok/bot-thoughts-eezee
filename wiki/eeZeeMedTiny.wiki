@@ -1,0 +1,32 @@
+Easy programming and prototyping with 14-pin ATtiny devices. Coming soon!
+
+= Introduction =
+
+I want to experiment with the ATtiny24/44/84 14-pin devices and I prototype on breadboards. The eeZee Medium Tiny will make it easier to get started. The board is a surface-mount evolution of an open source through hole design.
+
+= Features =
+
+Easily prototype and program your 14-pin ATtiny with this breakout / target board using the included 6-pin AVRISP (ISP) header.
+
+  * Works with ATtiny24, ATtiny44, ATtiny84
+  * Included 16MHz crystal and caps**
+  * Compact AVRISP connector for easy programming
+  * Perfect for breadboarding
+  * 0.1uF and 100uF filtering capacitors pre-soldered
+  * All 14 pins exposed for breadboarding
+  * Reset switch and pull-up resistor included
+  * All you need to do is solder in the pin headers and add your own 14-pin ATtiny.
+
+= Pinout =
+
+Place the index tab on your 6-pin AVRISP (IDC) connector towards the MCU. Refer to the 6-pin AVRISP pinout diagram. below. The SCK pin is indicated on the breadboard by a white mark.
+
+<img src="https://lh6.googleusercontent.com/-y7bAUPu_pKE/UK3JqP9jXZI/AAAAAAAAHoM/eVTvmSwYWkk/s230/Copy+of+AVRISP_Pinout.jpg" width=300 />
+
+= Pictures =
+
+pictures will be posted soon
+
+= Example Code Running =
+
+demo will be posted soon
