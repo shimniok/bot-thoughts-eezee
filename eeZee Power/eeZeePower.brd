@@ -14,11 +14,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -109,7 +109,7 @@
 <wire x1="25.959" y1="0" x2="25.959" y2="12.69" width="0" layer="20"/>
 <wire x1="25.959" y1="12.69" x2="0" y2="12.69" width="0" layer="20"/>
 <wire x1="0" y1="12.69" x2="0" y2="0" width="0" layer="20"/>
-<text x="18.415" y="11.557" size="1.016" layer="25" font="vector" rot="R270">VU</text>
+<text x="10.033" y="10.033" size="1.016" layer="25" font="vector" rot="R90">VU</text>
 <polygon width="0.254" layer="22">
 <vertex x="18.579675" y="10.0662625" curve="-9.499984"/>
 <vertex x="18.712096875" y="10.323371875"/>
@@ -172,7 +172,7 @@
 <circle x="20.173696875" y="3.375965625" radius="0.1880875" width="0.34724375" layer="22"/>
 <circle x="20.014540625" y="4.3887125" radius="0.115746875" width="0.231496875" layer="22"/>
 <circle x="21.548165625" y="3.81" radius="0.144678125" width="0.28935625" layer="22"/>
-<text x="10.033" y="9.525" size="1.016" layer="25" font="vector" rot="R90">3V3</text>
+<text x="18.415" y="12.319" size="1.016" layer="25" font="vector" rot="R270">3V3</text>
 <text x="12.7" y="0.889" size="1.27" layer="121" font="vector" ratio="16">eeZee Power</text>
 <wire x1="3.526003125" y1="10.14999375" x2="5.625996875" y2="10.14999375" width="0.2032" layer="121"/>
 <wire x1="8.12599375" y1="9.44999375" x2="8.12599375" y2="8.549996875" width="0.2032" layer="121"/>
@@ -232,7 +232,7 @@
 <wire x1="12.319" y1="12.065" x2="12.954" y2="11.43" width="0.2032" layer="121"/>
 <rectangle x1="9.933" y1="6.15" x2="10.133" y2="6.35" layer="121" rot="R180"/>
 <text x="19.05" y="0.635" size="1.27" layer="122" font="vector" ratio="16" rot="MR0">bot-thoughts.com</text>
-<text x="1.27" y="11.811" size="1.27" layer="122" font="vector" ratio="16" rot="MR180">Rev 0.1</text>
+<text x="1.27" y="11.811" size="1.27" layer="122" font="vector" ratio="16" rot="MR180">Rev 0.2</text>
 <wire x1="18.365190625" y1="2.363190625" x2="18.365190625" y2="5.256809375" width="0.2032" layer="122"/>
 <wire x1="18.365190625" y1="5.256809375" x2="19.812" y2="5.256809375" width="0.2032" layer="122"/>
 <wire x1="18.365190625" y1="2.363190625" x2="19.812" y2="2.363190625" width="0.2032" layer="122"/>
@@ -294,10 +294,10 @@
 <vertex x="20.193" y="8.60425" curve="247.49988"/>
 <vertex x="19.459678125" y="9.701759375"/>
 </polygon>
-<text x="18.415" y="11.557" size="1.016" layer="121" font="vector" ratio="20" rot="R270">VU</text>
+<text x="10.033" y="10.033" size="1.016" layer="121" font="vector" ratio="20" rot="R90">VU</text>
 <text x="14.986" y="8.001" size="1.27" layer="121" font="vector" ratio="16" rot="R180">VCC</text>
 <text x="14.986" y="5.461" size="1.27" layer="121" font="vector" ratio="16" rot="R180">GND</text>
-<text x="10.033" y="9.525" size="1.016" layer="121" font="vector" ratio="20" rot="R90">3V3</text>
+<text x="18.415" y="12.319" size="1.016" layer="121" font="vector" ratio="20" rot="R270">3V3</text>
 <text x="20.193" y="8.509" size="1.016" layer="121" font="vector" ratio="20">C2</text>
 <text x="18.415" y="4.953" size="1.016" layer="121" font="vector" ratio="20" rot="R270">C4</text>
 <text x="11.049" y="3.302" size="0.8128" layer="121" font="vector" ratio="25" rot="R270">R1</text>
