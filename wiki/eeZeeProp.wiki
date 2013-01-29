@@ -22,6 +22,7 @@ The board has a reset button and a power LED, and nothing else to get in the way
   * Onboard 3.3V LDO regulator, flexible power options
   * Includes 5MHz crystal, 256Kbit EEPROM, Reset switch, Power LED
   * Exposes reset pin
+  * Selectable BOE with solder jumper
   * Fabricated and assembled in the USA
 
 = Pinout =
@@ -45,6 +46,10 @@ Other serial adapters can be made to work, you just need a programmer with DTR, 
   * TXO -> tie to transmit (prop in, pc out)
   * DTR -> this resets the prop
   * GND -> ground
+
+= BOE =
+
+Be sure to solder the BOE solder jumper on the bottom of the board to select the Brown Out Enable mode you prefer.
 
 = Power = 
 
