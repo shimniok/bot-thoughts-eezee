@@ -4,7 +4,7 @@ A budget- and breadboard-friendly Parallax Propeller breakout board
 
 = Introduction =
 
-Ready for pre-order on [https://tindie.com/shops/bot_thoughts/eezee-propeller/ Tindie]
+Order on [https://tindie.com/shops/bot_thoughts/eezee-propeller/ Tindie]
 
 The Parallax Propeller is truly a unique and amazing chip, with 8 cogs running simultaneously and many innovative features and incredible flexibility.
 
@@ -16,7 +16,7 @@ The board has a reset button and a power LED, and nothing else to get in the way
 
 = Features =
 
-  * Works with your existing FTDI and Prop Plug programmers
+  * Works with your existing 5V FTDI and Prop Plug programmers
   * A Propeller in breadboard-friendly 36-DIP form factor, 0.8" wide
   * Low cost without unneeded add-ons, perfect for prototyping
   * Onboard 3.3V LDO regulator, flexible power options
@@ -26,28 +26,7 @@ The board has a reset button and a power LED, and nothing else to get in the way
 
 = Pinout =
 
-{{{
-      -----
-VIN -|     |- 3V3
-RST -|     |- GND
-P0  -|     |- P31
-P1  -|     |- P30
-P2  -|     |- P29
-P3  -|     |- P28
-P4  -|     |- P27
-P5  -|     |- P26
-P6  -|     |- P25
-P7  -|     |- P24
-P8  -|     |- P23
-P9  -|     |- P22
-P10 -|     |- P21
-P11 -|     |- P20
-P12 -|     |- P19
-P13 -|     |- P18
-P14 -|     |- P17
-P15 -|     |- P16
-      -----
-}}}
+[https://lh5.googleusercontent.com/-dQ7OgN6uLnw/UQfzotUKfvI/AAAAAAAAH6s/yRyhdUmMK9o/s674/eeZeePropPinout.jpg]
 
 = Programming =
 
@@ -69,12 +48,18 @@ Other serial adapters can be made to work, you just need a programmer with DTR, 
 
 = Power = 
 
-Rev 0.2 Input Voltage: 5.02-8.0V @ 700mA ; 4.75-8.0V @ 100mA. Note: lower input voltages are typically possible but not guaranteed in all cases.
+Input Voltage: 4.8V-6.0V @ 800mA; 4.7V-6.0V @ 100mA, room temperature. 
+
+Note: lower input voltages are typically possible but not guaranteed in all cases. You may also be able to get away with higher input voltage. The limiting factor is the 10V rating on the input decoupling capacitor.
 
 The eeZee Prop can be powered in several ways
-  * 3.3V Pin: Connect external 3.3V source, but no power on VIN, FTDI-Vcc
+  * 3.3V Pin: Connect external 3.3V source (don't connect power to Vin or FTDI)
   * VIN: Connect power, can also have voltage in on FTDI Vcc pin, 3.3V is output
-  * FTDI Vcc pin: Connect power (specs TBD), can also have voltage on VIN, 3.3V is output
+  * FTDI 5V pin: Connect power, can also have voltage on VIN, 3.3V is output
+
+You can power other circuits from the VIN (VUSB) pin. Solder the "Bypass" jumper on the bottom of the board to connect VIN directly to the FTDI 5V pin, making VIN a VUSB output pin.
+
+Note: with Bypass soldered, never power the board on VIN with FTDI 5V pin connected.
 
 = Source =
 
