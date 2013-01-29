@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -10939,8 +10939,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <wire x1="-3" y1="-1.7" x2="-3" y2="-1.1" width="0.127" layer="21"/>
 <wire x1="3" y1="1.7" x2="3" y2="1.1" width="0.127" layer="21"/>
 <wire x1="3" y1="-1.7" x2="3" y2="-1.1" width="0.127" layer="21"/>
-<pad name="P$1" x="-3" y="0" drill="1.2"/>
-<pad name="P$2" x="3" y="0" drill="1.2"/>
+<pad name="P$1" x="-3.5" y="0" drill="1.2"/>
+<pad name="P$2" x="3.5" y="0" drill="1.2"/>
 <text x="-3.048" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.048" y="-3.556" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -11086,8 +11086,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <wire x1="-1.35" y1="-0.8" x2="-1.35" y2="0.8" width="0.2032" layer="51"/>
 <wire x1="-0.85" y1="0.8" x2="0.85" y2="0.8" width="0.2032" layer="21"/>
 <wire x1="0.85" y1="-0.8" x2="-0.85" y2="-0.8" width="0.2032" layer="21"/>
-<smd name="A" x="1.625" y="0" dx="0.91" dy="1.22" layer="1"/>
-<smd name="C" x="-1.625" y="0" dx="0.91" dy="1.22" layer="1" rot="R180"/>
+<smd name="A" x="1.625" y="0" dx="1.2" dy="1.5" layer="1"/>
+<smd name="C" x="-1.625" y="0" dx="1.2" dy="1.5" layer="1" rot="R180"/>
 <text x="-2" y="1" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.8" y1="-0.55" x2="-1.425" y2="0.55" layer="51"/>
@@ -11164,9 +11164,9 @@ transient-voltage suppressor</description>
 <wire x1="1.4732" y1="0.381" x2="1.4732" y2="-0.381" width="0.1524" layer="21"/>
 <wire x1="1.4732" y1="-0.381" x2="-1.4224" y2="-0.381" width="0.1524" layer="21"/>
 <wire x1="-1.4224" y1="-0.381" x2="-1.4224" y2="0.381" width="0.1524" layer="21"/>
-<smd name="3" x="0.9906" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
-<smd name="2" x="-0.9398" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
-<smd name="1" x="0.0254" y="-1.016" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="3" x="0.9906" y="1.016" dx="0.889" dy="1.016" layer="1"/>
+<smd name="2" x="-0.9398" y="1.016" dx="0.889" dy="1.016" layer="1"/>
+<smd name="1" x="0.0254" y="-1.016" dx="0.889" dy="1.016" layer="1"/>
 <text x="-1.397" y="2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-1.397" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <rectangle x1="0.7874" y1="0.4318" x2="1.1684" y2="0.9398" layer="51"/>
@@ -11407,14 +11407,18 @@ transient-voltage suppressor</description>
 <attribute name="PARTNO" value="MBR130LSFT1G"/>
 </part>
 <part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="NO" value="BYPASS"/>
-<part name="Q2" library="mes_transistors" deviceset="2N3904" device="SMD"/>
+<part name="Q2" library="mes_transistors" deviceset="2N3904" device="SMD">
+<attribute name="PARTNO" value="MMBT3904LT3G"/>
+</part>
 <part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 <attribute name="RATE" value="100mW"/>
 <attribute name="SIZE" value="(0603)"/>
 <attribute name="TOL" value="5%"/>
 </part>
-<part name="C7" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C7" library="rcl" deviceset="C-US" device="C0603" value="0.1uF">
+<attribute name="PARTNO" value="0603YC104KAT2A"/>
+</part>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="SJ2" library="SparkFun" deviceset="SOLDERJUMPER_2WAY" device="S" value="!BOE"/>
@@ -11426,7 +11430,7 @@ transient-voltage suppressor</description>
 <plain>
 <text x="43.18" y="48.26" size="1.778" layer="95">!BOE</text>
 <text x="161.29" y="24.13" size="3.81" layer="94">eeZeeProp</text>
-<text x="232.41" y="24.13" size="3.81" layer="94">0.3</text>
+<text x="232.41" y="24.13" size="3.81" layer="94">0.4</text>
 <text x="86.36" y="157.48" size="1.778" layer="97">RXI</text>
 <text x="86.36" y="154.94" size="1.778" layer="97">TXO</text>
 <text x="86.36" y="160.02" size="1.778" layer="97">DTR</text>
@@ -11571,14 +11575,18 @@ transient-voltage suppressor</description>
 <attribute name="PARTNO" x="127" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SJ1" gate="1" x="127" y="157.48" rot="R180"/>
-<instance part="Q2" gate="G1" x="193.04" y="63.5"/>
+<instance part="Q2" gate="G1" x="193.04" y="63.5">
+<attribute name="PARTNO" x="193.04" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R8" gate="G$1" x="180.34" y="55.88" rot="R90">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V" x="180.34" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="RATE" x="180.34" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SIZE" x="180.34" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="TOL" x="180.34" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="170.18" y="63.5" rot="R270"/>
+<instance part="C7" gate="G$1" x="170.18" y="63.5" rot="R270">
+<attribute name="PARTNO" x="170.18" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY11" gate="GND" x="180.34" y="45.72" rot="MR0"/>
 <instance part="SUPPLY6" gate="GND" x="195.58" y="45.72" rot="MR0"/>
 <instance part="SJ2" gate="G$1" x="137.16" y="48.26" rot="R180"/>
