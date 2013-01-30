@@ -6,6 +6,8 @@ A budget- and breadboard-friendly Parallax Propeller breakout board
 
 Order on [https://tindie.com/shops/bot_thoughts/eezee-propeller/ Tindie]
 
+If you have an older, Rev 0.2 board, see [eeZeePropRev2 the Rev 0.2 documentation]
+
 The Parallax Propeller is truly a unique and amazing chip, with 8 cogs running simultaneously and many innovative features and incredible flexibility.
 
 The eeZee Prop brings that power to the breadboard a budget-friendly breakout board ideal for prototyping. 
