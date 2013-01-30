@@ -4,7 +4,7 @@ A budget- and breadboard-friendly Parallax Propeller breakout board
 
 = Introduction =
 
-If you have a Rev0.3 board or higher, see [eeZee Prop|the current documentation]
+If you have a Rev0.3 board or higher, see [eeZeeProp the current documentation]
 
 The Parallax Propeller is truly a unique and amazing chip, with 8 cogs running simultaneously and many innovative features and incredible flexibility.
 
