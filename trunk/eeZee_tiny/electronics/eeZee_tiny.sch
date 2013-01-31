@@ -11401,103 +11401,159 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <description>&lt;b&gt;Electromechanical devices&lt;/b&gt;
 &lt;p&gt;Created by Michael Shimniok &lt;a href="http://www.bot-thoughts.com/"&gt;www.bot-thoughts.com&lt;/a&gt;&lt;/b&gt;</description>
 <packages>
-<package name="B3F-10XX">
-<description>&lt;B&gt;Omron B3F-10XX Series Switch&lt;/B&gt;</description>
-<wire x1="3" y1="3" x2="-3" y2="3" width="0.127" layer="21"/>
-<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.127" layer="21"/>
-<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.127" layer="21"/>
-<wire x1="3" y1="-3" x2="3" y2="3" width="0.127" layer="21"/>
-<pad name="COM@2" x="3.25" y="-2.25" drill="0.889" shape="octagon"/>
-<pad name="NO@2" x="3.25" y="2.25" drill="0.889" shape="octagon"/>
-<pad name="NO@1" x="-3.25" y="2.25" drill="0.889" shape="octagon"/>
-<pad name="COM@1" x="-3.25" y="-2.25" drill="0.889" shape="octagon"/>
-<text x="-2.75" y="-4.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.75" y="-6" size="1.27" layer="27">&gt;VALUE</text>
+<package name="OFFBOARD_2">
+<pad name="P$1" x="-1.27" y="0" drill="0.8" shape="octagon"/>
+<pad name="P$2" x="1.27" y="0" drill="0.8" shape="octagon"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="EVQQ2">
-<description>&lt;B&gt;Panasonic EVQQ2 SMD SPST switch&lt;/B&gt;</description>
-<wire x1="-3.25" y1="-3" x2="-3.25" y2="3" width="0.254" layer="51"/>
-<wire x1="-3.25" y1="3" x2="3.25" y2="3" width="0.254" layer="51"/>
-<wire x1="3.25" y1="3" x2="3.25" y2="-3" width="0.254" layer="51"/>
-<wire x1="3.25" y1="-3" x2="-3.25" y2="-3" width="0.254" layer="51"/>
-<wire x1="-1.4" y1="3" x2="1.4" y2="3" width="0.254" layer="21"/>
-<wire x1="-3.25" y1="-0.8" x2="-3.25" y2="0.8" width="0.254" layer="21"/>
-<wire x1="3.25" y1="-0.8" x2="3.25" y2="0.8" width="0.254" layer="21"/>
-<wire x1="-1.4" y1="-3" x2="1.4" y2="-3" width="0.254" layer="21"/>
-<circle x="0" y="0" radius="1.811" width="0.254" layer="51"/>
-<smd name="A2" x="3.4" y="-2" dx="3.2" dy="1.6" layer="1"/>
-<smd name="B2" x="3.4" y="2" dx="3.2" dy="1.6" layer="1"/>
-<smd name="B1" x="-3.4" y="2" dx="3.2" dy="1.6" layer="1"/>
-<smd name="A1" x="-3.4" y="-2" dx="3.2" dy="1.6" layer="1"/>
-<text x="-3.2" y="4" size="1.4224" layer="25" font="vector" ratio="12">&gt;NAME</text>
-<text x="-3.2" y="-5.2" size="1.4224" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<package name="EVQ11X09">
+<wire x1="-0.508" y1="3.048" x2="-0.508" y2="-3.048" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="3.048" x2="5.588" y2="3.048" width="0.127" layer="21"/>
+<wire x1="5.588" y1="3.048" x2="5.588" y2="-3.048" width="0.127" layer="21"/>
+<wire x1="5.588" y1="-3.048" x2="-0.508" y2="-3.048" width="0.127" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.0414" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="5.08" y="0" drill="1.0414" diameter="1.6764" shape="octagon"/>
+<text x="0" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.27" layer="25">&gt;VALUE</text>
 </package>
-<package name="6MMTACTILE_4PIN">
-<pad name="A1" x="3.25" y="-2.25" drill="1" shape="octagon" rot="R90"/>
-<pad name="B1" x="3.25" y="2.25" drill="1" shape="octagon" rot="R90"/>
-<pad name="A2" x="-3.25" y="-2.25" drill="1" shape="octagon" rot="R90"/>
-<pad name="B2" x="-3.25" y="2.25" drill="1" shape="octagon" rot="R90"/>
-<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.127" layer="21"/>
-<wire x1="3" y1="-3" x2="3" y2="3" width="0.127" layer="21"/>
-<wire x1="3" y1="3" x2="-3" y2="3" width="0.127" layer="21"/>
-<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.802775" width="0.127" layer="21"/>
-<text x="3.175" y="5.08" size="1.27" layer="21" rot="R180">&gt;VALUE</text>
-<text x="3.175" y="-3.81" size="1.27" layer="21" rot="R180">&gt;NAME</text>
+<package name="6MMTACTILE">
+<description>6mm Through-Hole Tactile Mometary Switch</description>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="21"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3" y1="3" x2="-3" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3" x2="-3" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="3" y1="3" x2="3" y2="0.8" width="0.127" layer="21"/>
+<wire x1="3" y1="-3" x2="3" y2="-0.8" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.4142" width="0.127" layer="21"/>
+<pad name="P$1" x="-2.54" y="0" drill="0.8"/>
+<pad name="P$2" x="2.54" y="0" drill="0.8"/>
+</package>
+<package name="6MMTACTILE_RECT">
+<wire x1="-3" y1="-1.75" x2="3" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="3" y1="1.75" x2="-3" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0.75" x2="-1.5" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.75" x2="1.5" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.75" x2="1.5" y2="0.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.75" x2="-1.5" y2="0.75" width="0.127" layer="21"/>
+<wire x1="-3" y1="1.7" x2="-3" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.7" x2="-3" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="3" y1="1.7" x2="3" y2="1.1" width="0.127" layer="21"/>
+<wire x1="3" y1="-1.7" x2="3" y2="-1.1" width="0.127" layer="21"/>
+<pad name="P$1" x="-3.5" y="0" drill="1.2"/>
+<pad name="P$2" x="3.5" y="0" drill="1.2"/>
+<text x="-3.048" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.048" y="-3.556" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="EVQPJ">
+<description>&lt;B&gt;Panasonic EVQ-PJC tact switch&lt;/B&gt;</description>
+<wire x1="-1.25" y1="1.75" x2="7.75" y2="1.75" width="0.127" layer="21"/>
+<wire x1="7.75" y1="1.75" x2="7.75" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="7.75" y1="-1.75" x2="-1.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-1.75" x2="-1.25" y2="1.75" width="0.127" layer="21"/>
+<pad name="A" x="0" y="0" drill="1.3" diameter="2.1844" shape="octagon"/>
+<pad name="B" x="6.5" y="0" drill="1.3" diameter="2.1844" shape="octagon"/>
+<text x="-1" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1" y="-3.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="OFFBOARD_2_LG">
+<pad name="P$1" x="-2.54" y="0" drill="1.2" diameter="2.54" shape="octagon"/>
+<pad name="P$2" x="2.54" y="0" drill="1.2" diameter="2.54" shape="octagon"/>
+<text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="6MMTACTTILE_RECT_SMD">
+<smd name="P$1" x="-4.6" y="0" dx="1.6" dy="2.19" layer="1" rot="R90"/>
+<smd name="P$2" x="4.6" y="0" dx="1.6" dy="2.19" layer="1" rot="R90"/>
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.127" layer="21"/>
+<wire x1="3" y1="1.75" x2="3" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-3" y1="1.75" x2="-3" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.75" x2="3" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0.76" x2="1.5" y2="0.76" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.76" x2="1.5" y2="-0.76" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.76" x2="-1.5" y2="-0.76" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.76" x2="-1.5" y2="0.76" width="0.127" layer="21"/>
+<text x="-3" y="2.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-3.5" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="SPST4">
+<symbol name="SPST">
 <wire x1="-3.175" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="3.175" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
-<text x="-3.81" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="COM@1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="NO@1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
-<pin name="COM@2" x="-5.08" y="2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="NO@2" x="5.08" y="2.54" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="0.635" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<text x="-3.937" y="2.794" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.699" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SPST4" prefix="S" uservalue="yes">
-<description>&lt;B&gt;SPST switch with 2 pins per contact&lt;/B&gt;</description>
+<deviceset name="SPST" prefix="S">
+<description>&lt;b&gt;SPST SWITCH&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="SPST4" x="0" y="0"/>
+<gate name="G$1" symbol="SPST" x="0" y="0"/>
 </gates>
 <devices>
-<device name="B3F-10XX" package="B3F-10XX">
+<device name="_OFFBOARD" package="OFFBOARD_2">
 <connects>
-<connect gate="G$1" pin="COM@1" pad="COM@1"/>
-<connect gate="G$1" pin="COM@2" pad="COM@2"/>
-<connect gate="G$1" pin="NO@1" pad="NO@1"/>
-<connect gate="G$1" pin="NO@2" pad="NO@2"/>
+<connect gate="G$1" pin="P" pad="P$1"/>
+<connect gate="G$1" pin="S" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="EVQQ2" package="EVQQ2">
+<device name="_TACT1" package="EVQ11X09">
 <connects>
-<connect gate="G$1" pin="COM@1" pad="A1"/>
-<connect gate="G$1" pin="COM@2" pad="A2"/>
-<connect gate="G$1" pin="NO@1" pad="B1"/>
-<connect gate="G$1" pin="NO@2" pad="B2"/>
+<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="6MMTACTILE_4PIN">
+<device name="_TACT2" package="6MMTACTILE">
 <connects>
-<connect gate="G$1" pin="COM@1" pad="B1"/>
-<connect gate="G$1" pin="COM@2" pad="B2"/>
-<connect gate="G$1" pin="NO@1" pad="A1"/>
-<connect gate="G$1" pin="NO@2" pad="A2"/>
+<connect gate="G$1" pin="P" pad="P$1"/>
+<connect gate="G$1" pin="S" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_TAC_RECT1" package="6MMTACTILE_RECT">
+<connects>
+<connect gate="G$1" pin="P" pad="P$1"/>
+<connect gate="G$1" pin="S" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_TACT_RECT2" package="EVQPJ">
+<connects>
+<connect gate="G$1" pin="P" pad="A"/>
+<connect gate="G$1" pin="S" pad="B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_OFFBOARD_LG" package="OFFBOARD_2_LG">
+<connects>
+<connect gate="G$1" pin="P" pad="P$1"/>
+<connect gate="G$1" pin="S" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_TACT_RECT_SMD" package="6MMTACTTILE_RECT_SMD">
+<connects>
+<connect gate="G$1" pin="P" pad="P$1"/>
+<connect gate="G$1" pin="S" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12019,10 +12075,10 @@ LETTER landscape</description>
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
 <part name="J2" library="ads4" deviceset="AVRISP6" device="" value="avrisp"/>
-<part name="S2" library="mes_electromech" deviceset="SPST4" device="" value="reset"/>
 <part name="JP3" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-S"/>
 <part name="JP4" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-S"/>
 <part name="FRAME1" library="mes" deviceset="LETTER_L" device=""/>
+<part name="S1" library="mes_electromech" deviceset="SPST" device="_TAC_RECT1" value="reset"/>
 </parts>
 <sheets>
 <sheet>
@@ -12056,11 +12112,11 @@ LETTER landscape</description>
 <attribute name="PARTNO" value="ERJ-3GEYJ103V" x="121.92" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J2" gate="A" x="154.94" y="109.22" rot="MR0"/>
-<instance part="S2" gate="G$1" x="172.72" y="93.98"/>
 <instance part="JP3" gate="A" x="170.18" y="63.5"/>
 <instance part="JP4" gate="A" x="144.78" y="63.5"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="2.54"/>
+<instance part="S1" gate="G$1" x="172.72" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -12089,14 +12145,9 @@ LETTER landscape</description>
 </segment>
 <segment>
 <wire x1="185.42" y1="86.36" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="93.98" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="S2" gate="G$1" pin="NO@1"/>
-<pinref part="S2" gate="G$1" pin="NO@2"/>
-<wire x1="180.34" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="96.52" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="96.52" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
-<junction x="180.34" y="93.98"/>
+<pinref part="S1" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="60.96" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
@@ -12178,16 +12229,11 @@ LETTER landscape</description>
 <junction x="121.92" y="93.98"/>
 <pinref part="IC1" gate="G$1" pin="(RESET/DW/ADC0/PCI5)PB5"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
 <junction x="160.02" y="93.98"/>
 <pinref part="J2" gate="A" pin="!RESET"/>
-<pinref part="S2" gate="G$1" pin="COM@1"/>
-<pinref part="S2" gate="G$1" pin="COM@2"/>
-<wire x1="165.1" y1="93.98" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="96.52" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
-<junction x="165.1" y="93.98"/>
+<wire x1="167.64" y1="93.98" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="1"/>
+<pinref part="S1" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="N$2" class="0">
