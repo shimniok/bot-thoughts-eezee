@@ -1,0 +1,30 @@
+A simple, small, 3.3V/5V USB breadboard power supply.
+
+= Introduction =
+
+A simple, small, low-cost, USB breadboard power adapter. 
+
+Sick of hunting around for something to power your projects? I was. No longer.
+
+Plug in your USB mini-B, select 3.3V or 5V (USB voltage), plug it into a dual-rail breadboard, and you have power. 
+
+  * Selectable 3.3V / VUSB (5V) output
+  * USB Mini-B input
+  * Stable: two sets of output pins for stable installation
+  * Small; only takes up a tiny corner of the breadboard
+  * 100uF and 0.1uF filtering capacitors on the output
+  * 10uF and 0.1uF filtering caps on the regulator input
+  * All SMT components populated
+
+All you have to do is add pin headers and jumper.
+
+Designed and assembled in the United States of America.
+
+= Installation =
+
+Install a 3-pin header for the VUSB/3.3V output selector, and two 2-pin headers for Vcc/GND output.
+
+= Configuration =
+
+3.3V: place the jumper nearest the 3.3V label
+5V: place the jumper nearest the VUSB label
