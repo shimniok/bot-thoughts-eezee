@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1886,22 +1886,30 @@ Please make sure your boards conform to these design rules.</description>
 <signals>
 <signal name="V">
 <contactref element="R1" pad="1"/>
-<contactref element="JP2" pad="P13"/>
-<wire x1="16.76" y1="10.16" x2="16.76" y2="9.775" width="0.4064" layer="1"/>
-<wire x1="16.76" y1="9.775" x2="13.97" y2="6.985" width="0.4064" layer="1"/>
-<wire x1="13.97" y1="6.985" x2="10.795" y2="6.985" width="0.4064" layer="1"/>
-<wire x1="10.795" y1="6.985" x2="7.62" y2="10.16" width="0.4064" layer="1"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="19.685" width="0.4064" layer="1"/>
+<contactref element="JP2" pad="P14"/>
+<wire x1="14.47" y1="10.16" x2="14.47" y2="8.882" width="0.4064" layer="1"/>
+<wire x1="14.47" y1="8.882" x2="13.716" y2="8.128" width="0.4064" layer="1"/>
+<wire x1="13.716" y1="8.128" x2="10.414" y2="8.128" width="0.4064" layer="1"/>
+<wire x1="10.414" y1="8.128" x2="9.652" y2="8.89" width="0.4064" layer="1"/>
+<wire x1="9.652" y1="8.89" x2="9.652" y2="14.986" width="0.4064" layer="1"/>
+<wire x1="9.652" y1="14.986" x2="11.43" y2="16.764" width="0.4064" layer="1"/>
+<wire x1="11.43" y1="16.764" x2="11.43" y2="20.574" width="0.4064" layer="1"/>
+<wire x1="11.43" y1="20.574" x2="10.668" y2="21.336" width="0.4064" layer="1"/>
+<wire x1="10.668" y1="21.336" x2="8.382" y2="21.336" width="0.4064" layer="1"/>
+<wire x1="8.382" y1="21.336" x2="7.62" y2="20.574" width="0.4064" layer="1"/>
+<wire x1="7.62" y1="20.574" x2="7.62" y2="19.685" width="0.4064" layer="1"/>
 </signal>
 <signal name="H">
 <contactref element="R2" pad="1"/>
-<contactref element="JP2" pad="P14"/>
-<wire x1="14.47" y1="10.16" x2="14.47" y2="9.39" width="0.4064" layer="1"/>
-<wire x1="14.47" y1="9.39" x2="13.335" y2="8.255" width="0.4064" layer="1"/>
-<wire x1="13.335" y1="8.255" x2="11.43" y2="8.255" width="0.4064" layer="1"/>
-<wire x1="11.43" y1="8.255" x2="8.89" y2="10.795" width="0.4064" layer="1"/>
-<wire x1="8.89" y1="10.795" x2="8.89" y2="18.415" width="0.4064" layer="1"/>
-<wire x1="8.89" y1="18.415" x2="10.16" y2="19.685" width="0.4064" layer="1"/>
+<contactref element="JP2" pad="P13"/>
+<wire x1="10.16" y1="19.685" x2="10.16" y2="17.272" width="0.4064" layer="1"/>
+<wire x1="10.16" y1="17.272" x2="8.382" y2="15.494" width="0.4064" layer="1"/>
+<wire x1="8.382" y1="15.494" x2="8.382" y2="7.874" width="0.4064" layer="1"/>
+<wire x1="8.382" y1="7.874" x2="9.398" y2="6.858" width="0.4064" layer="1"/>
+<wire x1="9.398" y1="6.858" x2="15.748" y2="6.858" width="0.4064" layer="1"/>
+<wire x1="15.748" y1="6.858" x2="16.764" y2="7.874" width="0.4064" layer="1"/>
+<wire x1="16.764" y1="7.874" x2="16.764" y2="10.156" width="0.4064" layer="1"/>
+<wire x1="16.764" y1="10.156" x2="16.76" y2="10.16" width="0.4064" layer="1"/>
 </signal>
 <signal name="B">
 <contactref element="R3" pad="1"/>
