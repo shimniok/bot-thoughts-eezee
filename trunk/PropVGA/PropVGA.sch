@@ -3642,8 +3642,8 @@ LETTER landscape</description>
 <pin name="GND4" x="2.54" y="-17.78" length="middle" rot="R90"/>
 <pin name="GND5" x="5.08" y="-17.78" length="middle" rot="R90"/>
 <pin name="GND6" x="7.62" y="-17.78" length="middle" rot="R90"/>
-<pin name="VSYNC" x="-15.24" y="0" length="middle"/>
-<pin name="HSYNC" x="-15.24" y="-2.54" length="middle"/>
+<pin name="VSYNC" x="-15.24" y="-2.54" length="middle"/>
+<pin name="HSYNC" x="-15.24" y="0" length="middle"/>
 <wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
@@ -4444,7 +4444,7 @@ LETTER landscape</description>
 <wire x1="154.94" y1="99.06" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="99.06" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="76.2" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="JP$1" pin="HSYNC"/>
+<pinref part="JP2" gate="JP$1" pin="VSYNC"/>
 </segment>
 </net>
 <net name="H" class="0">
@@ -4453,7 +4453,7 @@ LETTER landscape</description>
 <wire x1="154.94" y1="101.6" x2="144.78" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="101.6" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="JP$1" pin="VSYNC"/>
+<pinref part="JP2" gate="JP$1" pin="HSYNC"/>
 </segment>
 </net>
 <net name="B" class="0">
