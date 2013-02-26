@@ -22,9 +22,22 @@ Designed and assembled in the United States of America.
 
 = Installation =
 
-Install a 3-pin header for the VUSB/3.3V output selector, and two 2-pin headers for Vcc/GND output.
+  # Break your breakway header into one 3-pin and two 2-pin headers
+  # Solder in the 3-pin header for the VUSB/3.3V output selector, long end up
+  # Solder in the two 2-pin headers for Vcc/GND output, long end down
+  # Proceed to the Configuration section.
 
 = Configuration =
 
 3.3V: place the jumper nearest the 3.3V label
 5V: place the jumper nearest the VUSB label
+
+= Ratings =
+
+  * All capacitors are rated 6.3V in this revision.
+    * It's designed to be run off of *5V* supplies
+  * The onboard regulator is a 3.3V On Semi NCP1117ST33T3G in SOT-223
+    * rated at *800mA*
+    * current limit, safe operating and thermal shutdown protection.
+    * Datasheet: [http://datasheet.octopart.com/NCP1117ST33T3G-ON-Semiconductor-datasheet-11536806.pdf NCP1117ST33T3G.pdf]
+    * The regulator uses an integrated 1cm^2^ pcb heatsink.
