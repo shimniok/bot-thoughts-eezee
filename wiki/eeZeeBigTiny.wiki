@@ -1,6 +1,6 @@
 Easy programming and prototyping with 20-pin ATtiny devices. Now a [https://tindie.com/shops/bot_thoughts/eezee-attiny2313-target-board/  Tindie Fundraiser]!
 
-<img src="https://lh3.googleusercontent.com/-mmEFQQQm1hs/UOfJAhs9TmI/AAAAAAAAHtw/fsjkWc3v1-I/s668/eeZeeTiny3DTop.jpg" width=400 align=right/>
+<img src="https://lh3.googleusercontent.com/-Q976tG-X9F4/UVBlx2VxQmI/AAAAAAAAIag/Z1cW76fJNAU/s1153/IMG_8226.JPG" width=400 align=right/>
 
 = Introduction =
 
