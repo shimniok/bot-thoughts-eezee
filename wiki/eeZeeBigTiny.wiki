@@ -1,4 +1,4 @@
-Easy programming and prototyping with 20-pin ATtiny devices. Now a [https://tindie.com/shops/bot_thoughts/eezee-attiny2313-target-board/  Tindie Fundraiser]!
+Easy programming and prototyping with 20-pin ATtiny devices. [https://tindie.com/shops/bot_thoughts/eezee-attiny2313-target-board/ For Sale on Tindie]
 
 <img src="https://lh3.googleusercontent.com/-Q976tG-X9F4/UVBlx2VxQmI/AAAAAAAAIag/Z1cW76fJNAU/s1153/IMG_8226.JPG" width=400 align=right/>
 
@@ -21,10 +21,22 @@ The eeZee Big Tiny is a surface mount version of an open source through-hole des
   * Reset switch and pull-up resistor included
   * All you need to do is solder in the pin headers and add your own 20- pin ATtiny.
 
-[https://tindie.com/shops/bot_thoughts/eezee-attiny2313-target-board/ Pre-order and support the Fundraiser on Tindie]
+[https://tindie.com/shops/bot_thoughts/eezee-attiny2313-target-board/ Buy on Tindie]
+
+= Assembly =
+
+All you have to do is...
+
+  * Solder on 10-pin headers on the bottom
+  * Solder in the 20-pin DIP socket on the top if not yet installed
+    * Align the notch with the board silkscreen
+    * Notch should be farthest away from the switch and AVRISP header
+    * (I goofed, I installed it backwards in the product picture)
+  * Solder on the 6-pin AVRISP pin header on top
+  * Solder on the reset switch if not installed already
 
 = Pinout =
 
-Place the index tab on your 6-pin AVRISP (IDC) connector towards the MCU. The upper left pin in the picture, below left, is pin 1, MISO. Refer to the 6-pin AVRISP pinout diagram. below right.
+Place the index tab on your 6-pin AVRISP (IDC) connector towards the MCU. The SCK pin is marked on the board. The upper left pin in the picture, below left, is pin 1, MISO. Refer to the 6-pin AVRISP pinout diagram. below right.
 
-<img src="https://lh3.googleusercontent.com/-g020l9Uoj_E/UOfKYPqwieI/AAAAAAAAHuA/Y_-JX6vfWN8/s1011/eeZeeBigTinyTop.jpg" width=300 /> <img src="https://lh6.googleusercontent.com/-y7bAUPu_pKE/UK3JqP9jXZI/AAAAAAAAHoM/eVTvmSwYWkk/s230/Copy+of+AVRISP_Pinout.jpg" width=300 />
+<img src="https://lh6.googleusercontent.com/-y7bAUPu_pKE/UK3JqP9jXZI/AAAAAAAAHoM/eVTvmSwYWkk/s230/Copy+of+AVRISP_Pinout.jpg" width=300 />
