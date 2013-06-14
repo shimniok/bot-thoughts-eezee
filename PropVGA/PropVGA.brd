@@ -17,7 +17,7 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -105,10 +105,16 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="33.325" y2="0" width="0" layer="20"/>
-<wire x1="33.325" y1="0" x2="33.325" y2="31.74" width="0" layer="20"/>
-<wire x1="33.325" y1="31.74" x2="0" y2="31.74" width="0" layer="20"/>
-<wire x1="0" y1="31.74" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="33.02" y2="0" width="0" layer="20"/>
+<wire x1="33.02" y1="0" x2="33.02" y2="22.098" width="0" layer="20"/>
+<wire x1="33.02" y1="22.098" x2="30.226" y2="24.892" width="0" layer="20"/>
+<wire x1="30.226" y1="24.892" x2="30.226" y2="29.910371875" width="0" layer="20"/>
+<wire x1="30.226" y1="29.910371875" x2="28.640371875" y2="31.496" width="0" layer="20"/>
+<wire x1="28.640371875" y1="31.496" x2="4.379628125" y2="31.496" width="0" layer="20"/>
+<wire x1="4.379628125" y1="31.496" x2="2.794" y2="29.910371875" width="0" layer="20"/>
+<wire x1="2.794" y1="29.910371875" x2="2.794" y2="24.892" width="0" layer="20"/>
+<wire x1="2.794" y1="24.892" x2="0" y2="22.098" width="0" layer="20"/>
+<wire x1="0" y1="22.098" x2="0" y2="0" width="0" layer="20"/>
 <text x="27.305" y="27.305" size="1.524" layer="25" font="vector" ratio="10" rot="R270">GND</text>
 <text x="30.48" y="2.54" size="1.778" layer="26" font="vector" rot="MR0">bot-thoughts.com</text>
 <text x="30.48" y="5.08" size="1.778" layer="26" font="vector" rot="MR0">VGA for Propeller</text>
@@ -1891,9 +1897,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="14.47" y1="8.882" x2="13.716" y2="8.128" width="0.4064" layer="1"/>
 <wire x1="13.716" y1="8.128" x2="10.414" y2="8.128" width="0.4064" layer="1"/>
 <wire x1="10.414" y1="8.128" x2="9.652" y2="8.89" width="0.4064" layer="1"/>
-<wire x1="9.652" y1="8.89" x2="9.652" y2="14.986" width="0.4064" layer="1"/>
-<wire x1="9.652" y1="14.986" x2="11.43" y2="16.764" width="0.4064" layer="1"/>
-<wire x1="11.43" y1="16.764" x2="11.43" y2="20.574" width="0.4064" layer="1"/>
+<wire x1="9.652" y1="8.89" x2="9.652" y2="16.002" width="0.4064" layer="1"/>
+<wire x1="9.652" y1="16.002" x2="11.43" y2="17.78" width="0.4064" layer="1"/>
+<wire x1="11.43" y1="17.78" x2="11.43" y2="20.574" width="0.4064" layer="1"/>
 <wire x1="11.43" y1="20.574" x2="10.668" y2="21.336" width="0.4064" layer="1"/>
 <wire x1="10.668" y1="21.336" x2="8.382" y2="21.336" width="0.4064" layer="1"/>
 <wire x1="8.382" y1="21.336" x2="7.62" y2="20.574" width="0.4064" layer="1"/>
@@ -1902,9 +1908,9 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="H">
 <contactref element="R2" pad="1"/>
 <contactref element="JP2" pad="P13"/>
-<wire x1="10.16" y1="19.685" x2="10.16" y2="17.272" width="0.4064" layer="1"/>
-<wire x1="10.16" y1="17.272" x2="8.382" y2="15.494" width="0.4064" layer="1"/>
-<wire x1="8.382" y1="15.494" x2="8.382" y2="7.874" width="0.4064" layer="1"/>
+<wire x1="10.16" y1="19.685" x2="10.16" y2="18.288" width="0.4064" layer="1"/>
+<wire x1="10.16" y1="18.288" x2="8.382" y2="16.51" width="0.4064" layer="1"/>
+<wire x1="8.382" y1="16.51" x2="8.382" y2="7.874" width="0.4064" layer="1"/>
 <wire x1="8.382" y1="7.874" x2="9.398" y2="6.858" width="0.4064" layer="1"/>
 <wire x1="9.398" y1="6.858" x2="15.748" y2="6.858" width="0.4064" layer="1"/>
 <wire x1="15.748" y1="6.858" x2="16.764" y2="7.874" width="0.4064" layer="1"/>
