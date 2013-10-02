@@ -22,7 +22,8 @@ The board has a reset button and a power LED, and nothing else to get in the way
   * A Propeller in breadboard-friendly 36-DIP form factor, 0.8" wide
   * Low cost without unneeded add-ons, perfect for prototyping
   * Onboard 3.3V LDO regulator, flexible power options
-  * Includes 5MHz crystal, 256Kbit EEPROM, Reset switch, Power LED
+  * Includes 5MHz crystal, 32KB EEPROM, Reset switch, Power LED
+  * Correctly implemented reset circuitry
   * Exposes reset pin
   * Selectable BOE with solder jumper
   * Fabricated and assembled in the USA
@@ -76,4 +77,4 @@ This project is Open Source Hardware. Here are the [https://code.google.com/p/bo
 
 Other existing programming boards include the [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/Level/a/ProductID/802/Default.aspx?SortField=ProductName%2cProductName Propeller Board of Education], [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/catpageindex/2/Level/a/ProductID/411/Default.aspx?SortField=ProductName%2cProductName PropStick USB], [http://www.schmartboard.com/index.asp?page=products_populated&id=205 SchmartBoard SchmartModule], [http://www.parallax.com/Store/Microcontrollers/PropellerDevelopmentBoards/tabid/514/CategoryID/73/List/0/Level/a/ProductID/748/Default.aspx?SortField=ProductName%2cProductName Propeller QuickStart] board, and others.
 
-The eeZee Prop is breadboard friendly like the !PropStick USB, but budget friendly like the !QuickStart.  It doesn't add another virtual com port to your system because you use your existing programmer as with the SchmartBoard and others.  
+The eeZee Prop is breadboard friendly like the !PropStick USB but budget friendly like the !QuickStart.  It doesn't add another virtual com port to your system because you use your existing programmer as with the SchmartBoard and others.
