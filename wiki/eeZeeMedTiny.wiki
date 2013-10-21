@@ -17,6 +17,18 @@ Easily prototype and program your 14-pin ATtiny with this breakout / target boar
   * Reset switch and pull-up resistor included
   * All you need to do is solder in the pin headers and add your own 14-pin ATtiny.
 
+= Assembly =
+
+All you have to do is...
+
+  * Solder on 10-pin headers on the bottom
+  * Solder in the 20-pin DIP socket on the top if not yet installed
+    * Align the notch with the board silkscreen
+    * Notch should be farthest away from the switch and AVRISP header
+    * (I goofed, I installed it backwards in the product picture)
+  * Solder on the 6-pin AVRISP pin header on top
+  * Solder on the reset switch if not installed already
+
 = Operating Conditions =
 
 Please use your ATtiny breakout boards with regulated supplies of 5V or less, with minimal ripple, at temperatures around 25C (77F). Do not use the boards in higher temperature conditions.
