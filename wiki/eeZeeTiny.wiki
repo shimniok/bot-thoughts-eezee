@@ -25,11 +25,17 @@ I've built enough ATtiny13 breadboard circuits that I got really sick of hooking
     * [http://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_tiny%2Ffirmware Example Code]
     * [http://bot-thoughts-eezee.googlecode.com/svn/trunk/eeZee_tiny/firmware/default/eeZeeTinyTest1.hex Example Hex]
 
-= Pinout =
+= Assembly =
 
-Place the index tab on your 6-pin AVRISP (IDC) connector towards the MCU. The upper left pin in the picture, below left, is pin 1, MISO. Refer to the 6-pin AVRISP pinout diagram. below right.
+All you have to do is...
 
-<img src="https://lh5.googleusercontent.com/-KXwYeRT-tDk/UK3C04aUR2I/AAAAAAAAHng/1kVNzyopBQI/s873/IMG_8013.JPG" width=300 /> <img src="https://lh6.googleusercontent.com/-y7bAUPu_pKE/UK3JqP9jXZI/AAAAAAAAHoM/eVTvmSwYWkk/s230/Copy+of+AVRISP_Pinout.jpg" width=300 />
+  * Solder on 10-pin headers on the bottom
+  * Solder in the 20-pin DIP socket on the top if not yet installed
+    * Align the notch with the board silkscreen
+    * Notch should be farthest away from the switch and AVRISP header
+    * (I goofed, I installed it backwards in the product picture)
+  * Solder on the 6-pin AVRISP pin header on top
+  * Solder on the reset switch if not installed already
 
 = Operating Conditions =
 
