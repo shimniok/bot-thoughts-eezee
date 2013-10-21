@@ -16,7 +16,7 @@ The eeZee Big Tiny is a surface mount version of an open source through-hole des
   * Included 16MHz crystal and caps**
   * Compact AVRISP connector for easy programming
   * Perfect for breadboarding
-  * 0.1uF and 100uF filtering capacitors pre-soldered
+  * 0.1uF and 10uF (or larger) filtering capacitors pre-soldered
   * All 20 pins exposed for breadboarding
   * Reset switch and pull-up resistor included
   * All you need to do is solder in the pin headers and add your own 20- pin ATtiny.
