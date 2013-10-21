@@ -35,8 +35,6 @@ All you have to do is...
   * Solder on the 6-pin AVRISP pin header on top
   * Solder on the reset switch if not installed already
 
-= Pinout =
+= Operating Conditions =
 
-Place the index tab on your 6-pin AVRISP (IDC) connector towards the MCU. The SCK pin is marked on the board. The upper left pin in the picture, below left, is pin 1, MISO. Refer to the 6-pin AVRISP pinout diagram. below right.
-
-<img src="https://lh6.googleusercontent.com/-y7bAUPu_pKE/UK3JqP9jXZI/AAAAAAAAHoM/eVTvmSwYWkk/s230/Copy+of+AVRISP_Pinout.jpg" width=300 />
+Please use your ATtiny breakout boards with regulated supplies of 5V or less, with minimal ripple, at temperatures around 25C (77F). Do not use the boards in higher temperature conditions.
