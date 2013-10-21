@@ -25,7 +25,6 @@ All you have to do is...
   * Solder in the 20-pin DIP socket on the top if not yet installed
     * Align the notch with the board silkscreen
     * Notch should be farthest away from the switch and AVRISP header
-    * (I goofed, I installed it backwards in the product picture)
   * Solder on the 6-pin AVRISP pin header on top
   * Solder on the reset switch if not installed already
 
