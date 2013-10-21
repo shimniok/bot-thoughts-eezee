@@ -18,13 +18,6 @@ I've built enough ATtiny13 breadboard circuits that I got really sick of hooking
 
 [https://tindie.com/shops/bot_thoughts/eezee-tiny-breakout-programming-board-kit/ Purchase on Tindie]
 
-= Firmware and Software =
-
-  * [http://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_tiny Google Code Repository]
-    * [http://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_tiny%2Felectronics Eagle Files]
-    * [http://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_tiny%2Ffirmware Example Code]
-    * [http://bot-thoughts-eezee.googlecode.com/svn/trunk/eeZee_tiny/firmware/default/eeZeeTinyTest1.hex Example Hex]
-
 = Assembly =
 
 All you have to do is...
@@ -36,6 +29,13 @@ All you have to do is...
     * (I goofed, I installed it backwards in the product picture)
   * Solder on the 6-pin AVRISP pin header on top
   * Solder on the reset switch if not installed already
+
+= Firmware and Software =
+
+  * [http://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_tiny Google Code Repository]
+    * [http://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_tiny%2Felectronics Eagle Files]
+    * [http://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_tiny%2Ffirmware Example Code]
+    * [http://bot-thoughts-eezee.googlecode.com/svn/trunk/eeZee_tiny/firmware/default/eeZeeTinyTest1.hex Example Hex]
 
 = Operating Conditions =
 
