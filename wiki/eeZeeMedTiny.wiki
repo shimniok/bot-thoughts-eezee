@@ -12,21 +12,11 @@ Easily prototype and program your 14-pin ATtiny with this breakout / target boar
   * Included 16MHz crystal and caps**
   * Compact AVRISP connector for easy programming
   * Perfect for breadboarding
-  * 0.1uF and 100uF filtering capacitors pre-soldered
+  * 0.1uF and 10uF (or larger) filtering capacitors pre-soldered
   * All 14 pins exposed for breadboarding
   * Reset switch and pull-up resistor included
   * All you need to do is solder in the pin headers and add your own 14-pin ATtiny.
 
-= Pinout =
+= Operating Conditions =
 
-Place the index tab on your 6-pin AVRISP (IDC) connector towards the MCU. Refer to the 6-pin AVRISP pinout diagram. below. The SCK pin is indicated on the breadboard by a white mark.
-
-<img src="https://lh6.googleusercontent.com/-y7bAUPu_pKE/UK3JqP9jXZI/AAAAAAAAHoM/eVTvmSwYWkk/s230/Copy+of+AVRISP_Pinout.jpg" width=300 />
-
-= Pictures =
-
-pictures will be posted soon
-
-= Example Code Running =
-
-demo will be posted soon
+Please use your ATtiny breakout boards with regulated supplies of 5V or less, with minimal ripple, at temperatures around 25C (77F). Do not use the boards in higher temperature conditions.
