@@ -39,3 +39,11 @@ You can power the board off of your breadboard power strip, or using jumpers.
   * Breadboards with dual rail power strips come in two primary forms: 
      * Power rail pins aligned to the other breadboard pins. Use the central 5V/GND pin pads
      * Power rail pins offset 0.05" from the other breadboard pins. Use the remaining set of 5V/GND pin pads.
+
+= Code Examples and Documentation =
+
+ * [http://arduino.cc/en/Reference/SD Arduino SD library reference]
+ * [https://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_microSD%2Fexamples%2FArduino My Arduino Test Programs]
+ * Example sketches are available in the Arduino IDE.
+
+Open the Arduino IDE. From the File menu, select Examples, and then select the SD submenu. Under this menu are the examples (e.g., Datalogger, DumpFile, Files, ReadWrite and CardInfo)
