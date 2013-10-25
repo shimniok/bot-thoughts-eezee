@@ -2,9 +2,7 @@ Easily add a SPI-compatible microSD card to your project!
 
 = Introduction =
 
-Easily add a SPI-compatible microSD card to your breadboard Arduino or other microcontroller project with the eeZee microSD breakout board!
-
-[https://tindie.com/shops/bot_thoughts/eezee-microsd-breakout-4/ Order one] from my [https://tindie.com/shops/bot_thoughts/ store] on Tindie
+Easily add a microSD card to your breadboard Arduino, no jumpers required.
 
 = Features =
 
@@ -17,6 +15,8 @@ Easily add a SPI-compatible microSD card to your breadboard Arduino or other mic
 Designed, fabricated, and assembled in the United States of America.
 
 All you need to do is solder in the pin headers.
+
+[https://tindie.com/shops/bot_thoughts/eezee-microsd-breakout-4/ Order one] from my [https://tindie.com/shops/bot_thoughts/ store] on Tindie
 
 = Power Options =
 
