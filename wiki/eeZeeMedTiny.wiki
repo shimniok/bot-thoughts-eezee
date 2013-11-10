@@ -1,32 +1,94 @@
 Easy programming and prototyping with 14-pin ATtiny devices. [https://www.tindie.com/products/bot_thoughts/eezee-attiny244484-breakout/ For sale on Tindie]
 
+<img src="https://d3ffynyi1lxfcp.cloudfront.net/thumbs/products/522/2013-10-22-17-56-53/IMG_8198.JPG.620x349_q85_crop-smart.jpg" align="right" width="400" />
+
 = Introduction =
 
-I want to experiment with the ATtiny24/44/84 14-pin devices and I prototype on breadboards. The eeZee Medium Tiny will make it easier to get started. The board is a surface-mount evolution of an open source through hole design.
+After breadboarding a bunch of ATtinys I built these boards so I didn't have to look up the AVR ISP pinout every time.
 
 = Features =
 
-Easily prototype and program your 14-pin ATtiny with this breakout / target board using the included 6-pin AVRISP (ISP) header.
-
-  * Works with ATtiny24, ATtiny44, ATtiny84
-  * Included 16MHz crystal and caps**
-  * Compact AVRISP connector for easy programming
-  * Perfect for breadboarding
-  * 0.1uF and 10uF (or larger) filtering capacitors pre-soldered
-  * All 14 pins exposed for breadboarding
+  * AVR ISP header included to save time
+  * All 14 pins exposed
+  * Included 16MHz crystal and caps++
+  * 0.1uF and 10uF (or larger) filtering capacitors
   * Reset switch and pull-up resistor included
-  * All you need to do is solder in the pin headers and add your own 14-pin ATtiny.
+  * Works with ATtiny24, ATtiny44, ATtiny84
+  * Compact board
+
+++ You can order it without these if you want.
 
 = Assembly =
 
-All you have to do is...
-
-  * Solder on 10-pin headers on the bottom
-  * Solder in the 20-pin DIP socket on the top if not yet installed
+  * Solder on each 10-pin header
+  * Solder on the 20-pin DIP socket
     * Align the notch with the board silkscreen
-    * Notch should be farthest away from the switch and AVRISP header
-  * Solder on the 6-pin AVRISP pin header on top
-  * Solder on the reset switch if not installed already
+    * Notch is farthest from ISP and reset
+  * Solder on the 2x3-pin AVR ISP pin header on top
+  * Solder on the reset switch
+  * Insert your ATtiny2313/4313 into the socket
+
+= Writing Software =
+
+To write code for ATtiny, you can use:
+
+ * [http://www.atmel.com/tools/STUDIOARCHIVE.aspx AVR Studio]
+ * [http://www.atmel.com/microsite/atmel_studio6/ Atmel Studio]
+ * Eclipse and the [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin AVR Plugin]
+ * Arduino IDE using [https://code.google.com/p/arduino-tiny/ arduino-tiny core] (Tiny85, 84, 2313 families)
+
+= Programming (Flashing) Your Chip =
+
+The Pololu AVR Programmer is my preferred programmer for most ATtiny projects. Buy the Pololu AVR Programmer at [http://www.pololu.com/product/1300 pololu.com]. Follow the instructions in the [http://www.pololu.com/docs/0J36 User's Guide pdf]
+
+You can also use an AVRISP MkII, your Arduino ([http://arduino.cc/en/Tutorial/ArduinoISP here's how]), or other AVR ISP compatible hardware.
+
+== ISP Header ==
+
+When it's time to plug in the eeZee Tiny board, locate the white rectangle next to the ISP header which marks the notch that would appear on a shrouded male header, as below.
+
+[http://www.batsocks.co.uk/img/info_isp/ISP%206%20way%20pinout.png] 
+
+= Example Code =
+
+This example sequentially turns on a single pin on PA0-7 and PB0-2. Connect LEDs and enjoy the light show. [https://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZee_medium_tiny%2Ffirmware Repository], [https://code.google.com/p/bot-thoughts-eezee/source/browse/trunk/eeZee_medium_tiny/firmware/main.c main.c], [https://code.google.com/p/bot-thoughts-eezee/source/browse/trunk/eeZee_medium_tiny/firmware/eeZeeMedTinyTest.hex test.hex]
+
+{{{
+/** ATtiny84 test
+ * 
+ * Author: Michael Shimniok (www.bot-thoughts.com)
+ * Description: Sequentially turns on a single pin on PA0-7 and PB0-2 (PB3 is reset)
+ *
+ */
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+
+int main()
+{ 
+  char i;
+  
+  PORTA=0;
+  PORTB=0;
+  DDRA=0xff;   // All PORTA as output
+  DDRB=0x07;   // PB0-2, PB3 is reset
+  
+  while (1) {
+    for (i = 0 ; i < 8; i++) {
+      PORTA = (1 << i);
+      _delay_ms(300);
+    }
+    PORTA = 0;
+    
+    for (i = 2; i < 3; i++) {
+      PORTB = (1 << i);
+      _delay_ms(300);
+    }
+    PORTB = 0;
+  }
+
+}
+}}}
 
 = Operating Conditions =
 
