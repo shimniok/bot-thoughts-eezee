@@ -59,7 +59,7 @@ BOE is pulled to ground on the Rev 0.2 boards.
 
 Input Voltage: 5.0V-8.0V, room temperature. 
 
-Note: lower input voltages are typically possible but not guaranteed in all cases. You may also be able to get away with higher input voltage. The limiting factor is the 10V rating on the input decoupling capacitor.
+Note: lower input voltages are typically possible but not guaranteed in all cases. You may also be able to get away with higher input voltage. The limiting factor is the 10V rating on the input bypass capacitor.
 
 The eeZee Prop can be powered in several ways
   * 3.3V Pin: Connect external 3.3V source (don't connect power to Vin or FTDI)
