@@ -1,4 +1,4 @@
-Easy programming and prototyping with 20-pin ATtiny devices. [https://tindie.com/shops/bot_thoughts/eezee-attiny2313-target-board/ For Sale on Tindie]
+#summary Easy programming and prototyping with 20-pin ATtiny devices.
 
 <img src="https://lh3.googleusercontent.com/-Q976tG-X9F4/UVBlx2VxQmI/AAAAAAAAIag/Z1cW76fJNAU/s1153/IMG_8226.JPG" width=400 align=right/>
 
