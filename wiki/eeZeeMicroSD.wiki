@@ -1,4 +1,4 @@
-Easily add a microSD card to your breadboard Arduino, no jumpers required.
+#summary Easily add a microSD card to your breadboard Arduino, no jumpers required.
 
 = Features =
 
