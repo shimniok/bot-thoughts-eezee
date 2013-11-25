@@ -1,4 +1,6 @@
-Easy programming and prototyping with 14-pin ATtiny devices. [https://www.tindie.com/products/bot_thoughts/eezee-attiny244484-breakout/ For sale on Tindie]
+#summary Easy programming and prototyping with 14-pin ATtiny devices.
+
+[https://www.tindie.com/products/bot_thoughts/eezee-attiny244484-breakout/ For sale on Tindie]
 
 <img src="https://d3ffynyi1lxfcp.cloudfront.net/thumbs/products/522/2013-10-22-17-56-53/IMG_8198.JPG.620x349_q85_crop-smart.jpg" align="right" width="400" />
 
