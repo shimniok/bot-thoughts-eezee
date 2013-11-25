@@ -1,1 +1,45 @@
-#summary WS2812 RGB LED for breadboard
+#summary WS2812B RGB LED for breadboard
+
+The WS2812B is the latest smart RGB module with onboard microcontroller and polarity protection.
+
+= 3.3V Devices =
+
+ * Care should be taken with 3.3V devices.
+ * Use 5V tolerant pins or a level shifter.
+ * The 10K pull-up resistor on DIN ensures correct logic levels.
+ * This resistor limits current through 3.3V device clamping diodes.
+ * Parallax Propeller can tolerate this current.
+
+= Assembly =
+
+ * Install the pin headers on the board so the LED is facing up
+ * Connect VDD to 5V capable of driving 60mA per module
+ * Connect GND to ground
+ * Connect DIN to a pin on your microcontroller
+
+== Connecting additional RGB modules ==
+
+ * Connect VDD and GND as described above
+ * Connect the first module's DIN to the microcontroller
+ * Connect its DOUT to the next module's DIN
+ * Repeat for each module
+
+= Arduino: Quick Start =
+
+ * Grab a copy of the [http://github.com/adafruit/Adafruit_NeoPixel/ Adafruit NeoPixel Library]
+ * Follow instructions at the link above to install the NeoPixel library
+ * You can find my [https://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZeeRGB%2Ffirmware example code here]
+ * Connect DIN to Arduino D8
+ * Compile and download the firmware to your Arduino
+
+= Propeller =
+
+You can find a WS2812B driver [http://obex.parallax.com/object/703 here]. I have not tested the code myself.
+
+= mbed =
+
+[http://mbed.org/users/okini3939/code/LEDTape_WS2812/ Example]. I have not tested the code myself.
+
+= Datasheet =
+
+[http://www.mikrocontroller.net/attachment/180459/WS2812B_preliminary.pdf WS2812B_preliminary.pdf]
