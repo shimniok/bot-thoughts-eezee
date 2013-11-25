@@ -1,4 +1,4 @@
-Add VGA output to your Propeller project with this kit
+#summary Add VGA output to your Propeller project with this kit
 
 = Introduction =
 
