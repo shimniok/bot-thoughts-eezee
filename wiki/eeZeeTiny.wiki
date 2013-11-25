@@ -1,4 +1,4 @@
-Easy, quick programming and prototyping with 8-pin ATtiny devices
+#summary Easy, quick programming and prototyping with 8-pin ATtiny devices
 
 <img src="https://d3ffynyi1lxfcp.cloudfront.net/thumbs/products/330/2013-08-26-20-55-56/Tiny_wSymbols_noXTAL.JPG.620x349_q85_crop-smart.jpg" width=400 align=right/>
 
