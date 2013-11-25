@@ -36,9 +36,9 @@ void setup()
   leds.show();
 }
 
-#define DELAY 50
+#define DELAY 60
 #define MINCOLOR 0
-#define MAXCOLOR 20
+#define MAXCOLOR 40
 
 uint8_t r = MAXCOLOR; // start with red
 uint8_t g = MINCOLOR;
@@ -47,38 +47,20 @@ uint8_t b = MINCOLOR;
 void loop()
 {
 
-  // Red to Red+Blue
-  for (b = MINCOLOR; b < MAXCOLOR; b++) {
+  // Red to Red+Blue to Blue
+  for (r = MAXCOLOR, b = MINCOLOR; b < MAXCOLOR; r--, b++) {
     leds.setPixelColor(0, r, g, b);
     leds.show();
     delay(DELAY);
   }
-  // Red+Blue to Blue
-  for (r = MAXCOLOR; r > MINCOLOR; r--) {
+  // Blue to Blue+Green to Green
+  for (b = MAXCOLOR, g = MINCOLOR; g < MAXCOLOR; b--, g++) {
     leds.setPixelColor(0, r, g, b);
     leds.show();
     delay(DELAY);
   }
-  // Blue to Blue+Green
-  for (g = MINCOLOR; g < MAXCOLOR; g++) {
-    leds.setPixelColor(0, r, g, b);
-    leds.show();
-    delay(DELAY);
-  }
-  // Blue+Green to Green
-  for (b = MAXCOLOR; b > MINCOLOR; b--) {
-    leds.setPixelColor(0, r, g, b);
-    leds.show();
-    delay(DELAY);
-  }
-  // Green to Red+Green
-  for (r = MINCOLOR; r < MAXCOLOR; r++) {
-    leds.setPixelColor(0, r, g, b);
-    leds.show();
-    delay(DELAY);
-  }
-  // Red+Green to Red
-  for (g = MAXCOLOR; g > MINCOLOR; g--) {
+  // Green to Red+Green to Red
+  for (g = MAXCOLOR, r = MINCOLOR; r < MAXCOLOR; g--, r++) {
     leds.setPixelColor(0, r, g, b);
     leds.show();
     delay(DELAY);
