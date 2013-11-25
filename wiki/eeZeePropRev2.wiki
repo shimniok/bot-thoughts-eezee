@@ -1,4 +1,4 @@
-#summary A budget- and breadboard-friendly Parallax Propeller breakout board
+#summary Budget- and breadboard-friendly Parallax Propeller breakout board, Rev 0.2
 
 <img src="https://lh3.googleusercontent.com/-xr2oeWmwMg8/UMbfGIW8IFI/AAAAAAAAHrI/ekIxMVEdYhE/s1025/IMG_8070.JPG" height=250/> <img src="https://lh3.googleusercontent.com/-wDnneI9pO6g/UMbfE89JJKI/AAAAAAAAHrA/lMX0mEGxrog/s1023/IMG_8068.JPG" height=250/>
 
