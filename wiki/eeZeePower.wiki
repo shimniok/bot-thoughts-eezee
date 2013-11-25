@@ -1,4 +1,4 @@
-A simple, small, 3.3V/5V USB breadboard power supply.
+#summary A simple, small, 3.3V/5V USB breadboard power supply.
 
 = Introduction =
 
