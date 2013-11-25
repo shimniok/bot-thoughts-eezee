@@ -4,7 +4,11 @@ The compact eeZee Switch contains a 10k pull-up resistor, 0.1uF debounce capacit
 
 = Assembly =
 
-* Install the pin headers on the board so the switch faces up
-* Connect VCC to your microcontroller's power supply
-* Connect the pin next to VCC to your microcontroller
-* Connect the remaining two pins opposite VCC to ground
+ * Install the pin headers on the board so the switch faces up
+ * Connect VCC to your microcontroller's power supply
+ * Connect the pin next to VCC to your microcontroller
+ * Connect the remaining two pins opposite VCC to ground
+
+= How to Use =
+
+The switch is active-low. You can set up an external interrupt on your microcontroller to fire whenever the pin changes state or changes to a low state, depending on your MCU. You can also poll the pin connected to the switch and wait until the logic level is low.
