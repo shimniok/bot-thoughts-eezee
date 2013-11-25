@@ -1,5 +1,10 @@
 #summary Breadboard switch with pull-up and debounce
 
-= Introduction =
+The compact eeZee Switch contains a 10k pull-up resistor, 0.1uF debounce capacitor, and a switch, making it convenient and fast to properly add a switch to your breadboard project.
 
-Details coming soon.
+= Assembly =
+
+* Install the pin headers on the board so the switch faces up
+* Connect VCC to your microcontroller's power supply
+* Connect the pin next to VCC to your microcontroller
+* Connect the remaining two pins opposite VCC to ground
