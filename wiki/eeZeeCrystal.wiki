@@ -1,3 +1,5 @@
+#summary A more convenient breadboard crystal for Arduino
+
 http://3.bp.blogspot.com/-ydAAjOPnC9w/T2nq1hRpMoI/AAAAAAAAEc4/TRf3Uk6zkWs/s320/img001.jpg
 
 One board, one easy crystal & two caps make one clean Arduino breadboard project!
