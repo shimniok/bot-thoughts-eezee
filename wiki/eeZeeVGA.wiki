@@ -1,0 +1,5 @@
+#summary Fully assembled VGA adapter
+
+= Introduction =
+
+VGA adapter for Parallax Propeller or anything else that can drive signals through resistors forming a simple DAC.
