@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -11078,63 +11078,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </deviceset>
 </devicesets>
 </library>
-<library name="mes_diode">
-<packages>
-<package name="SOD123FL">
-<description>SOD-123FL CASE 498-01 ISSUE A&lt;br&gt;</description>
-<wire x1="-1.35" y1="0.8" x2="1.35" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="1.35" y1="0.8" x2="1.35" y2="-0.8" width="0.2032" layer="51"/>
-<wire x1="1.35" y1="-0.8" x2="-1.35" y2="-0.8" width="0.2032" layer="51"/>
-<wire x1="-1.35" y1="-0.8" x2="-1.35" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="-0.85" y1="0.8" x2="0.85" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="0.85" y1="-0.8" x2="-0.85" y2="-0.8" width="0.2032" layer="21"/>
-<smd name="A" x="1.625" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="C" x="-1.625" y="0" dx="1.3" dy="1.5" layer="1" rot="R180"/>
-<text x="-2" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.8" y1="-0.55" x2="-1.425" y2="0.55" layer="51"/>
-<rectangle x1="1.425" y1="-0.55" x2="1.8" y2="0.55" layer="51" rot="R180"/>
-<rectangle x1="-0.95" y1="-0.775" x2="-0.65" y2="0.8" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SCHOTTKY">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SCHOTTKY-DIODE" prefix="D">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-transient-voltage suppressor</description>
-<gates>
-<gate name="1" symbol="SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-MBR130LSFT1" package="SOD123FL">
-<connects>
-<connect gate="1" pin="A" pad="A"/>
-<connect gate="1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="mes_transistors">
 <description>&lt;b&gt;Common Transistors&lt;/b&gt;
 &lt;p&gt;Created by Michael Shimniok &lt;a href="http://www.bot-thoughts.com/"&gt;www.bot-thoughts.com&lt;/a&gt;&lt;/b&gt;</description>
@@ -11254,6 +11197,63 @@ transient-voltage suppressor</description>
 <connect gate="G1" pin="B" pad="B"/>
 <connect gate="G1" pin="C" pad="C"/>
 <connect gate="G1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="bt_diode">
+<description>Diodes, rectifiers, regulators</description>
+<packages>
+<package name="SOD123FL">
+<description>SOD-123FL CASE 498-01 ISSUE A&lt;br&gt;</description>
+<wire x1="-1.35" y1="0.8" x2="1.35" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="1.35" y1="0.8" x2="1.35" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="1.35" y1="-0.8" x2="-1.35" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="-1.35" y1="-0.8" x2="-1.35" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="-0.85" y1="0.8" x2="0.85" y2="0.8" width="0.2032" layer="21"/>
+<wire x1="0.85" y1="-0.8" x2="-0.85" y2="-0.8" width="0.2032" layer="21"/>
+<smd name="A" x="2.025" y="0" dx="2" dy="1.8" layer="1"/>
+<smd name="C" x="-2.025" y="0" dx="2" dy="1.8" layer="1" rot="R180"/>
+<text x="-2" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8" y1="-0.55" x2="-1.425" y2="0.55" layer="51"/>
+<rectangle x1="1.425" y1="-0.55" x2="1.8" y2="0.55" layer="51" rot="R180"/>
+<rectangle x1="-0.95" y1="-0.775" x2="-0.35" y2="0.8" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SCHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SCHOTTKY-DIODE" prefix="D">
+<description>&lt;B&gt;Schottky Diode&lt;/B&gt;</description>
+<gates>
+<gate name="1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MBR130LSFT1" package="SOD123FL">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11399,10 +11399,10 @@ transient-voltage suppressor</description>
 <attribute name="TYPE" value="CER"/>
 <attribute name="VOLT" value="10V"/>
 </part>
-<part name="D1" library="mes_diode" deviceset="SCHOTTKY-DIODE" device="-MBR130LSFT1" value="MBR130LSFT1">
+<part name="D1" library="bt_diode" deviceset="SCHOTTKY-DIODE" device="-MBR130LSFT1" value="MBR130LSFT1">
 <attribute name="PARTNO" value="MBR130LSFT1G"/>
 </part>
-<part name="D2" library="mes_diode" deviceset="SCHOTTKY-DIODE" device="-MBR130LSFT1" value="MBR130LSFT1">
+<part name="D2" library="bt_diode" deviceset="SCHOTTKY-DIODE" device="-MBR130LSFT1" value="MBR130LSFT1">
 <attribute name="PARTNO" value="MBR130LSFT1G"/>
 </part>
 <part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="NO" value="BYPASS"/>
@@ -11423,20 +11423,21 @@ transient-voltage suppressor</description>
 <part name="SJ2" library="SparkFun" deviceset="SOLDERJUMPER_2WAY" device="S" value="!BOE"/>
 <part name="SUPPLY12" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
+<part name="SJ3" library="SparkFun" deviceset="SOLDERJUMPER" device="NO" value="3V3FTDI"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="43.18" y="48.26" size="1.778" layer="95">!BOE</text>
 <text x="161.29" y="24.13" size="3.81" layer="94">eeZeeProp</text>
-<text x="232.41" y="24.13" size="3.81" layer="94">0.4</text>
+<text x="232.41" y="24.13" size="3.81" layer="94">0.5</text>
 <text x="86.36" y="157.48" size="1.778" layer="97">RXI</text>
 <text x="86.36" y="154.94" size="1.778" layer="97">TXO</text>
 <text x="86.36" y="160.02" size="1.778" layer="97">DTR</text>
 <text x="86.36" y="147.32" size="1.778" layer="97">GND</text>
 <text x="86.36" y="152.4" size="1.778" layer="97">5V</text>
 <text x="175.26" y="76.2" size="1.778" layer="97">FTDI RESET CIRCUIT</text>
-<text x="142.24" y="127" size="1.778" layer="97">POWER SUPPLY</text>
+<text x="193.04" y="116.84" size="1.778" layer="97">POWER SUPPLY</text>
 <text x="119.38" y="175.26" size="1.778" layer="97">POWER SELECT</text>
 <text x="40.64" y="172.72" size="1.778" layer="97">PROGRAMMING HEADERS</text>
 <text x="190.5" y="175.26" size="1.778" layer="97">EEPROM</text>
@@ -11459,12 +11460,12 @@ transient-voltage suppressor</description>
 <instance part="Q1" gate="G$1" x="99.06" y="45.72" rot="R90">
 <attribute name="PARTNO" value="HC49US-5.000MABJ-UB" x="99.06" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="170.18" y="121.92"/>
-<instance part="R3" gate="G$1" x="220.98" y="114.3" rot="R90">
-<attribute name="PARTNO" value="ERJ-3GEYJ331V" x="220.98" y="114.3" size="1.778" layer="96" display="off"/>
+<instance part="SUPPLY3" gate="G$1" x="175.26" y="111.76"/>
+<instance part="R3" gate="G$1" x="226.06" y="104.14" rot="R90">
+<attribute name="PARTNO" value="ERJ-3GEYJ331V" x="226.06" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED1" gate="G$1" x="220.98" y="104.14">
-<attribute name="PARTNO" value="LG N971-KN-1" x="220.98" y="104.14" size="1.778" layer="96" display="off"/>
+<instance part="LED1" gate="G$1" x="226.06" y="93.98">
+<attribute name="PARTNO" value="LG N971-KN-1" x="226.06" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY15" gate="GND" x="73.66" y="119.38" rot="MR0"/>
 <instance part="JP4" gate="A" x="83.82" y="154.94" rot="MR180">
@@ -11476,13 +11477,13 @@ transient-voltage suppressor</description>
 <attribute name="SIZE" x="182.88" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="TOL" x="182.88" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C1" gate="G$1" x="132.08" y="109.22">
-<attribute name="SIZE" x="132.08" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TC" x="132.08" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TOL" x="132.08" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="VOLT" x="132.08" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TYPE" x="132.08" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" value="T491A106M006AT" x="132.08" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="C1" gate="G$1" x="137.16" y="99.06">
+<attribute name="SIZE" x="137.16" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="137.16" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="137.16" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="137.16" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="137.16" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="T491A106M006AT" x="137.16" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW1" gate="G$1" x="35.56" y="45.72" rot="MR0">
 <attribute name="PARTNO" value="MJTP1243" x="35.56" y="45.72" size="1.778" layer="96" display="off"/>
@@ -11495,43 +11496,43 @@ transient-voltage suppressor</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="2.54"/>
 <instance part="SUPPLY5" gate="G$1" x="104.14" y="121.92"/>
-<instance part="VIN" gate="1" x="132.08" y="127"/>
-<instance part="U3" gate="G$1" x="147.32" y="119.38">
-<attribute name="PARTNO" value="SPX1117M3-L-3-3" x="147.32" y="119.38" size="1.778" layer="96" display="off"/>
+<instance part="VIN" gate="1" x="137.16" y="116.84"/>
+<instance part="U3" gate="G$1" x="152.4" y="109.22">
+<attribute name="PARTNO" value="SPX1117M3-L-3-3" x="152.4" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C2" gate="G$1" x="170.18" y="109.22">
-<attribute name="SIZE" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TC" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TOL" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="VOLT" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TYPE" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" value="T491A106M006AT" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="C2" gate="G$1" x="175.26" y="99.06">
+<attribute name="SIZE" x="175.26" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="175.26" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="175.26" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="175.26" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="175.26" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="T491A106M006AT" x="175.26" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY4" gate="GND" x="147.32" y="88.9" rot="MR0"/>
+<instance part="SUPPLY4" gate="GND" x="152.4" y="78.74" rot="MR0"/>
 <instance part="VIN2" gate="1" x="106.68" y="180.34"/>
-<instance part="C3" gate="G$1" x="180.34" y="109.22">
-<attribute name="SIZE" x="180.34" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TC" x="180.34" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TOL" x="180.34" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="VOLT" x="180.34" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TYPE" x="180.34" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" value="0603YC104KAT2A" x="180.34" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="C3" gate="G$1" x="185.42" y="99.06">
+<attribute name="SIZE" x="185.42" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="185.42" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="185.42" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="0603YC104KAT2A" x="185.42" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="190.5" y="109.22">
-<attribute name="SIZE" x="190.5" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TC" x="190.5" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TOL" x="190.5" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="VOLT" x="190.5" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TYPE" x="190.5" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" value="0603YC104KAT2A" x="190.5" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="C4" gate="G$1" x="195.58" y="99.06">
+<attribute name="SIZE" x="195.58" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="195.58" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="195.58" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="195.58" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="195.58" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="0603YC104KAT2A" x="195.58" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="200.66" y="109.22">
-<attribute name="SIZE" x="200.66" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TC" x="200.66" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TOL" x="200.66" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="VOLT" x="200.66" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="TYPE" x="200.66" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" value="0603YC104KAT2A" x="200.66" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="C5" gate="G$1" x="205.74" y="99.06">
+<attribute name="SIZE" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="0603YC104KAT2A" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP3" gate="A" x="83.82" y="132.08" rot="MR180"/>
 <instance part="R4" gate="G$1" x="33.02" y="157.48" rot="R180">
@@ -11559,13 +11560,13 @@ transient-voltage suppressor</description>
 <attribute name="TOL" x="43.18" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="40.64" y="109.22"/>
-<instance part="C6" gate="G$1" x="210.82" y="109.22">
-<attribute name="SIZE" x="210.82" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="TC" x="210.82" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="TOL" x="210.82" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="VOLT" x="210.82" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="TYPE" x="210.82" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" value="0603YC104KAT2A" x="210.82" y="111.76" size="1.778" layer="96" display="off"/>
+<instance part="C6" gate="G$1" x="215.9" y="99.06">
+<attribute name="SIZE" x="215.9" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="215.9" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="215.9" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="215.9" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="215.9" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="0603YC104KAT2A" x="215.9" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="1" x="127" y="167.64" rot="R180">
 <attribute name="PARTNO" x="127" y="167.64" size="1.778" layer="96" display="off"/>
@@ -11591,6 +11592,7 @@ transient-voltage suppressor</description>
 <instance part="SJ2" gate="G$1" x="137.16" y="48.26" rot="R180"/>
 <instance part="SUPPLY12" gate="G$1" x="137.16" y="60.96" rot="MR0"/>
 <instance part="SUPPLY13" gate="GND" x="137.16" y="35.56" rot="MR0"/>
+<instance part="SJ3" gate="1" x="152.4" y="119.38" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -11718,26 +11720,26 @@ transient-voltage suppressor</description>
 <wire x1="27.94" y1="25.4" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="93.98" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="93.98" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="93.98" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="93.98" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="93.98" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="93.98" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="93.98" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="91.44" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="104.14" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="104.14" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="93.98" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
-<junction x="170.18" y="93.98"/>
-<junction x="147.32" y="93.98"/>
-<junction x="180.34" y="93.98"/>
-<junction x="190.5" y="93.98"/>
-<junction x="200.66" y="93.98"/>
+<wire x1="175.26" y1="83.82" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="83.82" x2="195.58" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="83.82" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="83.82" x2="215.9" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="83.82" x2="226.06" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="83.82" x2="226.06" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="83.82" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="83.82" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="83.82" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="81.28" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="93.98" x2="195.58" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="93.98" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="83.82" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
+<junction x="175.26" y="83.82"/>
+<junction x="152.4" y="83.82"/>
+<junction x="185.42" y="83.82"/>
+<junction x="195.58" y="83.82"/>
+<junction x="205.74" y="83.82"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="U3" gate="G$1" pin="ADJ"/>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -11747,8 +11749,8 @@ transient-voltage suppressor</description>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="104.14" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
-<junction x="210.82" y="93.98"/>
+<wire x1="215.9" y1="93.98" x2="215.9" y2="83.82" width="0.1524" layer="91"/>
+<junction x="215.9" y="83.82"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -11816,20 +11818,21 @@ transient-voltage suppressor</description>
 <pinref part="U1" gate="P" pin="VDD@1"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="111.76" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="119.38" x2="210.82" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="119.38" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="119.38" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="111.76" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="111.76" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="111.76" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
-<junction x="170.18" y="119.38"/>
-<junction x="190.5" y="119.38"/>
-<junction x="180.34" y="119.38"/>
-<junction x="200.66" y="119.38"/>
+<wire x1="175.26" y1="101.6" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="109.22" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="109.22" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="109.22" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="109.22" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="101.6" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="101.6" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="101.6" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
+<junction x="175.26" y="109.22"/>
+<junction x="195.58" y="109.22"/>
+<junction x="185.42" y="109.22"/>
+<junction x="205.74" y="109.22"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VDD"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -11838,8 +11841,15 @@ transient-voltage suppressor</description>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="111.76" x2="210.82" y2="119.38" width="0.1524" layer="91"/>
-<junction x="210.82" y="119.38"/>
+<wire x1="215.9" y1="101.6" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
+<junction x="215.9" y="109.22"/>
+<pinref part="SJ3" gate="1" pin="1"/>
+<wire x1="157.48" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="119.38" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="OUT@1"/>
+<wire x1="162.56" y1="106.68" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
+<junction x="162.56" y="109.22"/>
 </segment>
 <segment>
 <wire x1="114.3" y1="104.14" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
@@ -11886,7 +11896,7 @@ transient-voltage suppressor</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="220.98" y1="106.68" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="96.52" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
@@ -12089,13 +12099,18 @@ transient-voltage suppressor</description>
 </net>
 <net name="V+" class="0">
 <segment>
-<wire x1="139.7" y1="119.38" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="111.76" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="119.38" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
-<junction x="132.08" y="119.38"/>
+<wire x1="144.78" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="101.6" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="109.22" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
+<junction x="137.16" y="109.22"/>
 <pinref part="VIN" gate="1" pin="V+"/>
 <pinref part="U3" gate="G$1" pin="IN"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="109.22" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="1" pin="2"/>
+<wire x1="142.24" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
+<junction x="142.24" y="109.22"/>
 </segment>
 <segment>
 <wire x1="124.46" y1="167.64" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
@@ -12111,13 +12126,6 @@ transient-voltage suppressor</description>
 <wire x1="121.92" y1="157.48" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="157.48" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
 <junction x="116.84" y="147.32"/>
-</segment>
-</net>
-<net name="HEATSINK" class="0">
-<segment>
-<wire x1="154.94" y1="116.84" x2="160.02" y2="116.84" width="0.1524" layer="91"/>
-<label x="157.48" y="116.84" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="OUT@1"/>
 </segment>
 </net>
 <net name="VIN" class="0">
