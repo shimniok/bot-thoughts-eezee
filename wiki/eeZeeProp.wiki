@@ -34,11 +34,7 @@ The board has a reset button and a power LED, and nothing else to get in the way
 
 = Programming =
 
-You can either use an FTDI or Prop Plug to program your eeZee Prop.
-
-  * Prop Plug: provide power through the VIN pin
-  * FTDI 3.3V -> power externally through VIN
-  * FTDI 5V -> powers the prop plug
+You can either use a 5V FTDI, 3.3V FTDI or Prop Plug to program your eeZee Prop.
 
 == Other Serial Programmers ==
 
@@ -50,24 +46,41 @@ Other serial adapters can be made to work, you just need a programmer with DTR, 
   * DTR -> this resets the prop
   * GND -> ground
 
-= BOE =
-
-Be sure to solder the BOE solder jumper on the bottom of the board to select the Brown Out Enable mode you prefer.
-
 = Power = 
 
 Input Voltage: 4.8V-6.0V @ 800mA; 4.7V-6.0V @ 100mA, room temperature. 
 
-Note: lower input voltages are typically possible but not guaranteed in all cases. You may also be able to get away with higher input voltage. The limiting factor is the 10V rating on the input decoupling capacitor.
+Lower input voltages are typically possible but not guaranteed in all cases. You may also be able to get away with higher input voltage. The limiting factor is the 10V rating on the input decoupling capacitor.
 
-The eeZee Prop can be powered in several ways
-  * 3.3V Pin: Connect external 3.3V source (don't connect power to Vin or FTDI)
-  * VIN: Connect power, can also have voltage in on FTDI Vcc pin, 3.3V is output
-  * FTDI 5V pin: Connect power, can also have voltage on VIN, 3.3V is output
+A Schottky diode protects the VIN and FTDI 5V pins so that current cannot flow from one supply into another.
 
-You can power other circuits from the VIN (VUSB) pin. Solder the "Bypass" jumper on the bottom of the board to connect VIN directly to the FTDI 5V pin, making VIN a VUSB output pin.
+== 5V FTDI ==
+
+  * The 5V FTDI powers the board
+  * 3.3V Pin is output, supplying 3.3V to other circuits
+  * You can either
+    * Connect a 5V supply to the VIN Pin to power the board when the FTDI is disconnected. Unsolder the BYPASS jumper.
+    * Make the VIN pin a 5V output pin, powering other circuits from the 5V FTDI. To do so, solder the BYPASS jumper.
 
 Note: with Bypass soldered, never power the board on VIN with FTDI 5V pin connected.
+
+== 3.3V FTDI ==
+
+  * Power the board by applying 5V to VIN Pin. The 3.3V Pin is output, supplying 3.3V to other circuits.
+
+== External 3.3V ==
+
+  * Power the board by applying a 3.3V supply to the 3.3V Pin. DO NOT connect an FTDI when power is applied to the 3.3V pin.
+
+== External 5V ==
+
+  * Connect a 5V supply to the VIN Pin to power the board when the FTDI is disconnected. Unsolder the BYPASS jumper.
+  * 3.3V Pin is output, supplying 3.3V to other circuits
+  * You can connect a 3.3V FTDI or 5V FTDI at any time
+
+= BOE =
+
+Be sure to solder the BOE solder jumper on the bottom of the board to select the Brown Out Enable mode you prefer.
 
 = Source =
 
