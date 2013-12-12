@@ -66,11 +66,13 @@ Note: with Bypass soldered, never power the board on VIN with FTDI 5V pin connec
 
 == 3.3V FTDI ==
 
-  * Power the board by applying 5V to VIN Pin. The 3.3V Pin is output, supplying 3.3V to other circuits.
+  * You can either
+    * Power the board by applying 5V to VIN Pin. The 3.3V Pin is output, supplying 3.3V to other circuits.
+    * Power the board by applying 3.3V to the 3V3 Pin. DO NOT connect anything to VIN.
 
 == External 3.3V ==
 
-  * Power the board by applying a 3.3V supply to the 3.3V Pin. DO NOT connect an FTDI when power is applied to the 3.3V pin.
+  * Power the board by applying a 3.3V supply to the 3.3V Pin. DO NOT connect a 5V FTDI when power is applied to the 3.3V pin.
 
 == External 5V ==
 
