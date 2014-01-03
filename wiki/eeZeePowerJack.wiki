@@ -1,0 +1,27 @@
+#summary A simple, small, 5V USB breadboard power adapter.
+
+= Introduction =
+
+A simple, small, low-cost, breadboard power adapter.
+
+Sick of hunting around for something to power your projects? I was. No longer.
+
+  * 6V DC input
+  * Common 2.1mm power jack, center positive, like Arduino
+  * 5V, 1.5A output meets nearly all breadboard needs
+  * Small; only takes up a tiny corner of the breadboard
+  * Two sets of output pins for stable installation
+  * 100uF and 0.1uF filtering capacitors on the output
+  * 10uF and 0.1uF filtering caps on the regulator input
+  * All SMT components populated
+
+All you have to do is add pin headers.
+
+Designed and assembled in the United States of America.
+
+= Installation =
+
+  # Break your breakway header into two 2-pin headers
+  # Solder in the two 2-pin headers for Vcc/GND output, long end down
+  # Use a 6V wall-wart power supply with 2.1mm jack with center-positive configuration
+  
