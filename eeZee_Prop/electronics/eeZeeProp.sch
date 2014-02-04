@@ -11078,10 +11078,82 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </deviceset>
 </devicesets>
 </library>
-<library name="mes_transistors">
+<library name="bt_diode">
+<description>Diodes, rectifiers, regulators</description>
+<packages>
+<package name="SOD123FL">
+<description>SOD-123FL CASE 498-01 ISSUE A&lt;br&gt;</description>
+<wire x1="-1.35" y1="0.8" x2="1.35" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="1.35" y1="0.8" x2="1.35" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="1.35" y1="-0.8" x2="-1.35" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="-1.35" y1="-0.8" x2="-1.35" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="-0.85" y1="0.8" x2="0.85" y2="0.8" width="0.2032" layer="21"/>
+<wire x1="0.85" y1="-0.8" x2="-0.85" y2="-0.8" width="0.2032" layer="21"/>
+<smd name="A" x="2.025" y="0" dx="2" dy="1.8" layer="1"/>
+<smd name="C" x="-2.025" y="0" dx="2" dy="1.8" layer="1" rot="R180"/>
+<text x="-2" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8" y1="-0.55" x2="-1.425" y2="0.55" layer="51"/>
+<rectangle x1="1.425" y1="-0.55" x2="1.8" y2="0.55" layer="51" rot="R180"/>
+<rectangle x1="-0.95" y1="-0.775" x2="-0.35" y2="0.8" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SCHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SCHOTTKY-DIODE" prefix="D">
+<description>&lt;B&gt;Schottky Diode&lt;/B&gt;</description>
+<gates>
+<gate name="1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MBR130LSFT1" package="SOD123FL">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="bt_transistor">
 <description>&lt;b&gt;Common Transistors&lt;/b&gt;
 &lt;p&gt;Created by Michael Shimniok &lt;a href="http://www.bot-thoughts.com/"&gt;www.bot-thoughts.com&lt;/a&gt;&lt;/b&gt;</description>
 <packages>
+<package name="SOT-23">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="-1.4224" y1="0.181" x2="1.4732" y2="0.181" width="0.1524" layer="21"/>
+<wire x1="1.4732" y1="0.181" x2="1.4732" y2="-0.181" width="0.1524" layer="21"/>
+<wire x1="1.4732" y1="-0.181" x2="-1.4224" y2="-0.181" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="-0.181" x2="-1.4224" y2="0.181" width="0.1524" layer="21"/>
+<smd name="3" x="0.9906" y="1.016" dx="1.016" dy="1.27" layer="1"/>
+<smd name="2" x="-0.9398" y="1.016" dx="1.016" dy="1.27" layer="1"/>
+<smd name="1" x="0.0254" y="-1.016" dx="1.016" dy="1.27" layer="1"/>
+<text x="-1.397" y="2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.397" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="0.7874" y1="0.26" x2="1.1684" y2="0.9398" layer="51"/>
+<rectangle x1="-1.143" y1="0.26" x2="-0.762" y2="0.9398" layer="51"/>
+<rectangle x1="-0.1778" y1="-0.9398" x2="0.2032" y2="-0.258" layer="51"/>
+</package>
 <package name="TO92">
 <description>&lt;b&gt;TO 92&lt;/b&gt;</description>
 <wire x1="-2.0946" y1="-1.651" x2="-2.6549" y2="-0.254" width="0.127" layer="21" curve="-32.78104"/>
@@ -11102,21 +11174,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <text x="-0.635" y="0.635" size="1.27" layer="51" ratio="10">2</text>
 <text x="-2.159" y="0" size="1.27" layer="51" ratio="10">3</text>
 <text x="1.143" y="0" size="1.27" layer="51" ratio="10">1</text>
-</package>
-<package name="SOT-23">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="-1.4224" y1="0.381" x2="1.4732" y2="0.381" width="0.1524" layer="21"/>
-<wire x1="1.4732" y1="0.381" x2="1.4732" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="1.4732" y1="-0.381" x2="-1.4224" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="-0.381" x2="-1.4224" y2="0.381" width="0.1524" layer="21"/>
-<smd name="3" x="0.9906" y="1.016" dx="1.016" dy="1.27" layer="1"/>
-<smd name="2" x="-0.9398" y="1.016" dx="1.016" dy="1.27" layer="1"/>
-<smd name="1" x="0.0254" y="-1.016" dx="1.016" dy="1.27" layer="1"/>
-<text x="-1.397" y="2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-1.397" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<rectangle x1="0.7874" y1="0.4318" x2="1.1684" y2="0.9398" layer="51"/>
-<rectangle x1="-1.143" y1="0.4318" x2="-0.762" y2="0.9398" layer="51"/>
-<rectangle x1="-0.1778" y1="-0.9398" x2="0.2032" y2="-0.4318" layer="51"/>
 </package>
 <package name="TO92-CBE">
 <description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line  C B E from top&lt;p&gt;</description>
@@ -11197,63 +11254,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <connect gate="G1" pin="B" pad="B"/>
 <connect gate="G1" pin="C" pad="C"/>
 <connect gate="G1" pin="E" pad="E"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="bt_diode">
-<description>Diodes, rectifiers, regulators</description>
-<packages>
-<package name="SOD123FL">
-<description>SOD-123FL CASE 498-01 ISSUE A&lt;br&gt;</description>
-<wire x1="-1.35" y1="0.8" x2="1.35" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="1.35" y1="0.8" x2="1.35" y2="-0.8" width="0.2032" layer="51"/>
-<wire x1="1.35" y1="-0.8" x2="-1.35" y2="-0.8" width="0.2032" layer="51"/>
-<wire x1="-1.35" y1="-0.8" x2="-1.35" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="-0.85" y1="0.8" x2="0.85" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="0.85" y1="-0.8" x2="-0.85" y2="-0.8" width="0.2032" layer="21"/>
-<smd name="A" x="2.025" y="0" dx="2" dy="1.8" layer="1"/>
-<smd name="C" x="-2.025" y="0" dx="2" dy="1.8" layer="1" rot="R180"/>
-<text x="-2" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.8" y1="-0.55" x2="-1.425" y2="0.55" layer="51"/>
-<rectangle x1="1.425" y1="-0.55" x2="1.8" y2="0.55" layer="51" rot="R180"/>
-<rectangle x1="-0.95" y1="-0.775" x2="-0.35" y2="0.8" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SCHOTTKY">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SCHOTTKY-DIODE" prefix="D">
-<description>&lt;B&gt;Schottky Diode&lt;/B&gt;</description>
-<gates>
-<gate name="1" symbol="SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-MBR130LSFT1" package="SOD123FL">
-<connects>
-<connect gate="1" pin="A" pad="A"/>
-<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11406,7 +11406,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <attribute name="PARTNO" value="MBR130LSFT1G"/>
 </part>
 <part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="NO" value="BYPASS"/>
-<part name="Q2" library="mes_transistors" deviceset="2N3904" device="SMD">
+<part name="Q2" library="bt_transistor" deviceset="2N3904" device="SMD">
 <attribute name="PARTNO" value="MMBT3904LT3G"/>
 </part>
 <part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="10k">
@@ -12141,7 +12141,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <junction x="139.7" y="147.32"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="RXI" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="5"/>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -12153,7 +12153,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <junction x="43.18" y="157.48"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="TXO" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="4"/>
 <pinref part="R5" gate="G$1" pin="1"/>
