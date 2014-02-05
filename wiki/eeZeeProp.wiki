@@ -18,7 +18,7 @@ The board has a reset button and a power LED, and nothing else to get in the way
 
 = Features =
 
-  * Works with your existing 5V FTDI and Prop Plug programmers
+  * Works with your existing FTDI and Prop Plug programmers
   * A Propeller in breadboard-friendly 36-DIP form factor, 0.8" wide
   * Low cost without unneeded add-ons, perfect for prototyping
   * Onboard 3.3V LDO regulator, flexible power options
@@ -48,11 +48,9 @@ Other serial adapters can be made to work, you just need a programmer with DTR, 
 
 = Power = 
 
-Input Voltage: 4.8V-6.0V @ 800mA; 4.7V-6.0V @ 100mA, room temperature. 
+VIN Pin input voltage: 4.8V-6.0V @ 800mA; 4.7V-6.0V @ 100mA, room temperature. Lower input voltages are typically possible but not guaranteed in all cases. You may also be able to get away with a higher input voltage but the limiting factor is the 10V rating on the 10uF input decoupling capacitor.
 
-Lower input voltages are typically possible but not guaranteed in all cases. You may also be able to get away with higher input voltage. The limiting factor is the 10V rating on the input decoupling capacitor.
-
-A Schottky diode protects the VIN and FTDI 5V pins so that current cannot flow from one supply into another.
+Schottky diodes prevent current flowing from one supply (FTDI or VIN) back into the other.
 
 == 5V FTDI ==
 
@@ -67,8 +65,9 @@ Note: with Bypass soldered, never power the board on VIN with FTDI 5V pin connec
 == 3.3V FTDI ==
 
   * You can either
-    * Power the board by applying 5V to VIN Pin. The 3.3V Pin is output, supplying 3.3V to other circuits.
-    * Power the board by applying 3.3V to the 3V3 Pin. DO NOT connect anything to VIN.
+    * Power the board by applying 5V to VIN Pin. The 3.3V Pin is output, supplying 3.3V to other circuits. Rev 0.5 only: disconnect the 3V3FTDI solder jumper.
+    * Power the board by applying 3.3V to the 3V3 Pin. DO NOT connect anything to VIN. Rev 0.5 only: disconnect the 3V3FTDI solder jumper.
+    * Rev 0.5 only: Power the board directly from the 3.3V FTDI. Connect the 3V3FTDI solder jumper.
 
 == External 3.3V ==
 
