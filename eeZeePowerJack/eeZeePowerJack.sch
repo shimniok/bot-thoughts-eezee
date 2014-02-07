@@ -15066,25 +15066,25 @@ ground current values are important attributes. &lt;/p&gt;
 <part name="GND2" library="mes" deviceset="GND" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206"/>
 <part name="C1" library="rcl" deviceset="C-US" device="C0603" value="0.1uF">
-<attribute name="VOLTAGE" value="10V"/>
+<attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="C2" library="rcl" deviceset="CPOL-US" device="SMCB" value="100uF"/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0603" value="10uF">
-<attribute name="VOLTAGE" value="10V"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C1206" value="10uF">
+<attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="FRAME1" library="mes" deviceset="LETTER_L" device=""/>
 <part name="C4" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="JP3" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-S"/>
 <part name="JP4" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-S"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH" value="POWER_JACK"/>
 <part name="U2" library="bt_regulator" deviceset="LD29150" device="DT"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="160.528" y="23.622" size="3.81" layer="94">eeZee Power Jacked!</text>
-<text x="233.934" y="24.13" size="3.81" layer="94">0.1</text>
+<text x="233.934" y="24.13" size="3.81" layer="94">0.2</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="172.72" y="63.5"/>
@@ -15182,9 +15182,7 @@ ground current values are important attributes. &lt;/p&gt;
 </net>
 <net name="VOUT" class="0">
 <segment>
-<wire x1="129.54" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="116.84" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="116.84" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
 <junction x="160.02" y="116.84"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="139.7" y1="116.84" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
@@ -15202,8 +15200,6 @@ ground current values are important attributes. &lt;/p&gt;
 <label x="129.54" y="116.84" size="1.778" layer="95"/>
 <label x="165.1" y="116.84" size="1.778" layer="95"/>
 <junction x="149.86" y="116.84"/>
-<wire x1="134.62" y1="114.3" x2="134.62" y2="116.84" width="0.1524" layer="91"/>
-<junction x="134.62" y="116.84"/>
 <junction x="160.02" y="104.14"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="139.7" y1="106.68" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
