@@ -1,6 +1,6 @@
 #summary Easy programming and prototyping with 14-pin SOIC ATtiny841.
 
-<img src="https://d3ffynyi1lxfcp.cloudfront.net/thumbs/products/522/2013-10-22-17-56-53/IMG_8198.JPG.620x349_q85_crop-smart.jpg" align="right" width="400" />
+<img src="https://lh5.googleusercontent.com/-kIaax9B3ZnQ/UyjAYEJ66hI/AAAAAAAAJ80/f9sgkqmFhB0/w916-h610-no/IMG_9950.JPG" align="right" width="400" />
 
 = Introduction =
 
