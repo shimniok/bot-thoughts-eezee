@@ -101,20 +101,6 @@ int main()
 
 Please use your ATtiny breakout boards with regulated supplies of 5V or less, with minimal ripple, at temperatures around 25C (77F). Do not use the boards in higher temperature conditions.
 
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
 = Source =
   * [https://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZeeTiny841 source] 
   * [https://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZeeTiny841%2Felectronics electronics] 
