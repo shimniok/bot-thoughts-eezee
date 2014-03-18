@@ -26,6 +26,8 @@ Now you can use the new, powerful ATtiny841 on your breadboard.
 
 ++ You can order it without these if you want
 
+<img src="https://lh3.googleusercontent.com/-79y4iADArvU/UyjAsn_qN7I/AAAAAAAAJ88/ZwvZMlQdhfo/w845-h161-no/Tiny841_pinout.png" width="500"/>
+
 = Assembly =
 
   * Solder on each 10-pin header
