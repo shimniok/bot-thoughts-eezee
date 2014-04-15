@@ -26,13 +26,12 @@ void setup()
 {
  // Open serial communications and wait for port to open:
   Serial.begin(9600);
-  
-   while (!Serial) {
-    ; // wait for serial port to connect. Needed for Leonardo only
-  }
+    
+}
 
+void loop()
+{
   Serial.print("Initializing SD card......");
-  // On the Ethernet Shield, CS is pin 4. It's set as an output by default.
   // Note that even if it's not used as the CS pin, the hardware SS pin 
   // (10 on most Arduino boards, 53 on the Mega) must be left as an output 
   // or the SD library functions will not work. 
@@ -40,97 +39,94 @@ void setup()
    
   if (!SD.begin(10)) {
     Serial.println("FAIL");
-    return;
-  }
-  Serial.println("PASS");
-
-  boolean result = true;
-  char *teststring = "abcdefghijklmnop";
-
-  // open the file. note that only one file can be open at a time,
-  // so you have to close this one before opening another.
-  myFile = SD.open("test.txt", FILE_WRITE);
-  
-  // if the file opened okay, write to it:
-  if (myFile) {
-    Serial.print("Writing to test.txt.......");
-    myFile.print(teststring);
-	// close the file:
-    myFile.close();
-    Serial.println("PASS");
   } else {
-    // if the file didn't open, print an error:
-    Serial.println("FAIL - error opening test.txt");
-    result = false;
-  }
-
-  // re-open the file for reading:
-  char s[128];
-  char *t = s;
-  char c;
-  Serial.print("Reading test.txt..........");
-  myFile = SD.open("test.txt");
-  if (myFile) {
     Serial.println("PASS");
-    Serial.print("Verifying test.txt........");
-    // read from the file until there's nothing else in it:
-    while (myFile.available()) {
-      *t++ = myFile.read();
-    }
-    *t = 0;
-    myFile.close();
-    // Are the contents a match?
-    if (!strcmp(s, teststring)) {
+  
+    boolean result = true;
+    char *teststring = "abcdefghijklmnop";
+  
+    // open the file. note that only one file can be open at a time,
+    // so you have to close this one before opening another.
+    myFile = SD.open("test.txt", FILE_WRITE);
+    
+    // if the file opened okay, write to it:
+    if (myFile) {
+      Serial.print("Writing to test.txt.......");
+      myFile.print(teststring);
+  	// close the file:
+      myFile.close();
       Serial.println("PASS");
     } else {
-      Serial.println("FAIL");
-      Serial.print("/");
-      Serial.print(s);
-      Serial.print("/");
-      //Serial.print(teststring);
-      Serial.print("/");
-      Serial.println();
+      // if the file didn't open, print an error:
+      Serial.println("FAIL - error opening test.txt");
       result = false;
     }
-    
-  } else {
-    // if the file didn't open, print an error:
-    Serial.println("FAIL");
-    result = false;    
-  }
-  Serial.print("Does test.txt exist? .....");
-  if (SD.exists("test.txt")) {
-    Serial.println("PASS");
-  }
-  else {
-    Serial.println("FAIL");
-    result = false;
-  }  
   
-  // delete the file:
-  Serial.print("Removing test.txt.........");
-  SD.remove("test.txt");
-  if (SD.exists("test.txt")){ 
-    Serial.println("FAIL");
-    result = false;
+    // re-open the file for reading:
+    char s[128];
+    char *t = s;
+    char c;
+    Serial.print("Reading test.txt..........");
+    myFile = SD.open("test.txt");
+    if (myFile) {
+      Serial.println("PASS");
+      Serial.print("Verifying test.txt........");
+      // read from the file until there's nothing else in it:
+      while (myFile.available()) {
+        *t++ = myFile.read();
+      }
+      *t = 0;
+      myFile.close();
+      // Are the contents a match?
+      if (!strcmp(s, teststring)) {
+        Serial.println("PASS");
+      } else {
+        Serial.println("FAIL");
+        Serial.print("/");
+        Serial.print(s);
+        Serial.print("/");
+        //Serial.print(teststring);
+        Serial.print("/");
+        Serial.println();
+        result = false;
+      }
+      
+    } else {
+      // if the file didn't open, print an error:
+      Serial.println("FAIL");
+      result = false;    
+    }
+    Serial.print("Does test.txt exist? .....");
+    if (SD.exists("test.txt")) {
+      Serial.println("PASS");
+    }
+    else {
+      Serial.println("FAIL");
+      result = false;
+    }  
+    
+    // delete the file:
+    Serial.print("Removing test.txt.........");
+    SD.remove("test.txt");
+    if (SD.exists("test.txt")){ 
+      Serial.println("FAIL");
+      result = false;
+    }
+    else {
+      Serial.println("PASS");  
+    }
+  
+    Serial.println();
+    if (result) {
+      Serial.println("+++ ALL PASS +++");
+    } else {
+      Serial.println("!!! FAIL !!! ");
+    }  
+    Serial.println();
+    Serial.println();
   }
-  else {
-    Serial.println("PASS");  
-  }
-
-  Serial.println();
-  if (result) {
-    Serial.println("+++ ALL PASS +++");
-  } else {
-    Serial.println("!!! FAIL !!! ");
-  }  
-  Serial.println();
-  Serial.println();
+  delay(5000);
 }
 
-void loop()
-{
-	// nothing happens after setup
-}
 
 
