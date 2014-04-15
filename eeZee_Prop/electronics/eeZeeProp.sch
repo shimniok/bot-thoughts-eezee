@@ -10296,7 +10296,7 @@ Source: 008-0260-0_E.pdf</description>
 <library name="parallax_propeller">
 <packages>
 <package name="P8X32A-Q44">
-<wire x1="-4.9213" y1="4.9213" x2="-4.9212" y2="4.9213" width="0.4064" layer="21"/>
+<wire x1="-3.6513" y1="3.6513" x2="-3.6512" y2="3.6513" width="0.8128" layer="21"/>
 <smd name="1" x="-5.7125" y="4.0125" dx="0.4" dy="1.9" layer="1" rot="R90"/>
 <smd name="2" x="-5.7125" y="3.2125" dx="0.4" dy="1.9" layer="1" rot="R90"/>
 <smd name="3" x="-5.7125" y="2.4125" dx="0.4" dy="1.9" layer="1" rot="R90"/>
@@ -11199,6 +11199,13 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <text x="-3.429" y="1.016" size="1.27" layer="21">E</text>
 <text x="-0.381" y="1.016" size="1.27" layer="21">B</text>
 </package>
+<package name="SC75">
+<smd name="1" x="0.7239" y="0.4953" dx="0.3556" dy="0.508" layer="1" rot="R90"/>
+<smd name="2" x="-0.7239" y="0" dx="0.3556" dy="0.508" layer="1" rot="R90"/>
+<smd name="3" x="0.7239" y="-0.4953" dx="0.3556" dy="0.508" layer="1" rot="R90"/>
+<text x="1.524" y="0.508" size="0.8128" layer="25">&gt;NAME</text>
+<text x="1.524" y="-0.762" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="NPN">
@@ -11229,7 +11236,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <gate name="G1" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TO92">
+<device name="TO92" package="TO92">
 <connects>
 <connect gate="G1" pin="B" pad="2"/>
 <connect gate="G1" pin="C" pad="1"/>
@@ -11239,7 +11246,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <technology name=""/>
 </technologies>
 </device>
-<device name="SMD" package="SOT-23">
+<device name="SOT23" package="SOT-23">
 <connects>
 <connect gate="G1" pin="B" pad="3"/>
 <connect gate="G1" pin="C" pad="1"/>
@@ -11254,6 +11261,16 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <connect gate="G1" pin="B" pad="B"/>
 <connect gate="G1" pin="C" pad="C"/>
 <connect gate="G1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SC75" package="SC75">
+<connects>
+<connect gate="G1" pin="B" pad="1"/>
+<connect gate="G1" pin="C" pad="3"/>
+<connect gate="G1" pin="E" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11406,7 +11423,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <attribute name="PARTNO" value="MBR130LSFT1G"/>
 </part>
 <part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="NO" value="BYPASS"/>
-<part name="Q2" library="bt_transistor" deviceset="2N3904" device="SMD">
+<part name="Q2" library="bt_transistor" deviceset="2N3904" device="SOT23">
 <attribute name="PARTNO" value="MMBT3904LT3G"/>
 </part>
 <part name="R8" library="rcl" deviceset="R-US_" device="R0603" value="10k">
@@ -11430,7 +11447,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <plain>
 <text x="43.18" y="48.26" size="1.778" layer="95">!BOE</text>
 <text x="161.29" y="24.13" size="3.81" layer="94">eeZeeProp</text>
-<text x="232.41" y="24.13" size="3.81" layer="94">0.5</text>
+<text x="232.41" y="24.13" size="3.81" layer="94">0.5a</text>
 <text x="86.36" y="157.48" size="1.778" layer="97">RXI</text>
 <text x="86.36" y="154.94" size="1.778" layer="97">TXO</text>
 <text x="86.36" y="160.02" size="1.778" layer="97">DTR</text>
