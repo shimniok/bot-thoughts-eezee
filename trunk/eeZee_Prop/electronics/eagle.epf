@@ -90,7 +90,7 @@ UsedLibrary="/home/mes/eagle/lbr/wuerth-elektronik.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="447 32 1504 766"
+Loc="521 44 1578 778"
 State=2
 Number=0
 
