@@ -16,7 +16,7 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -1537,8 +1537,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R1" library="rcl" package="R0603" value="10K" x="10.668" y="5.334" smashed="yes">
 <attribute name="VALUE" x="9.144" y="4.572" size="0.6096" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="JP1" library="pinhead-2" package="1X02-S" value="" x="14.478" y="3.81" smashed="yes" rot="R270">
-<attribute name="VALUE" x="11.303" y="6.35" size="1.27" layer="27" rot="R270"/>
+<element name="JP1" library="pinhead-2" package="1X02-S" value="" x="14.478" y="3.81" smashed="yes" rot="R90">
+<attribute name="VALUE" x="17.653" y="1.27" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP2" library="pinhead-2" package="1X02-S" value="" x="1.778" y="3.81" smashed="yes" rot="R90">
 <attribute name="VALUE" x="4.953" y="1.27" size="1.27" layer="27" rot="R90"/>
@@ -1558,11 +1558,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="S1" pad="P$2"/>
 <wire x1="9.818" y1="4.35" x2="11.628" y2="2.54" width="0.4064" layer="1"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="14.224" y1="5.334" x2="14.478" y2="5.08" width="0.4064" layer="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="11.628" y1="2.54" x2="14.224" y2="5.334" width="0" layer="19" extent="1-1"/>
-<wire x1="9.818" y1="5.334" x2="9.818" y2="4.35" width="0" layer="19" extent="1-1"/>
-<wire x1="6.438" y1="5.334" x2="9.818" y2="5.334" width="0" layer="19" extent="1-1"/>
+<wire x1="14.478" y1="2.54" x2="11.628" y2="2.54" width="0.4064" layer="1"/>
+<wire x1="9.818" y1="4.35" x2="9.818" y2="5.334" width="0.4064" layer="1"/>
+<wire x1="9.818" y1="5.334" x2="6.438" y2="5.334" width="0.4064" layer="1"/>
 </signal>
 <signal name="DEBOUNCE">
 <contactref element="JP2" pad="2"/>
@@ -1573,7 +1572,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="PULLUP">
 <contactref element="JP1" pad="2"/>
 <contactref element="R1" pad="2"/>
-<wire x1="11.518" y1="5.334" x2="14.478" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="11.518" y1="5.334" x2="14.224" y2="5.334" width="0.4064" layer="1"/>
+<wire x1="14.224" y1="5.334" x2="14.478" y2="5.08" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>
