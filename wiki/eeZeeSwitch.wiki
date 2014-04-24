@@ -6,6 +6,7 @@ With Rev 0.2, you can hook it up to use the pull-up resistor, the debounce cap, 
 
 = Assembly =
 
+ * Install the switch on the side indicated by the silk screen
  * Install the pin headers on the board so the switch faces up
 
 = How to Use =
