@@ -1,14 +1,32 @@
 #summary Breadboard switch with pull-up and debounce
 
-The compact eeZee Switch contains a 10k pull-up resistor, 0.1uF debounce capacitor, and a switch, making it convenient and fast to properly add a switch to your breadboard project.
+The compact eeZee Switch contains a 10k pull-up resistor, 0.1uF debounce capacitor, and a switch.
+
+With Rev 0.2, you can hook it up to use the pull-up resistor, the debounce cap, both, or neither, making it convenient and fast to properly add a switch to your breadboard project.
 
 = Assembly =
 
  * Install the pin headers on the board so the switch faces up
- * Connect VCC to your microcontroller's power supply
- * Connect the pin next to VCC to your microcontroller
- * Connect the remaining two pins opposite VCC to ground
 
 = How to Use =
 
+== Rev 0.2 ==
+With R0.2, you can select to use the debounce cap, the pullup resistor, both, or neither.
+
+The bottom of the board shows the circuit diagram.
+
+=== Pull-Up Resistor ===
+To use the pull-up resistor, connect the resistor pin to VCC, otherwise leave it disconnected. Connect the pin next to it to your MCU.
+
+=== Debounce Capacitor ===
+To use the debounce, connect the debounce cap pin to ground, otherwise leave it disconnected. Connect the pin next to it to ground.
+
+=== Just the Switch ===
+To just use the switch, inline or otherwise, connect only the pins adjacent to the switch into your circuit.
+
+
+== Rev 0.1 ==
+ * Connect VCC to your microcontroller's power supply
+ * Connect the pin next to VCC to your microcontroller
+ * Connect the remaining two pins opposite VCC to ground
 The switch is active-low. You can set up an external interrupt on your microcontroller to fire whenever the pin changes state or changes to a low state, depending on your MCU. You can also poll the pin connected to the switch and wait until the logic level is low.
