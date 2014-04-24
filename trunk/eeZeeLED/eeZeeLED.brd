@@ -66,8 +66,10 @@
 <wire x1="11.176" y1="5.842" x2="10.414" y2="6.604" width="0" layer="20"/>
 <wire x1="10.414" y1="6.604" x2="0.762" y2="6.604" width="0" layer="20"/>
 <wire x1="0.762" y1="6.604" x2="0" y2="5.842" width="0" layer="20"/>
-<text x="3.302" y="5.334" size="1.016" layer="25" font="vector">eeZee</text>
-<text x="4.318" y="0.254" size="1.016" layer="25" font="vector">LED</text>
+<text x="7.874" y="2.794" size="1.016" layer="26" font="vector" rot="MR0">eeZee</text>
+<text x="7.874" y="1.524" size="1.016" layer="26" font="vector" rot="MR0">LED</text>
+<text x="9.144" y="5.588" size="0.8128" layer="26" font="vector" rot="MR0">is.gd/EZled</text>
+<text x="7.874" y="0.254" size="1.016" layer="26" font="vector" rot="MR0">R0.2</text>
 <wire x1="0.508" y1="1.397" x2="0.508" y2="2.667" width="0.2032" layer="121"/>
 <wire x1="0.508" y1="2.667" x2="1.143" y2="3.302" width="0.2032" layer="121"/>
 <wire x1="1.143" y1="3.302" x2="2.413" y2="3.302" width="0.2032" layer="121"/>
@@ -98,10 +100,13 @@
 <wire x1="10.033" y1="5.842" x2="10.668" y2="5.207" width="0.2032" layer="121"/>
 <wire x1="10.668" y1="5.207" x2="10.668" y2="3.937" width="0.2032" layer="121"/>
 <wire x1="10.668" y1="3.937" x2="10.033" y2="3.302" width="0.2032" layer="121"/>
-<rectangle x1="5.488" y1="3.302" x2="5.688" y2="3.502" layer="121"/>
-<text x="3.302" y="5.334" size="1.016" layer="121" font="vector" ratio="20">eeZee</text>
-<text x="4.318" y="0.254" size="1.016" layer="121" font="vector" ratio="20">LED</text>
-<text x="6.477" y="2.667" size="1.016" layer="122" font="vector" ratio="20" rot="MR90">R1</text>
+<rectangle x1="4.7379875" y1="3.6520125" x2="5.06300625" y2="4.07700625" layer="121"/>
+<rectangle x1="6.11299375" y1="3.6520125" x2="6.4380125" y2="4.07700625" layer="121"/>
+<rectangle x1="5.41299375" y1="3.302" x2="5.76300625" y2="3.6520125" layer="121"/>
+<text x="7.874" y="2.794" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">eeZee</text>
+<text x="7.874" y="1.524" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">LED</text>
+<text x="9.144" y="5.588" size="0.8128" layer="122" font="vector" ratio="25" rot="MR0">is.gd/EZled</text>
+<text x="7.874" y="0.254" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">R0.2</text>
 <text x="3.429" y="4.826" size="1.016" layer="121" font="vector" ratio="20" rot="R270">VCC</text>
 <text x="7.747" y="2.032" size="1.016" layer="121" font="vector" ratio="20" rot="R90">GND</text>
 </plain>
@@ -109,30 +114,28 @@
 <library name="bt_opto">
 <description>Opitcal components</description>
 <packages>
-<package name="CHIPLED_0805">
+<package name="CHIPLED_1206">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
-<wire x1="-0.35" y1="0.925" x2="0.35" y2="0.925" width="0.1016" layer="51" curve="162.394521"/>
-<wire x1="-0.35" y1="-0.925" x2="0.35" y2="-0.925" width="0.1016" layer="51" curve="-162.394521"/>
-<wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
-<wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
-<circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
-<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
+Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
+<wire x1="-0.4" y1="1.6" x2="0.4" y2="1.6" width="0.1016" layer="51" curve="172.619069"/>
+<wire x1="-0.8" y1="-0.95" x2="-0.8" y2="0.95" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="0.95" x2="0.8" y2="-0.95" width="0.1016" layer="51"/>
+<circle x="-0.55" y="1.425" radius="0.1" width="0.1016" layer="51"/>
+<smd name="C" x="0" y="1.75" dx="1.5" dy="1.5" layer="1"/>
+<smd name="A" x="0" y="-1.75" dx="1.5" dy="1.5" layer="1"/>
 <text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
-<rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
-<rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
-<rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
-<rectangle x1="0.3" y1="-1" x2="0.625" y2="-0.5" layer="51"/>
-<rectangle x1="-0.625" y1="-1" x2="-0.3" y2="-0.5" layer="51"/>
-<rectangle x1="0.175" y1="-0.75" x2="0.325" y2="-0.5" layer="51"/>
-<rectangle x1="-0.325" y1="-0.75" x2="-0.175" y2="-0.5" layer="51"/>
-<rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
-<rectangle x1="-0.1" y1="0" x2="0.1" y2="0.2" layer="21"/>
-<rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
-<rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="51"/>
+<rectangle x1="-0.85" y1="1.525" x2="-0.35" y2="1.65" layer="51"/>
+<rectangle x1="-0.85" y1="1.225" x2="-0.625" y2="1.55" layer="51"/>
+<rectangle x1="-0.45" y1="1.225" x2="-0.325" y2="1.45" layer="51"/>
+<rectangle x1="-0.65" y1="1.225" x2="-0.225" y2="1.35" layer="51"/>
+<rectangle x1="0.35" y1="1.3" x2="0.85" y2="1.65" layer="51"/>
+<rectangle x1="0.25" y1="1.225" x2="0.85" y2="1.35" layer="51"/>
+<rectangle x1="-0.85" y1="0.95" x2="0.85" y2="1.25" layer="51"/>
+<rectangle x1="-0.85" y1="-1.65" x2="0.85" y2="-0.95" layer="51"/>
+<rectangle x1="-0.85" y1="0.35" x2="-0.525" y2="0.775" layer="21"/>
+<rectangle x1="0.525" y1="0.35" x2="0.85" y2="0.775" layer="21"/>
+<rectangle x1="-0.175" y1="0" x2="0.175" y2="0.35" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1419,12 +1422,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="LED1" library="bt_opto" package="CHIPLED_0805" value="" x="5.588" y="3.302" smashed="yes">
+<element name="LED1" library="bt_opto" package="CHIPLED_1206" value="" x="5.588" y="3.302" smashed="yes">
 <attribute name="VALUE" x="8.128" y="2.032" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R1" library="rcl" package="R0603" value="330" x="5.588" y="3.302" smashed="yes" rot="MR90">
-<attribute name="NAME" x="6.477" y="2.667" size="1.016" layer="26" font="vector" rot="MR90"/>
-</element>
+<element name="R1" library="rcl" package="R0603" value="330" x="4.826" y="4.572" smashed="yes" rot="MR0"/>
 <element name="JP1" library="pinhead-2" package="1X02-S" value="VCC" x="1.778" y="3.302" smashed="yes" rot="R90">
 <attribute name="VALUE" x="3.429" y="4.826" size="1.016" layer="27" font="vector" rot="R270"/>
 </element>
@@ -1436,27 +1437,25 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="LED1" pad="A"/>
 <contactref element="R1" pad="1"/>
-<wire x1="5.588" y1="2.252" x2="5.534" y2="2.252" width="0.4064" layer="1"/>
-<wire x1="5.534" y1="2.252" x2="5.588" y2="2.452" width="0.4064" layer="16"/>
-<via x="5.534" y="2.252" extent="1-16" drill="0.3302"/>
+<wire x1="5.588" y1="1.552" x2="5.588" y2="2.54" width="0.4064" layer="1"/>
+<via x="5.588" y="2.54" extent="1-16" drill="0.3302"/>
+<wire x1="5.676" y1="4.572" x2="5.676" y2="2.628" width="0.4064" layer="16"/>
+<wire x1="5.676" y1="2.628" x2="5.588" y2="2.54" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="JP2" pad="1"/>
 <contactref element="LED1" pad="C"/>
 <contactref element="JP2" pad="2"/>
 <wire x1="9.398" y1="4.572" x2="9.398" y2="2.032" width="0.4064" layer="1"/>
-<wire x1="5.588" y1="4.352" x2="7.4" y2="4.352" width="0.4064" layer="1"/>
-<wire x1="7.4" y1="4.352" x2="7.62" y2="4.572" width="0.4064" layer="1"/>
-<wire x1="7.62" y1="4.572" x2="9.398" y2="4.572" width="0.4064" layer="1"/>
+<wire x1="5.588" y1="5.052" x2="8.918" y2="5.052" width="0.4064" layer="1"/>
+<wire x1="8.918" y1="5.052" x2="9.398" y2="4.572" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="JP1" pad="1"/>
 <contactref element="R1" pad="2"/>
 <contactref element="JP1" pad="2"/>
-<wire x1="1.778" y1="2.032" x2="1.778" y2="4.572" width="0.4064" layer="1"/>
-<wire x1="5.588" y1="4.152" x2="3.976" y2="4.152" width="0.4064" layer="16"/>
-<wire x1="3.976" y1="4.152" x2="3.556" y2="4.572" width="0.4064" layer="16"/>
-<wire x1="3.556" y1="4.572" x2="1.778" y2="4.572" width="0.4064" layer="16"/>
+<wire x1="1.778" y1="2.032" x2="1.778" y2="4.572" width="0.4064" layer="16"/>
+<wire x1="3.976" y1="4.572" x2="1.778" y2="4.572" width="0.4064" layer="16"/>
 </signal>
 </signals>
 </board>
