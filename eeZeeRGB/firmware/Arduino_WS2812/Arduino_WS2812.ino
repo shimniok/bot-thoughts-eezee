@@ -14,7 +14,6 @@
   https://code.google.com/p/bot-thoughts-eezee/wiki/eeZeeRGB
 */
 #include <Adafruit_NeoPixel.h>
-#include "WS2812_Definitions.h"
 
 #define PIN 8        // Arduino pin connected to WS2812B's DIN
 
