@@ -15658,7 +15658,7 @@ type 0309, grid 2.5 mm</description>
 <part name="C1" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="C2" library="rcl" deviceset="CPOL-US" device="SMCB" value="100uF"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C1206" value="10uF"/>
 <part name="FRAME1" library="mes" deviceset="LETTER_L" device=""/>
 <part name="C4" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="JP3" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-S"/>
@@ -15668,7 +15668,7 @@ type 0309, grid 2.5 mm</description>
 <sheet>
 <plain>
 <text x="160.528" y="23.622" size="3.81" layer="94">eeZee Power</text>
-<text x="233.934" y="24.13" size="3.81" layer="94">0.3</text>
+<text x="233.934" y="24.13" size="3.81" layer="94">0.4</text>
 <text x="55.88" y="134.62" size="1.778" layer="91">NOTE: determine cause of short when rail powered and eeZee Power inserted reverse polarity</text>
 </plain>
 <instances>
