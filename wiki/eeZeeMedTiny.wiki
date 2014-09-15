@@ -15,7 +15,7 @@ After breadboarding a bunch of ATtinys I built these boards so I didn't have to 
   * Reset switch and pull-up resistor included
   * Works with ATtiny24, ATtiny44, ATtiny84
   * Compact board
-  * Works with Arduino IDE - [ArduinoTiny here's how].
+  * Works with Arduino IDE - [TinyArduino here's how].
 
 ++ You can order it without these if you want.
 
@@ -36,7 +36,7 @@ To write code for ATtiny, you can use:
  * [http://www.atmel.com/tools/STUDIOARCHIVE.aspx AVR Studio]
  * [http://www.atmel.com/microsite/atmel_studio6/ Atmel Studio]
  * Eclipse and the [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin AVR Plugin]
- * Arduino IDE - [ArduinoTiny here's how]. (Tiny85, 84, 2313 families)
+ * Arduino IDE - [TinyArduino here's how]. (Tiny85, 84, 2313 families)
 
 = Programming (Flashing) Your Chip =
 
