@@ -45,7 +45,7 @@ You can also use an AVRISP MkII, your Arduino ([http://arduino.cc/en/Tutorial/Ar
 
 == ISP Header ==
 
-When it's time to plug in the eeZee Tiny board, locate the white rectangle next to the ISP header which marks the notch that would appear on a shrouded male header, as below.
+When it's time to plug in your 6-pin programming cable, locate the white rectangle next to the ISP header pin 1.  The cable should have a red stripe marking pin 1 and/or a bump adjacent to pin 3.
 
 [http://www.batsocks.co.uk/img/info_isp/ISP%206%20way%20pinout.png] 
 
