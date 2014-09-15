@@ -14,7 +14,7 @@ After breadboarding a bunch of ATtinys I built these boards so I didn't have to 
   * 0.1uF and 10uF (or larger) filtering capacitors
   * Reset switch and pull-up resistor included
   * Works with ATtiny13,13A, ATtiny25,45,85, ATtiny11, ATtiny12
-  * ATtiny 85 works with Arduino - [ArduinoTiny here's how].
+  * ATtiny 85 works with Arduino - [TinyArduino here's how].
 
 = Assembly =
 
@@ -35,7 +35,7 @@ To write code for ATtiny, you can use:
  * [http://www.atmel.com/tools/STUDIOARCHIVE.aspx AVR Studio]
  * [http://www.atmel.com/microsite/atmel_studio6/ Atmel Studio]
  * Eclipse and the [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin AVR Plugin]
- * Arduino IDE - [ArduinoTiny here's how]. (Tiny85, 84, 2313 families)
+ * Arduino IDE - [TinyArduino here's how]. (Tiny85, 84, 2313 families)
 
 = Programming (Flashing) Your Chip =
 
