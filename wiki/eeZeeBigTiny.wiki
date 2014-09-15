@@ -15,7 +15,7 @@ After breadboarding a bunch of ATtinys I built these boards so I didn't have to 
   * Reset switch and pull-up resistor included
   * Works with ATtiny2313, ATtiny4313
   * Compact board
-  * Works with Arduino - [ArduinoTiny here's how].
+  * Works with Arduino - [TinyArduino here's how].
 
 ++ You can order it without these if you want.
 
@@ -27,7 +27,7 @@ After breadboarding a bunch of ATtinys I built these boards so I didn't have to 
     * Notch is farthest from ISP and reset
   * Solder on the 2x3-pin AVR ISP pin header on top
   * Solder on the reset switch
-  * Insert your ATtiny2313/4313 into the socket
+  * Insert your MCU into the socket
 
 = Writing Software =
 
@@ -36,7 +36,7 @@ To write code for ATtiny, you can use:
  * [http://www.atmel.com/tools/STUDIOARCHIVE.aspx AVR Studio]
  * [http://www.atmel.com/microsite/atmel_studio6/ Atmel Studio]
  * Eclipse and the [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin AVR Plugin]
- * Arduino IDE - [ArduinoTiny here's how] (Tiny85, 84, 4313 families)
+ * Arduino IDE - [TinyArduino here's how] (Tiny85, 84, 4313 families)
 
 = Programming (Flashing) Your Chip =
 
