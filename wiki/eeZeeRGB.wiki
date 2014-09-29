@@ -1,6 +1,6 @@
 #summary WS2812B RGB LED for breadboard
 
-The WS2812B is the latest smart RGB module with onboard microcontroller and polarity protection.
+The WS2812B is the latest smart RGB module with onboard microcontroller.
 
 = 3.3V Devices =
 
@@ -41,6 +41,15 @@ Your GPIO pin should only see 1mA through the first module's pull-up when pullin
  * You can find my [https://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZeeRGB%2Ffirmware example code here]
  * Connect DIN to Arduino D8
  * Compile and download the firmware to your Arduino
+
+= ATtiny: Quick Start =
+
+ * Grab a copy of the Light [https://github.com/cpldcpu/light_ws2812 WS2812 library]
+ * Look in the light_ws2812_AVR folder
+ * Use make to compile the example programs
+ * Flash an example hex file to yourATtiny
+ * Connect PB1 to DI on the eeZee RGB
+ * To change pins, ports, edit ws2812_config.h and re-make
 
 = Propeller =
 
