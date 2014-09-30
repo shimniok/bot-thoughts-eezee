@@ -10,8 +10,8 @@ DEVICE = attiny25
 CC = avr-gcc
 
 LIB       = light_ws2812
-EXAMPLES  = RGB_blinky Chained_writes
-DEP		  = ws2812_config.h Light_WS2812/light_ws2812.h
+EXAMPLES  = RGB_blinky Chained_writes RGB_cycle
+DEP	  = ws2812_config.h Light_WS2812/light_ws2812.h
 
 CFLAGS = -g2 -I. -ILight_WS2812 -mmcu=$(DEVICE) -DF_CPU=$(F_CPU) 
 CFLAGS+= -Os -ffunction-sections -fdata-sections -fpack-struct -fno-move-loop-invariants -fno-tree-scev-cprop -fno-inline-small-functions  
