@@ -15,9 +15,10 @@
 */
 #include <Adafruit_NeoPixel.h>
 
-#define PIN 8        // Arduino pin connected to WS2812B's DIN
+#define PIN 0        // Arduino pin connected to WS2812B's DIN
 
-#define DELAY 60     // ms between color changes
+#define DELAY 30     // ms between color changes
+#define COLSTEP 2    // steps between color changes
 #define MINCOLOR 0   // lowest color setting (0-255)
 #define MAXCOLOR 40  // highest color setting (0-255)
 
@@ -38,19 +39,19 @@ void setup()
 void loop()
 {
   // Red to Red+Blue to Blue
-  for (r = MAXCOLOR, b = MINCOLOR; b < MAXCOLOR; r--, b++) {
+  for (r = MAXCOLOR, b = MINCOLOR; b < MAXCOLOR; r -= COLSTEP, b += COLSTEP) {
     leds.setPixelColor(0, r, g, b);
     leds.show();
     delay(DELAY);
   }
   // Blue to Blue+Green to Green
-  for (b = MAXCOLOR, g = MINCOLOR; g < MAXCOLOR; b--, g++) {
+  for (b = MAXCOLOR, g = MINCOLOR; g < MAXCOLOR; b -= COLSTEP, g += COLSTEP) {
     leds.setPixelColor(0, r, g, b);
     leds.show();
     delay(DELAY);
   }
   // Green to Red+Green to Red
-  for (g = MAXCOLOR, r = MINCOLOR; r < MAXCOLOR; g--, r++) {
+  for (g = MAXCOLOR, r = MINCOLOR; r < MAXCOLOR; g -= COLSTEP, r += COLSTEP) {
     leds.setPixelColor(0, r, g, b);
     leds.show();
     delay(DELAY);
