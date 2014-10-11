@@ -20,12 +20,16 @@ All you have to do is add pin headers.
 
 Designed and assembled in the United States of America.
 
+= Current Capacity =
+
+The limiting factor on current capacity is heat. So, even though the regulator can deliver 500mA (LF50) or 1.5A (LD29150), without adequate cooling it may be unable to do so indefinitely. Just keep an eye on the board and chip temperature.
+
 = Installation =
 
   # Break your breakway header into two 2-pin headers
   # Solder in the two 2-pin headers for Vcc/GND output, long end down
   # Use a 6-12V wall-wart power supply with 2.1mm jack and center-positive polarity
 
-= Current Capacity =
+= Which Version Do I Have? =
 
-The limiting factor on current capacity is heat. So, even though the regulator can deliver 500mA (LF50) or 1.5A (LD29150), without adequate cooling it may be unable to do so indefinitely. Just keep an eye on the board and chip temperature.
+Boards with a little yellow dot have the LF50 (500mA, max). If there's no yellow dot, it has the LD29150 (1.5A, max).
