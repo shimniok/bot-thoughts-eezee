@@ -14,14 +14,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -149,7 +149,7 @@
 <vertex x="22.6933" y="7.874" curve="247.499865"/>
 <vertex x="21.8701875" y="7.324015625"/>
 </polygon>
-<text x="28.194" y="6.35" size="1.016" layer="25" font="vector" ratio="16">Rev 0.2</text>
+<text x="26.924" y="6.35" size="1.016" layer="25" font="vector" ratio="16">Rev 0.2A</text>
 <text x="35.306" y="4.064" size="1.016" layer="25" font="vector" ratio="16" rot="R90">eeZeeBigTiny</text>
 <wire x1="32.434809375" y1="2.363190625" x2="29.541190625" y2="2.363190625" width="0.2032" layer="22"/>
 <wire x1="29.541190625" y1="2.363190625" x2="29.541190625" y2="3.81" width="0.2032" layer="22"/>
@@ -419,7 +419,7 @@
 <vertex x="22.6933" y="7.874" curve="247.499865"/>
 <vertex x="21.8701875" y="7.3240125"/>
 </polygon>
-<text x="28.194" y="6.35" size="1.016" layer="121" font="vector" ratio="20">Rev 0.2</text>
+<text x="26.924" y="6.35" size="1.016" layer="121" font="vector" ratio="20">Rev 0.2A</text>
 <text x="35.306" y="4.064" size="1.016" layer="121" font="vector" ratio="20" rot="R90">eeZeeBigTiny</text>
 <text x="34.544" y="4.318" size="0.8128" layer="122" font="vector" ratio="25" rot="MR90">bot-thoughts.com</text>
 <text x="1.778" y="7.366" size="1.778" layer="121" font="vector" ratio="12">ATtiny2313/4313</text>
@@ -720,7 +720,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="LaenPCBOrder *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -734,36 +734,36 @@ Please make sure your boards conform to these design rules.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm"/>
 <param name="mtIsolate" value="1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
+<param name="mdWireWire" value="10mil"/>
+<param name="mdWirePad" value="10mil"/>
+<param name="mdWireVia" value="10mil"/>
+<param name="mdPadPad" value="10mil"/>
+<param name="mdPadVia" value="10mil"/>
+<param name="mdViaVia" value="10mil"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="8mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
 <param name="msDrill" value="13mil"/>
 <param name="msMicroVia" value="13mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0.25"/>
+<param name="rvPadTop" value="0.3"/>
 <param name="rvPadInner" value="0.25"/>
-<param name="rvPadBottom" value="0.25"/>
+<param name="rvPadBottom" value="0.3"/>
 <param name="rvViaOuter" value="0.25"/>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="12mil"/>
+<param name="rlMinPadTop" value="7mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
 <param name="rlMinPadInner" value="7mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="12mil"/>
+<param name="rlMinPadBottom" value="7mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
 <param name="rlMinViaOuter" value="7mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
@@ -775,16 +775,16 @@ Please make sure your boards conform to these design rules.</description>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="1"/>
 <param name="psBottom" value="1"/>
-<param name="psFirst" value="-1"/>
-<param name="psElongationLong" value="60"/>
-<param name="psElongationOffset" value="60"/>
+<param name="psFirst" value="1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="3mil"/>
+<param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="20mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -976,12 +976,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="4.064" y1="9.652" x2="1.778" y2="11.938" width="0.254" layer="16"/>
 <wire x1="1.524" y1="9.994" x2="3.698" y2="9.994" width="0.254" layer="16"/>
 <wire x1="3.698" y1="9.994" x2="4.064" y2="9.628" width="0.254" layer="16"/>
-<wire x1="17.018" y1="7.962" x2="20.916" y2="7.962" width="0.254" layer="16"/>
-<wire x1="20.916" y1="7.962" x2="23.622" y2="10.668" width="0.254" layer="16"/>
-<wire x1="23.622" y1="10.668" x2="25.908" y2="10.668" width="0.254" layer="16"/>
-<wire x1="25.908" y1="10.668" x2="28.448" y2="13.208" width="0.254" layer="16"/>
-<wire x1="28.448" y1="13.208" x2="30.988" y2="13.208" width="0.254" layer="16"/>
-<wire x1="30.988" y1="13.208" x2="32.258" y2="14.478" width="0.254" layer="16"/>
+<wire x1="17.018" y1="7.962" x2="17.018" y2="7.874" width="0.254" layer="16"/>
+<wire x1="17.018" y1="7.874" x2="17.272" y2="7.62" width="0.254" layer="16"/>
+<wire x1="17.272" y1="7.62" x2="25.4" y2="7.62" width="0.254" layer="16"/>
+<via x="25.4" y="7.62" extent="1-16" drill="0.3302"/>
+<wire x1="25.4" y1="7.62" x2="30.48" y2="7.62" width="0.254" layer="1"/>
+<wire x1="30.48" y1="7.62" x2="30.988" y2="8.128" width="0.254" layer="1"/>
+<wire x1="30.988" y1="8.128" x2="30.988" y2="13.208" width="0.254" layer="1"/>
+<wire x1="30.988" y1="13.208" x2="32.258" y2="14.478" width="0.254" layer="1"/>
 </signal>
 <signal name="!RESET">
 <contactref element="R1" pad="1"/>
