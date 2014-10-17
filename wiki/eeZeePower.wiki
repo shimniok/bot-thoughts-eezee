@@ -34,7 +34,31 @@ Designed and assembled in the United States of America.
 
 = Ratings =
 
-  * All capacitors are rated 6.3V in this revision.
+== Rev 0.5 ==
+
+  * All capacitors are rated >10V
+  * Vin MAX = 6V (absolute max, 6.3V)
+  * Vin MIN = 3.3V + 0.65V @ 500mA (less at lower current)
+  * The onboard regulator is a 3.3V Microchip TC1262 ([http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf TC1262.pdf]) in SOT-223
+    * Regulation typically within 0.5%
+    * Load current MAX = 500mA continuous
+    * Power MAX > 1.5W, given 500mA, 35C
+    * The entire board and USB connector act as the heatsink
+    * current limit and thermal shutdown protection.
+
+== Rev 0.4 ==
+
+  * All capacitors are rated >10V in this revision.
+    * It's designed to be run off of *5V* supplies
+  * The onboard regulator is a 3.3V On Semi NCP1117ST33T3G in SOT-223
+    * rated at 800mA
+    * current limit, safe operating and thermal shutdown protection.
+    * Datasheet: [http://datasheet.octopart.com/NCP1117ST33T3G-ON-Semiconductor-datasheet-11536806.pdf NCP1117ST33T3G.pdf]
+    * The regulator uses an integrated 1cm^2^ pcb heatsink.
+
+== Older Revs ==
+
+  * All capacitors are rated >6.3V in this revision.
     * It's designed to be run off of *5V* supplies
   * The onboard regulator is a 3.3V On Semi NCP1117ST33T3G in SOT-223
     * rated at *800mA*
