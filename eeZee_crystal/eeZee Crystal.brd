@@ -14,14 +14,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -123,7 +123,7 @@
 <rectangle x1="3.683" y1="6.858" x2="4.699" y2="7.874" layer="26"/>
 <rectangle x1="3.683" y1="8.128" x2="4.699" y2="9.144" layer="26"/>
 <text x="5.08" y="5.588" size="1.016" layer="26" font="vector" ratio="12" rot="MR90">MHz</text>
-<text x="7.366" y="7.366" size="0.8128" layer="25" font="vector" ratio="12" rot="R270">R0.2</text>
+<text x="7.366" y="7.366" size="0.8128" layer="25" font="vector" ratio="12" rot="R270">R0.2A</text>
 <wire x1="7.366" y1="0" x2="6.096" y2="0" width="0.2032" layer="121"/>
 <wire x1="6.096" y1="0" x2="5.461" y2="0.635" width="0.2032" layer="121"/>
 <wire x1="5.461" y1="0.635" x2="5.461" y2="1.905" width="0.2032" layer="121"/>
@@ -161,7 +161,7 @@
 <text x="6.223" y="2.413" size="1.016" layer="122" font="vector" ratio="20" rot="MR90">GND</text>
 <text x="3.81" y="2.413" size="1.016" layer="122" font="vector" ratio="20" rot="MR90">X1</text>
 <text x="1.143" y="2.413" size="1.016" layer="122" font="vector" ratio="20" rot="MR90">X2</text>
-<text x="7.366" y="7.366" size="0.8128" layer="121" font="vector" ratio="25" rot="R270">R0.2</text>
+<text x="7.366" y="7.366" size="0.8128" layer="121" font="vector" ratio="25" rot="R270">R0.2A</text>
 <text x="3.175" y="4.318" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">8</text>
 <text x="3.175" y="5.588" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">10</text>
 <text x="3.175" y="6.858" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">12</text>
@@ -1326,19 +1326,19 @@ Please make sure your boards conform to these design rules.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm"/>
 <param name="mtIsolate" value="1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
+<param name="mdWireWire" value="10mil"/>
+<param name="mdWirePad" value="10mil"/>
+<param name="mdWireVia" value="10mil"/>
+<param name="mdPadPad" value="10mil"/>
+<param name="mdPadVia" value="10mil"/>
+<param name="mdViaVia" value="10mil"/>
 <param name="mdSmdPad" value="0mil"/>
 <param name="mdSmdVia" value="0mil"/>
-<param name="mdSmdSmd" value="6mil"/>
+<param name="mdSmdSmd" value="8mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="15mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdCopperDimension" value="10mil"/>
+<param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
 <param name="msDrill" value="13mil"/>

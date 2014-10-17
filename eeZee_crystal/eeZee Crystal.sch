@@ -4714,6 +4714,7 @@ Source: AVX .. aphvc.pdf</description>
 <plain>
 <text x="25.4" y="48.26" size="1.778" layer="95">Arduino/AVR EZ Breadboard Cyrstal</text>
 <text x="22.86" y="5.08" size="1.778" layer="95">Michael Shimniok www.bot-thoughts.com</text>
+<text x="35.56" y="45.72" size="1.778" layer="95">R0.2A</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="53.34" y="35.56" rot="MR0">
