@@ -15187,7 +15187,7 @@ type 0309, grid 2.5 mm</description>
 <sheet>
 <plain>
 <text x="160.528" y="23.622" size="3.81" layer="94">eeZee Power</text>
-<text x="233.934" y="24.13" size="3.81" layer="94">0.4</text>
+<text x="233.934" y="24.13" size="3.81" layer="94">0.5</text>
 <text x="129.54" y="99.06" size="1.778" layer="91">HEATSINK</text>
 </plain>
 <instances>
