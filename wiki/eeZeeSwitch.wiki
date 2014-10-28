@@ -16,6 +16,13 @@ With R0.2, you can select to use the debounce cap, the pullup resistor, both, or
 
 The bottom of the board shows the circuit diagram.
 
+== Rev 0.1 ==
+With R0.1, you can select to use the pullup resistor or not. The debounce capacitor is a permanent part of the circuit, in parallel with the switch.
+
+== Hookup Diagrams ==
+
+[[https://lh3.googleusercontent.com/-tEm0M-Nz_64/VE_I0LGWfAI/AAAAAAAAKgw/DWyBrb80Kk4/w773-h290-no/eeZeeSwitch_Arduno.png]]
+
 === Pull-Up Resistor ===
 To use the pull-up resistor, connect the resistor pin to VCC, otherwise leave it disconnected. Connect the pin next to it to your MCU.
 
