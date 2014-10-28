@@ -1,8 +1,8 @@
 #summary Breadboard switch with pull-up and debounce
 
-The compact eeZee Switch contains a 10k pull-up resistor, 0.1uF debounce capacitor, and a switch.
+The compact eeZee Switch provides flexible options for a breadboard switch that won't fall out of your breadboard.
 
-With Rev 0.2, you can hook it up to use the pull-up resistor, the debounce cap, both, or neither, making it convenient and fast to properly add a switch to your breadboard project.
+The breakout board contains a switch with both pins broken out, a 10k optional pull-up and a debounce capacitor (optional with Rev 0.2).
 
 = Assembly =
 
@@ -11,30 +11,17 @@ With Rev 0.2, you can hook it up to use the pull-up resistor, the debounce cap, 
 
 = How to Use =
 
-== Rev 0.2 ==
-With R0.2, you can select to use the debounce cap, the pullup resistor, both, or neither.
+== Hookup (both) ==
+[[https://lh3.googleusercontent.com/-lrsTSMyLd4o/VE_I0Vi39CI/AAAAAAAAKg0/lOVdrspzIqU/w773-h580-no/eeZeeSwitch_hookup1.png]]
 
-The bottom of the board shows the circuit diagram.
+== Active High (both), Active Low (Rev 0.2 only) ==
 
-== Rev 0.1 ==
-With R0.1, you can select to use the pullup resistor or not. The debounce capacitor is a permanent part of the circuit, in parallel with the switch.
+[[https://lh3.googleusercontent.com/-PCCCCLJq-w4/VE_OSoQ5A8I/AAAAAAAAKhM/OOFUYRWHf0s/w772-h531-no/eeZeeSwitch_Active_hilo.png]]
 
-== Hookup Diagrams ==
+== Series Current Limit (Rev 0.2 only) ==
+
+[[https://lh5.googleusercontent.com/-ZUlTaqUCIak/VE_PThaTaAI/AAAAAAAAKho/o_ObyeX4n5o/w772-h272-no/eeZeeSwitch_current_limit.png]]
+
+== Arduino Reset Circuit (Rev 0.2 only) ==
 
 [[https://lh3.googleusercontent.com/-tEm0M-Nz_64/VE_I0LGWfAI/AAAAAAAAKgw/DWyBrb80Kk4/w773-h290-no/eeZeeSwitch_Arduno.png]]
-
-=== Pull-Up Resistor ===
-To use the pull-up resistor, connect the resistor pin to VCC, otherwise leave it disconnected. Connect the pin next to it to your MCU.
-
-=== Debounce Capacitor ===
-To use the debounce, connect the debounce cap pin to ground, otherwise leave it disconnected. Connect the pin next to it to ground.
-
-=== Just the Switch ===
-To just use the switch, inline or otherwise, connect only the pins adjacent to the switch into your circuit.
-
-
-== Rev 0.1 ==
- * Connect VCC to your microcontroller's power supply
- * Connect the pin next to VCC to your microcontroller
- * Connect the remaining two pins opposite VCC to ground
-The switch is active-low. You can set up an external interrupt on your microcontroller to fire whenever the pin changes state or changes to a low state, depending on your MCU. You can also poll the pin connected to the switch and wait until the logic level is low.
