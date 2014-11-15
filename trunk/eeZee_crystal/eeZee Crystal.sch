@@ -4682,6 +4682,71 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="bt">
+<description>&lt;b&gt;Miscellaneous parts&lt;/b&gt;
+
+&lt;p&gt;Created by Michael Shimniok &lt;a href="http://www.bot-thoughts.com/"&gt;www.bot-thoughts.com&lt;/a&gt;&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="LETTER_L">
+<frame x1="0" y1="0" x2="248.92" y2="185.42" columns="12" rows="17" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD-1">
+<wire x1="0" y1="-2.54" x2="71.12" y2="-2.54" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="12.7" x2="86.36" y2="12.7" width="0.1016" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="59.69" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="59.69" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="12.7" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="12.7" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="-2.54" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="-2.54" x2="101.6" y2="-2.54" width="0.1016" layer="94"/>
+<wire x1="86.36" y1="12.7" x2="69.85" y2="12.7" width="0.1016" layer="94"/>
+<wire x1="69.85" y1="12.7" x2="59.69" y2="12.7" width="0.1016" layer="94"/>
+<wire x1="59.69" y1="12.7" x2="0" y2="12.7" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="-2.54" width="0.1016" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="27.94" x2="0" y2="27.94" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="27.94" x2="101.6" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="0" y1="19.05" x2="101.6" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="0" y1="19.05" x2="0" y2="27.94" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="19.05" x2="101.6" y2="12.7" width="0.1016" layer="94"/>
+<wire x1="59.69" y1="5.08" x2="59.69" y2="12.7" width="0.1016" layer="94"/>
+<text x="1.27" y="2.54" size="1.778" layer="94" font="vector">Date:</text>
+<text x="1.27" y="-1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="2.54" size="1.778" layer="94" font="vector">Sheet:</text>
+<text x="72.39" y="-1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="77.47" y="25.4" size="1.778" layer="94" font="vector">REV:</text>
+<text x="1.27" y="25.4" size="1.778" layer="94" font="vector">TITLE:</text>
+<text x="1.27" y="6.35" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="1.27" y="10.16" size="1.778" layer="94" font="vector">FILE:</text>
+<text x="60.96" y="10.16" size="1.778" layer="94" font="vector">Author:</text>
+<text x="6.35" y="13.97" size="3.81" layer="94">Bot Thoughts</text>
+<text x="52.832" y="14.478" size="2.54" layer="94">www.bot-thoughts.com</text>
+<text x="60.96" y="6.35" size="2.54" layer="94" font="vector">Michael Shimniok</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LETTER_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+LETTER landscape</description>
+<gates>
+<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
+<gate name="G$2" symbol="DOCFIELD-1" x="147.32" y="2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="DATABASE" value="./../PARTSDB.TXT"/>
@@ -4693,14 +4758,15 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="Q1" library="mes_crystal" deviceset="CRYSTAL" device="NDK5X3">
+<part name="Q1" library="mes_crystal" deviceset="CRYSTAL" device="NDK5X3" value="8-20MHz">
+<attribute name="LOAD" value="12pF"/>
 <attribute name="PARTNO" value="NX5032GA-16.000000MHZ-LN-CD-1"/>
 </part>
-<part name="C1" library="rcl" deviceset="C-US" device="C0603" value="8pF">
+<part name="C1" library="rcl" deviceset="C-US" device="C0603" value="12pF">
 <attribute name="BOM" value="INCLUDE"/>
 <attribute name="PARTNO" value="C1608C0G1H080D"/>
 </part>
-<part name="C2" library="rcl" deviceset="C-US" device="C0603" value="8pF">
+<part name="C2" library="rcl" deviceset="C-US" device="C0603" value="12pF">
 <attribute name="BOM" value="INCLUDE"/>
 <attribute name="PARTNO" value="C1608C0G1H080D"/>
 </part>
@@ -4708,30 +4774,37 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="GND1" library="mes" deviceset="GND" device=""/>
+<part name="FRAME1" library="bt" deviceset="LETTER_L" device=""/>
+<part name="GND2" library="mes" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="25.4" y="48.26" size="1.778" layer="95">Arduino/AVR EZ Breadboard Cyrstal</text>
-<text x="22.86" y="5.08" size="1.778" layer="95">Michael Shimniok www.bot-thoughts.com</text>
-<text x="35.56" y="45.72" size="1.778" layer="95">R0.2A</text>
+<text x="157.48" y="23.876" size="3.81" layer="94">eeZee Crystal</text>
+<text x="231.14" y="23.622" size="3.81" layer="94">R0.2B</text>
 </plain>
 <instances>
-<instance part="Q1" gate="G$1" x="53.34" y="35.56" rot="MR0">
-<attribute name="PARTNO" x="53.34" y="35.56" size="1.778" layer="96" display="off"/>
+<instance part="Q1" gate="G$1" x="127" y="104.14" smashed="yes" rot="MR0">
+<attribute name="PARTNO" x="127" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="LOAD" x="134.874" y="97.79" size="1.778" layer="96" rot="MR0" display="both"/>
+<attribute name="NAME" x="128.524" y="106.68" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="131.826" y="100.076" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C1" gate="G$1" x="43.18" y="27.94">
-<attribute name="PARTNO" value="C1608C0G1H080D" x="43.18" y="27.94" size="1.778" layer="96" display="off"/>
-<attribute name="BOM" value="INCLUDE" x="43.18" y="27.94" size="1.778" layer="96" display="off"/>
+<instance part="C1" gate="G$1" x="111.76" y="93.98">
+<attribute name="PARTNO" value="C1608C0G1H080D" x="111.76" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" value="INCLUDE" x="111.76" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C2" gate="G$1" x="63.5" y="27.94">
-<attribute name="PARTNO" value="C1608C0G1H080D" x="63.5" y="27.94" size="1.778" layer="96" display="off"/>
-<attribute name="BOM" value="INCLUDE" x="63.5" y="27.94" size="1.778" layer="96" display="off"/>
+<instance part="C2" gate="G$1" x="142.24" y="93.98">
+<attribute name="PARTNO" value="C1608C0G1H080D" x="142.24" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" value="INCLUDE" x="142.24" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP1" gate="A" x="22.86" y="27.94" rot="R180">
-<attribute name="BOM" value="EXCLUDE" x="22.86" y="27.94" size="1.778" layer="96" display="off"/>
+<instance part="JP1" gate="A" x="127" y="127" rot="R90">
+<attribute name="BOM" value="EXCLUDE" x="127" y="127" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GND1" gate="1" x="43.18" y="15.24"/>
+<instance part="GND1" gate="1" x="127" y="76.2"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="FRAME1" gate="G$2" x="147.32" y="2.54"/>
+<instance part="GND2" gate="1" x="101.6" y="111.76"/>
 </instances>
 <busses>
 </busses>
@@ -4739,44 +4812,47 @@ Source: AVX .. aphvc.pdf</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="25.4" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="25.4" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="124.46" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="116.84" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="116.84" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+</segment>
+<segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="20.32" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="127" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="81.28" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="20.32" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
-<junction x="43.18" y="20.32"/>
+<wire x1="127" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="81.28" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
+<junction x="127" y="81.28"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="43.18" y1="17.78" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="127" y1="78.74" x2="127" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="35.56" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="104.14" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="2"/>
-<wire x1="25.4" y1="27.94" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="27.94" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="127" y1="124.46" x2="127" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="127" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="111.76" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
-<junction x="43.18" y="35.56"/>
+<wire x1="111.76" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
+<junction x="111.76" y="104.14"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="JP1" gate="A" pin="3"/>
-<wire x1="25.4" y1="30.48" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="30.48" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="40.64" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="124.46" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="111.76" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="35.56" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="35.56" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
-<junction x="63.5" y="35.56"/>
+<wire x1="142.24" y1="104.14" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
+<junction x="142.24" y="104.14"/>
 </segment>
 </net>
 </nets>

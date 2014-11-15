@@ -14,14 +14,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -112,18 +112,20 @@
 <wire x1="1.27" y1="9.398" x2="0" y2="8.128" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="8.128" x2="0" y2="0" width="0" layer="20"/>
 <text x="6.223" y="2.413" size="1.016" layer="22" font="vector" rot="MR90">GND</text>
-<text x="3.81" y="2.413" size="1.016" layer="22" font="vector" rot="MR90">X1</text>
-<text x="1.143" y="2.413" size="1.016" layer="22" font="vector" rot="MR90">X2</text>
-<text x="3.175" y="4.318" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">8</text>
-<text x="3.175" y="5.588" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">10</text>
-<text x="3.175" y="6.858" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">12</text>
-<text x="3.175" y="8.128" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">16</text>
-<rectangle x1="3.683" y1="4.318" x2="4.699" y2="5.334" layer="26"/>
-<rectangle x1="3.683" y1="5.588" x2="4.699" y2="6.604" layer="26"/>
-<rectangle x1="3.683" y1="6.858" x2="4.699" y2="7.874" layer="26"/>
-<rectangle x1="3.683" y1="8.128" x2="4.699" y2="9.144" layer="26"/>
-<text x="5.08" y="5.588" size="1.016" layer="26" font="vector" ratio="12" rot="MR90">MHz</text>
+<text x="4.953" y="2.54" size="1.016" layer="22" font="vector" rot="MR0">X1</text>
+<text x="2.413" y="2.413" size="1.016" layer="22" font="vector" rot="MR0">X2</text>
+<text x="2.159" y="6.858" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">8</text>
+<text x="2.159" y="5.588" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">10</text>
+<text x="2.159" y="4.318" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">12</text>
+<text x="5.969" y="6.858" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">16</text>
+<rectangle x1="2.413" y1="5.588" x2="3.429" y2="6.604" layer="26"/>
+<rectangle x1="2.413" y1="4.318" x2="3.429" y2="5.334" layer="26"/>
+<rectangle x1="2.413" y1="6.858" x2="3.429" y2="7.874" layer="26"/>
+<text x="5.334" y="8.128" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">MHz</text>
 <text x="7.366" y="7.366" size="0.8128" layer="25" font="vector" ratio="12" rot="R270">R0.2A</text>
+<rectangle x1="6.223" y1="6.858" x2="7.239" y2="7.874" layer="26"/>
+<rectangle x1="6.223" y1="5.588" x2="7.239" y2="6.604" layer="26"/>
+<text x="5.969" y="5.588" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">20</text>
 <wire x1="7.366" y1="0" x2="6.096" y2="0" width="0.2032" layer="121"/>
 <wire x1="6.096" y1="0" x2="5.461" y2="0.635" width="0.2032" layer="121"/>
 <wire x1="5.461" y1="0.635" x2="5.461" y2="1.905" width="0.2032" layer="121"/>
@@ -159,18 +161,20 @@
 <wire x1="4.3410125" y1="6.385" x2="4.0409875" y2="6.385" width="0.2032" layer="121"/>
 <wire x1="4.0409875" y1="6.385" x2="4.0409875" y2="7.585" width="0.2032" layer="121"/>
 <text x="6.223" y="2.413" size="1.016" layer="122" font="vector" ratio="20" rot="MR90">GND</text>
-<text x="3.81" y="2.413" size="1.016" layer="122" font="vector" ratio="20" rot="MR90">X1</text>
-<text x="1.143" y="2.413" size="1.016" layer="122" font="vector" ratio="20" rot="MR90">X2</text>
+<text x="4.953" y="2.54" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">X1</text>
+<text x="2.413" y="2.413" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">X2</text>
 <text x="7.366" y="7.366" size="0.8128" layer="121" font="vector" ratio="25" rot="R270">R0.2A</text>
-<text x="3.175" y="4.318" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">8</text>
-<text x="3.175" y="5.588" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">10</text>
-<text x="3.175" y="6.858" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">12</text>
-<text x="3.175" y="8.128" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">16</text>
-<text x="5.08" y="5.588" size="1.016" layer="122" font="vector" ratio="20" rot="MR90">MHz</text>
-<rectangle x1="3.683" y1="8.128" x2="4.699" y2="9.144" layer="122"/>
-<rectangle x1="3.683" y1="6.858" x2="4.699" y2="7.874" layer="122"/>
-<rectangle x1="3.683" y1="5.588" x2="4.699" y2="6.604" layer="122"/>
-<rectangle x1="3.683" y1="4.318" x2="4.699" y2="5.334" layer="122"/>
+<text x="2.159" y="6.858" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">8</text>
+<text x="2.159" y="5.588" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">10</text>
+<text x="2.159" y="4.318" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">12</text>
+<text x="5.969" y="6.858" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">16</text>
+<text x="5.334" y="8.128" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">MHz</text>
+<text x="5.969" y="5.588" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">20</text>
+<rectangle x1="2.413" y1="5.588" x2="3.429" y2="6.604" layer="122"/>
+<rectangle x1="2.413" y1="4.318" x2="3.429" y2="5.334" layer="122"/>
+<rectangle x1="2.413" y1="6.858" x2="3.429" y2="7.874" layer="122"/>
+<rectangle x1="6.223" y1="6.858" x2="7.239" y2="7.874" layer="122"/>
+<rectangle x1="6.223" y1="5.588" x2="7.239" y2="6.604" layer="122"/>
 </plain>
 <libraries>
 <library name="mes_crystal">
@@ -1485,15 +1489,16 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="Q1" library="mes_crystal" package="NDK_2PAD_5X3" value="" x="4.191" y="6.985" smashed="yes">
+<element name="Q1" library="mes_crystal" package="NDK_2PAD_5X3" value="8-20MHz" x="4.191" y="6.985" smashed="yes">
 <attribute name="PARTNO" value="NX5032GA-16.000000MHZ-LN-CD-1" x="4.191" y="6.985" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="0.202" y="9.196" size="1.016" layer="28" font="vector" ratio="12" rot="MR180"/>
+<attribute name="LOAD" value="12pF" x="4.191" y="6.985" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C1" library="rcl" package="C0603" value="8pF" x="6.096" y="3.81" smashed="yes">
+<element name="C1" library="rcl" package="C0603" value="12pF" x="6.096" y="3.81" smashed="yes">
 <attribute name="PARTNO" value="C1608C0G1H080D" x="6.096" y="3.81" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="6.096" y="3.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C2" library="rcl" package="C0603" value="8pF" x="2.286" y="3.81" smashed="yes">
+<element name="C2" library="rcl" package="C0603" value="12pF" x="2.286" y="3.81" smashed="yes">
 <attribute name="PARTNO" value="C1608C0G1H080D" x="2.286" y="3.81" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="INCLUDE" x="2.286" y="3.81" size="1.778" layer="27" display="off"/>
 </element>
