@@ -19,12 +19,10 @@ Now you can use the new, powerful ATtiny841 on your breadboard.
     * 2 On-chip Analog Comparators
   * AVR ISP header included to save time
   * All 14 pins exposed
-  * Included 16MHz crystal and caps++
+  * Optionally includes 16MHz crystal and caps
   * 0.1uF and 10uF (or larger) filtering capacitors
   * Reset switch and pull-up resistor included
   * Compact board
-
-++ You can order it without these if you want
 
 = Pinout =
 
@@ -36,18 +34,24 @@ Now you can use the new, powerful ATtiny841 on your breadboard.
   * Solder on the 2x3-pin AVR ISP pin header on top
   * Solder on the reset switch
 
-= Writing Software =
+= IDE =
 
-To write code for ATtiny, you can use:
+To write code for ATtiny, you can use the following IDEs:
 
  * [http://www.atmel.com/tools/STUDIOARCHIVE.aspx AVR Studio]
  * [http://www.atmel.com/microsite/atmel_studio6/ Atmel Studio]
  * Eclipse and the [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin AVR Plugin]
- * Arduino IDE? Not yet. Someone has to write a core for this chip
+ * Arduino IDE? Not yet. I'm porting [https://github.com/shimniok/arduino-tiny arduino-tiny core]. Want to help?
 
-= Programming (Flashing) Your Chip =
+= Toolchain =
 
-I use and recommend the following:
+ * Install  [http://www.atmel.com/products/microcontrollers/avr/tinyAVR.aspx?tab=tools ATmel AVR Toolchain] for either Windows or Linux.
+ * Install the latest avrdude.
+ * As of Nov 26, 2014, you must still add the contents of [https://bot-thoughts-eezee.googlecode.com/svn/trunk/eeZeeTiny841/setup/add_to_avrdude.conf add_to_avrdude.conf] to your avrdude.conf.
+
+= Programmer =
+
+I use and recommend the following programmers:
 
  * [http://www.pololu.com/product/1300 pololu.com Pololu AVR Programmer]. Follow the instructions in the [http://www.pololu.com/docs/0J36 User's Guide pdf]
  * AVR Dragon
@@ -103,7 +107,7 @@ int main()
 
 = Operating Conditions =
 
-Please use your ATtiny breakout boards with regulated supplies of 5V or less, with minimal ripple, at temperatures around 25C (77F). Do not use the boards in higher temperature conditions.
+Please use your ATtiny breakout boards with regulated supplies of 5V or less, with minimal ripple, at temperatures around 25C (77F). Do not use the boards in high temperature conditions.
 
 = Source =
   * [https://code.google.com/p/bot-thoughts-eezee/source/browse/#svn%2Ftrunk%2FeeZeeTiny841 source] 
