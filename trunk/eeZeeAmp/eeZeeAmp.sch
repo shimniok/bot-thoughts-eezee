@@ -13962,13 +13962,14 @@ LETTER landscape</description>
 <plain>
 <text x="159.258" y="24.13" size="3.81" layer="94">eeZeeAmp</text>
 <text x="231.14" y="24.13" size="3.81" layer="94">R0.1</text>
+<text x="142.24" y="129.54" size="1.778" layer="97">GAIN</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="134.62" y="111.76"/>
 <instance part="C1" gate="G$1" x="162.56" y="111.76" rot="R90"/>
 <instance part="C2" gate="G$1" x="88.9" y="114.3" rot="R90"/>
-<instance part="C3" gate="G$1" x="154.94" y="106.68"/>
-<instance part="R1" gate="G$1" x="154.94" y="91.44" rot="R90"/>
+<instance part="C3" gate="G$1" x="154.94" y="101.6"/>
+<instance part="R1" gate="G$1" x="154.94" y="88.9" rot="R90"/>
 <instance part="R2" gate="1" x="111.76" y="101.6"/>
 <instance part="JP2" gate="A" x="185.42" y="109.22"/>
 <instance part="R3" gate="G$1" x="104.14" y="114.3" rot="R180"/>
@@ -14005,7 +14006,7 @@ LETTER landscape</description>
 <pinref part="C1" gate="G$1" pin="+"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="111.76" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="111.76" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
 <junction x="154.94" y="111.76"/>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="154.94" y1="111.76" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
@@ -14015,7 +14016,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="96.52" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="93.98" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SP+" class="0">
@@ -14049,6 +14050,7 @@ LETTER landscape</description>
 <wire x1="83.82" y1="106.68" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 <junction x="78.74" y="106.68"/>
 <pinref part="JP1" gate="A" pin="4"/>
+<label x="58.42" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AUDIO" class="0">
@@ -14068,7 +14070,7 @@ LETTER landscape</description>
 <wire x1="124.46" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="78.74" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="78.74" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="78.74" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="109.22" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="109.22" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="78.74" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
@@ -14096,6 +14098,7 @@ LETTER landscape</description>
 <wire x1="137.16" y1="91.44" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
 <junction x="137.16" y="78.74"/>
 <pinref part="JP1" gate="A" pin="5"/>
+<label x="58.42" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="G1" class="0">
@@ -14108,7 +14111,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="53.34" y1="109.22" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
-<label x="63.5" y="109.22" size="1.778" layer="95" rot="MR0"/>
+<label x="58.42" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="G8" class="0">
@@ -14121,7 +14124,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <wire x1="53.34" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
-<label x="63.5" y="111.76" size="1.778" layer="95" rot="MR0"/>
+<label x="58.42" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
