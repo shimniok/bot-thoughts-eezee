@@ -32,7 +32,14 @@ The board has a reset button and a power LED, and nothing else to get in the way
 
 [https://lh5.googleusercontent.com/-dQ7OgN6uLnw/UQfzotUKfvI/AAAAAAAAH6s/yRyhdUmMK9o/s674/eeZeePropPinout.jpg]
 
-= Programming =
+= IDE =
+
+The following are recommended IDEs for Propeller programming:
+
+  * [https://lamestation.atlassian.net/wiki/display/PI/Downloads PropellerIDE] for Spin/PASM development
+  * [http://learn.parallax.com/propeller-c-set-simpleide SimpleIDE] and [http://code.google.com/p/propgcc/ PropGCC] for writing in C
+
+= Chip Programming =
 
 You can either use a 5V FTDI, 3.3V FTDI or Prop Plug to program your eeZee Prop.
 
