@@ -44,7 +44,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
@@ -123,7 +123,7 @@
 <text x="18.288" y="11.43" size="1.27" layer="26" font="vector" ratio="12" rot="MR0">SP+</text>
 <text x="18.288" y="8.89" size="1.27" layer="26" font="vector" ratio="12" rot="MR0">SP-</text>
 <text x="15.748" y="6.35" size="1.27" layer="26" font="vector" ratio="12" rot="MR0">eeZeeAmp</text>
-<text x="14.986" y="5.08" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">R0.1</text>
+<text x="14.986" y="5.08" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">R0.2</text>
 <text x="18.034" y="0.508" size="0.9652" layer="25" font="vector" ratio="12" rot="R90">bot-thoughts.com</text>
 <polygon width="0.254" layer="22">
 <vertex x="10.2537375" y="0.926675" curve="-9.499984"/>
@@ -331,7 +331,7 @@
 <text x="18.288" y="11.43" size="1.27" layer="122" font="vector" ratio="16" rot="MR0">SP+</text>
 <text x="18.288" y="8.89" size="1.27" layer="122" font="vector" ratio="16" rot="MR0">SP-</text>
 <text x="15.748" y="6.35" size="1.27" layer="122" font="vector" ratio="16" rot="MR0">eeZeeAmp</text>
-<text x="14.986" y="5.08" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">R0.1</text>
+<text x="14.986" y="5.08" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">R0.2</text>
 <text x="18.288" y="1.27" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">+</text>
 <text x="18.288" y="6.35" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">-</text>
 <text x="18.288" y="3.81" size="1.016" layer="122" font="vector" ratio="20" rot="MR0">W</text>
@@ -345,6 +345,7 @@
 <text x="7.239" y="10.541" size="0.8128" layer="121" font="vector" ratio="25" rot="R90">10</text>
 <text x="15.621" y="0.889" size="0.8128" layer="121" font="vector" ratio="25">1K</text>
 <text x="17.272" y="5.842" size="1.27" layer="122" font="vector" ratio="16" rot="SMR270">VOL</text>
+<circle x="13.97" y="2.921" radius="0.254" width="0.4064" layer="21"/>
 </plain>
 <libraries>
 <library name="rcl">
