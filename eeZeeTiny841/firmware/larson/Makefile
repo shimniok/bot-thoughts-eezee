@@ -109,8 +109,12 @@ $(TARGET): $(OBJECTS)
 %.lss: $(TARGET)
 	$(OBJDUMP) -h -S $< > $@
 
-install: $(PROJECT).hex
-	$(AVRDUDE) -p $(MCU) -c $(PROGRAMMER) -P $(PORT) -v -U flash:w:$(PROJECT).hex
+install: $(PROJECT).hex 
+	$(AVRDUDE) -p $(MCU) -c $(PROGRAMMER) -P $(PORT) -v -U flash:w:$(PROJECT).hex -U lfuse:w:$(LFUSE):m -U hfuse:w:$(HFUSE):m -U efuse:w:$(EFUSE):m
+
+## required for avr dragon to reset itself
+delay: fuses
+	@sleep 3
 
 fuses:
 	$(AVRDUDE) -p $(MCU) -c $(PROGRAMMER) -P $(PORT) -v -U lfuse:w:$(LFUSE):m -U hfuse:w:$(HFUSE):m -U efuse:w:$(EFUSE):m
