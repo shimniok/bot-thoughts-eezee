@@ -1,22 +1,31 @@
 /*
-  SD card basic file example
- 
- This example shows how to create and destroy an SD card file 	
- The circuit:
- * SD card attached to SPI bus as follows:
- ** MOSI - pin 11
- ** MISO - pin 12
- ** CLK - pin 13
- ** CS - pin 10
- 
+  eeZee microSD test jig firmware
+
+  Tests boards with feedback via RG LED and Digole OLED display.
+
+  Creates and removes a file on the SD card. If it can do that, the
+  board is good.
+
+  SD card attached to SPI bus as follows:
+
+  MOSI - pin 11
+  MISO - pin 12
+  CLK - pin 13
+  CS - pin 10
+
+Based on example code:
  created   Nov 2010
  by David A. Mellis
+
  modified 9 Apr 2012
  by Tom Igoe
- 
- This example code is in the public domain.
- 	 
- */
+
+ modified 24 Apr 2015
+ by Michael Shimniok
+
+ MIT License
+
+*/
 #include <SD.h>
 #include <SoftwareSerial.h>
 
