@@ -18,29 +18,50 @@
  	 
  */
 #include <SD.h>
+#include <SoftwareSerial.h>
+
+#define RED   19
+#define GREEN 18
 
 File myFile;
+
+SoftwareSerial lcd(7, 8); // RX, TX
 
 void setup()
 {
  // Open serial communications and wait for port to open:
   Serial.begin(9600);
 
+  lcd.begin(9600);
+  lcd.print("CL");
+  
   digitalWrite(10, HIGH);
   pinMode(10, OUTPUT);
 
-  delay(5000);
+  pinMode(RED, OUTPUT);
+  digitalWrite(RED, LOW);
+  
+  pinMode(GREEN, OUTPUT);
+  digitalWrite(GREEN, LOW);
+  
+  for (int i=0; i < 3; i++) {
+    digitalWrite(GREEN, HIGH);
+    delay(50);
+    digitalWrite(GREEN, LOW);
+    delay(200);
+  }
 
   while(!SD.begin(10)) {
+    lcd.println("TT[F]init\nTRT");
     Serial.println("[FAIL] initialization failed.");
+    digitalWrite(RED, HIGH);
     delay(1000);
   }
+  digitalWrite(RED, LOW);
+  lcd.println("TT[P]init card\nTRT");
   Serial.println("[PASS] initialization done.");
 
-}
 
-void loop()
-{
   bool pass = true;
   
   // On the Ethernet Shield, CS is pin 4. It's set as an output by default.
@@ -49,9 +70,9 @@ void loop()
   // or the SD library functions will not work. 
   if (SD.exists("example.txt")) {
     Serial.println("[FAIL] example.txt already exists.");
+    lcd.println("TT[F]file exists\nTRT");
     pass = false;
-  }
-  else {
+  } else {
     Serial.println("[PASS] no example.txt, good.");
   }
 
@@ -62,9 +83,10 @@ void loop()
   // Check to see if the file exists: 
   if (SD.exists("example.txt")) {
     Serial.println("[PASS] example.txt created.");
-  }
-  else {
+    lcd.println("TT[P]create file\nTRT");
+  } else {
     Serial.println("[FAIL] example.txt not created.");  
+    lcd.println("TT[F]create file\nTRT");
     pass = false;
   }
 
@@ -72,22 +94,26 @@ void loop()
   SD.remove("example.txt");
 
   if (SD.exists("example.txt")){ 
+    lcd.println("TT[F]remove file\nTRT");
     Serial.println("[FAIL] example.txt not removed.");  
     pass = false;
-  }
-  else {
+  } else {
+    lcd.println("TT[P]remove file\nTRT");
     Serial.println("[PASS] example.txt removed.");
   }
 
   if (pass) {
+    lcd.println("TT---------------\nTRT");
+    lcd.println("TT[P]BOARD OK\nTRT");
     Serial.println("----\n[PASS] ALL TESTS PASS\n----\n");
   } else {
     Serial.println("----\n[FAIL] one or more tests failed\n----\n");
   }
   
-  delay(5000);
-  
+  digitalWrite(pass ? GREEN : RED, HIGH);
+  digitalWrite(10, LOW);
 }
 
-
-
+void loop() {
+  while(1);
+}
