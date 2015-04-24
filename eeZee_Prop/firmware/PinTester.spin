@@ -16,7 +16,7 @@ PUB Start | p, mask
   dira |= mask
   outa := 0
 
-  waitcnt(clkfreq*2+cnt)
+  waitcnt(clkfreq*1+cnt)
 
   repeat
     repeat p from 0 to 27
