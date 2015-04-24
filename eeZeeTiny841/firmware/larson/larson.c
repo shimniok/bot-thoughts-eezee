@@ -10,16 +10,14 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 
-#define DELAY 80
+#define DELAY 100
 
 int main()
 {
 	int i;
 
-	// All PORTA as output
-	DDRA=0xff;   
-	// PB0-2, PB3 is reset, PB0, PB1 are XTAL
-	DDRB=0x07;
+	DDRA=0xff; // All PORTA as output
+	DDRB=0x07; // PB0-2, PB3 is reset, PB0, PB1 are XTAL
 	
 	PORTA=0;
 	PORTB=0;
@@ -30,11 +28,11 @@ int main()
 			_delay_ms(DELAY);
 		}
 		PORTA = 0;
-		for (i = 0; i < 3; i++) {
+		for (i = 2; i >= 0; i--) {
 			PORTB = (1 << i);
 			_delay_ms(DELAY);
 		}
-		for (i = 2; i >= 0; i--) {
+		for (i = 0; i < 3; i++) {
 			PORTB = (1 << i);
 			_delay_ms(DELAY);
 		}
