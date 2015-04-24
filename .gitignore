@@ -12,3 +12,5 @@ eagle.epf
 *.ods
 *.csv
 *.cfg
+.cproject
+.project
