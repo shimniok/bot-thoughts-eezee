@@ -110,7 +110,7 @@ $(TARGET): $(OBJECTS)
 	$(OBJDUMP) -h -S $< > $@
 
 install: $(PROJECT).hex 
-	$(AVRDUDE) -p $(MCU) -c $(PROGRAMMER) -P $(PORT) -v -U flash:w:$(PROJECT).hex -U lfuse:w:$(LFUSE):m -U hfuse:w:$(HFUSE):m -U efuse:w:$(EFUSE):m
+	$(AVRDUDE) -B 10 -p $(MCU) -c $(PROGRAMMER) -P $(PORT) -v -U flash:w:$(PROJECT).hex -U lfuse:w:$(LFUSE):m -U hfuse:w:$(HFUSE):m -U efuse:w:$(EFUSE):m
 
 ## required for avr dragon to reset itself
 delay: fuses
