@@ -13430,7 +13430,7 @@ LETTER landscape</description>
 <instances>
 <instance part="IC1" gate="G$1" x="134.62" y="111.76"/>
 <instance part="C1" gate="G$1" x="162.56" y="111.76" rot="R90"/>
-<instance part="C2" gate="G$1" x="73.66" y="127" rot="R90"/>
+<instance part="C2" gate="G$1" x="76.2" y="127" rot="R90"/>
 <instance part="C3" gate="G$1" x="154.94" y="101.6"/>
 <instance part="R1" gate="G$1" x="154.94" y="88.9" rot="R90"/>
 <instance part="R3" gate="G$1" x="91.44" y="127" rot="R180"/>
@@ -13465,7 +13465,7 @@ LETTER landscape</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -13527,7 +13527,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <label x="58.42" y="127" size="1.778" layer="95"/>
-<wire x1="53.34" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="127" x2="73.66" y2="127" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="A" pin="1"/>
 </segment>
 </net>
