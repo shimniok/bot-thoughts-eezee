@@ -13526,7 +13526,7 @@ LETTER landscape</description>
 <net name="AUDIO_IN" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
-<label x="170.18" y="81.28" size="1.778" layer="95"/>
+<label x="58.42" y="127" size="1.778" layer="95"/>
 <wire x1="53.34" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="A" pin="1"/>
 </segment>
