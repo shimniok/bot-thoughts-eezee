@@ -13421,11 +13421,11 @@ LETTER landscape</description>
 <plain>
 <text x="159.258" y="24.13" size="3.81" layer="94">eeZeeAmp</text>
 <text x="231.14" y="24.13" size="3.81" layer="94">R0.2</text>
-<wire x1="101.6" y1="134.62" x2="119.38" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="99.06" y1="134.62" x2="119.38" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="119.38" y1="134.62" x2="119.38" y2="93.98" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="119.38" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="101.6" y1="93.98" x2="101.6" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
-<text x="100.33" y="135.636" size="1.778" layer="97">POTENTIOMETER</text>
+<wire x1="119.38" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="99.06" y1="93.98" x2="99.06" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
+<text x="99.06" y="135.382" size="1.778" layer="97">POTENTIOMETER</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="134.62" y="111.76"/>
