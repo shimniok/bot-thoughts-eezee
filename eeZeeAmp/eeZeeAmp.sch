@@ -13407,15 +13407,15 @@ LETTER landscape</description>
 <part name="FRAME1" library="bt" deviceset="LETTER_L" device=""/>
 <part name="C6" library="rcl" deviceset="C-US" device="C0603" value="104"/>
 <part name="JP5" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="IN+"/>
-<part name="JP6" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="VCC"/>
+<part name="JP6" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="V+"/>
 <part name="JP7" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="SP+"/>
 <part name="JP1" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="GND"/>
-<part name="JP3" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="G1"/>
-<part name="JP8" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="G8"/>
+<part name="JP3" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="1"/>
+<part name="JP8" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="8"/>
 <part name="JP4" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="VR-"/>
-<part name="JP2" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="VR&gt;"/>
+<part name="JP2" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="&gt;"/>
 <part name="JP9" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="VR+"/>
-<part name="JP10" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="IN-"/>
+<part name="JP10" library="pinhead-2" deviceset="PINHD-1X01" device="_2.54-S" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -13457,7 +13457,7 @@ LETTER landscape</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="3" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="+IN"/>
 <wire x1="127" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
@@ -13471,7 +13471,7 @@ LETTER landscape</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="5" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="+"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -13573,7 +13573,7 @@ LETTER landscape</description>
 <junction x="66.04" y="78.74"/>
 </segment>
 </net>
-<net name="G1" class="0">
+<net name="1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GAIN@1"/>
 <wire x1="137.16" y1="116.84" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
@@ -13581,7 +13581,7 @@ LETTER landscape</description>
 <pinref part="JP3" gate="A" pin="1"/>
 </segment>
 </net>
-<net name="G8" class="0">
+<net name="8" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GAIN@2"/>
 <wire x1="139.7" y1="116.84" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
@@ -13589,7 +13589,7 @@ LETTER landscape</description>
 <pinref part="JP8" gate="A" pin="1"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="BYPASS"/>
 <pinref part="C5" gate="G$1" pin="1"/>
