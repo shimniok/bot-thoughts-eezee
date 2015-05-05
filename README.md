@@ -7,7 +7,7 @@ A variety of gizmos I created to make breadboard prototyping quick and easy:
 * [eeZee Big Tiny](https://github.com/shimniok/eeZeeBigTiny) - a breadboard target / breakout for 20-pin ATtiny2313/4313
 * eeZee Prop - breadboard friendly, low cost Propeller board
 * [eeZee LED](https://github.com/shimniok/eeZeeLED) - LED + resistor breakout for breadboard
-* eeZee microSD - add an SD card to your breadboard Arduino / AVR
+* [eeZee microSD](https://github.com/shimniok/eeZeeMicroSD) - add an SD card to your breadboard Arduino / AVR
 * [eeZee Pot](https://github.com/shimniok/eeZeePot)
 * [eeZee Power](https://github.com/shimniok/eeZeePower) - small, simple, 5V/3.3V convenient USB breadboard power adapter
 * [eeZee PowerJack](https://github.com/shimniok/eeZeePowerJack) - small, simple 5V breadboard power adapter with 2.1mm jack
