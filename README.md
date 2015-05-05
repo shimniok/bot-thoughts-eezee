@@ -9,8 +9,8 @@ A variety of gizmos I created to make breadboard prototyping quick and easy:
 * [eeZee LED](https://github.com/shimniok/eeZeeLED) - LED + resistor breakout for breadboard
 * eeZee microSD - add an SD card to your breadboard Arduino / AVR
 * [eeZee Pot](https://github.com/shimniok/eeZeePot)
-* eeZee Power - small, simple, 5V/3.3V convenient USB breadboard power adapter
-* eeZee PowerJack - small, simple 5V breadboard power adapter with 2.1mm jack
+* [eeZee Power](https://github.com/shimniok/eeZeePower) - small, simple, 5V/3.3V convenient USB breadboard power adapter
+* [eeZee PowerJack](https://github.com/shimniok/eeZeePowerJack) - small, simple 5V breadboard power adapter with 2.1mm jack
 * [eeZee RGB](https://github.com/shimniok/eeZeeRGB) - WS2812B smart RGB LED breakout
 * [eeZee Switch](https://github.com/shimniok/eeZeeSwitch) - breadboard switch with debounce, pull-up
 * [eeZee Crystal](https://github.com/shimniok/eeZeeCrystal) - clean up your Arduino / AVR breadboard
