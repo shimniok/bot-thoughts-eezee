@@ -12,6 +12,6 @@ A variety of gizmos I created to make breadboard prototyping quick and easy:
 * eeZee Power - small, simple, 5V/3.3V convenient USB breadboard power adapter
 * eeZee PowerJack - small, simple 5V breadboard power adapter with 2.1mm jack
 * [eeZee RGB](https://github.com/shimniok/eeZeeRGB) - WS2812B smart RGB LED breakout
-* eeZee Switch - breadboard switch with debounce, pull-up
+* [eeZee Switch](https://github.com/shimniok/eeZeeSwitch) - breadboard switch with debounce, pull-up
 * [eeZee Crystal](https://github.com/shimniok/eeZeeCrystal) - clean up your Arduino / AVR breadboard
 * PropVGA - retired - DIY VGA breadboard adapter for Propeller
