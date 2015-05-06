@@ -14,4 +14,4 @@ A variety of gizmos I created to make breadboard prototyping quick and easy:
 * [eeZee RGB](https://github.com/shimniok/eeZeeRGB) - WS2812B smart RGB LED breakout
 * [eeZee Switch](https://github.com/shimniok/eeZeeSwitch) - breadboard switch with debounce, pull-up
 * [eeZee Crystal](https://github.com/shimniok/eeZeeCrystal) - clean up your Arduino / AVR breadboard
-* PropVGA - retired - DIY VGA breadboard adapter for Propeller
+* [eeZee VGA](http://github.com/shimniok/eeZeeVGA) - VGA breadboard adapter for Propeller
